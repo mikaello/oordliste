@@ -20,8 +20,13 @@ export default function Home() {
         <dl>
           {dictionary.map(({ name, description }) => (
             <>
-              <dt key={name}>{name}</dt>
-              <dd key={name}>{description}</dd>
+              <dt key={name} id={name}>
+                {name}
+              </dt>
+              <dd
+                key={name}
+                dangerouslySetInnerHTML={{ __html: description }}
+              ></dd>
             </>
           ))}
         </dl>
@@ -29,7 +34,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         Om du har lyst til å bidra med bedre beskrivelser eller nye ord kan du
-        redigere{" "}
+        redigere&nbsp;
         <a
           href="https://github.com/mikaello/oordliste/blob/master/resources/orienteering_dictionary.json"
           target="_blank"
