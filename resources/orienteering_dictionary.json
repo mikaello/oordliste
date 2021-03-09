@@ -1,227 +1,266 @@
 [
-    {
-      "id": 1,
-      "name": "PM",
-      "description": "<i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Promemoria\">promemoria</a></i>."
-    },
-    {
-      "id": 2,
-      "name": "Promemoria",
-      "description": "En promemoria (PM) til et orienteringsløp vil si løpsinstruksen, altså mer detaljert informasjon om løpet. F.eks. nøyaktig hvor starten er eller informasjon om matstasjoner. Det er ikke vanlig å gi ut PM ved mindre løp."
-    },
-    {
-      "id": 3,
-      "name": "Samlingsplass",
-      "description": "Arena. Området hvor man finner mål, speaker, funksjonærer, dusj, resultater, premieutdeling o.l.. Starten er ofte et annet sted, men skiltet fra samlingsplass. "
-    },
-    {
-      "id": 4,
-      "name": "Arena",
-      "description": "<i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Samlingsplass\">samlingsplass</a></i>"
-    },
-    {
-      "id": 5,
-      "name": "Kavle",
-      "description": "Svensk ord for stafett i orienteringssammenheng, kan også kalles budkavle. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Stafett\">stafett</a></i>."
-    },
-    {
-      "id": 6,
-      "name": "Bomme",
-      "description": "Når man ikke treffer posten slik man ønsker og dermed taper tid, snakker man om å bomme. Å bomme for en proff kan være å miste 10-20 sekunder fordi man ikke fant posten med en gang, mens for en nybegynner snakker man ofte heller om minutter og i verste fall titalls minutter."
-    },
-    {
-      "id": 7,
-      "name": "EMIT",
-      "description": "I norsk orientering bruker man et eletronisk tidtakersystem som produseres av det norske firmaet EMIT, <i>se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Tidtaking\">tidtaking</a></i>. I Sverige brukes <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_SPORTIdent\">SportIdent</a>. Bildet viser en grønn EMIT løperbrikke som stemples i en oransje stemplingsenhet <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/emit_stempling.jpg\" />"
-    },
-    {
-      "id": 8,
-      "name": "Tidtaking",
-      "description": "Tidtaking i orientering baserer seg på at man har en løperbrikke som er registrert på en bestemt løper. Når denne løperen kommer til en orienteringspost, legges denne løperbrikka på en stemplingsenhet, dette gjør at det blir registrert i løperbrikka at løperen har vært innom posten. Når man kommer til mål registreres løperbrikka og man får vite tiden man brukte på løypa (og mellomtiden mellom postene). De to vanligste tidtakersystemene er <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_SPORTIdent\">SportIdent</a> og <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_EMIT\">EMIT</a>. "
-    },
-    {
-      "id": 9,
-      "name": "Gafling",
-      "description": "For å forhindre at konkurrenter følger etter hverandre (<i><a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Henge\">se henging</a></i>) når man løper, er det mulig å lage gaflede løyper. Det vil si løpere i samme klasse får løyper som er litt forskjellige. De fleste postene er som oftest like, men det kan være en post der noen løpere må ta en post som er f.eks. 50-100 meter fra en annen post som andre løpere i samme klasse må ta. Dette gjør at man må vite hvor på kartet man er så man tar riktig post, velger man feil post blir man disket."
-    },
-    {
-      "id": 10,
-      "name": "Postbeskrivelse",
-      "description": "Dette er en lapp som følger med kartet, den kan også være printet på kartet. Den har symboler som forklarer hvordan en post ligger. F.eks. at post 3 ligger vest for en stor stein. Altså detaljert postinformasjon."
-    },
-    {
-      "id": 11,
-      "name": "SPORTIdent",
-      "description": "Elektronisk tidtakersystem for orientering. Samme konsept som EMIT. Enheten man stempler med kalles for SI-brikke. SPORTIdent brukes blant annet i Sverige. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Tidtaking\">tidtaking</a></i>. <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/sportident_stempling.jpg\" />"
-    },
-    {
-      "id": 12,
-      "name": "Rankingløp",
-      "description": "Rankingløp er uformelle treningsløp som arrangeres ukentlig av OSI Orientering og IL GeoForm. For hvert løp man løper samler man poeng til en totalranking, derav navnet Rankingløp. Se mer på vår side om <a href=\"http://osi-orientering.com/rankinglop/om-rankinglopene/\">rankingløp</a>."
-    },
-    {
-      "id": 13,
-      "name": "Nordmarkskarusellen",
-      "description": "Nordmarkskarusellen er en samling løp rundt om i sør-enden av Nordmarka. Tre løp på våren og fire løp på høsten. Det tilbys nybegynnervennlige løyper og krevende løyper. Løpene er et samarbeid mellom klubbene OSI, Kjelsås, Heming, Lillomarka, Koll og Nydalen. Les mer på Nordmarkskarusellen sin <a href=\"http://nordmarkskarusellen.com/\">hjemmeside</a>."
-    },
-    {
-      "id": 14,
-      "name": "Eventor",
-      "description": "<a href=\"http://eventor.orientering.no\">Eventor</a> er en nettside som inneholder terminliste over alle orienteringsløp, man kan også melde seg på de fleste løpene der og resultatene fra løpene vil bli lastet opp dit. Registrer din egen bruker på siden for å melde deg på løp. Eventor er i utgangspunktet et svensk system, men er også i bruk her i Norge, i Australia og for internasjonale løp."
-    },
-    {
-      "id": 15,
-      "name": "Kart",
-      "description": "Et kart viser landskapet i mindre og forenklet format, og er det en orienteringsløper bruker for å finne frem til postene. Kartet inneholder mange symboler som viser hva som finnes i terrenget, det kan være høydekurver for å vise høydeforskjeller, svarte prikker for å vise steiner eller blå flekker for å vise vann. Norges Orienteringsforbund har lagt ut en <a href=\"http://osi-orientering.com/wp-content/uploads/2016/01/karttegn_isom_2008.pdf\">oversikt</a> over de vanligste. Kartet kan være i forskjellige <i><a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Mlestokk\">målestokker</a></i>, f.eks. 1:5000 i sprint, eller ofte 1:10000 i vanlige orienteringsløp. "
-    },
-    {
-      "id": 16,
-      "name": "Målestokk",
-      "description": "Målestokk sier hvor mye et kart er skalert i forhold til virkeligheten. Om målestokken er 1:10000, betyr det at 1 cm på kartet, er 10000 cm (eller 100 meter) i virkeligheten. Turkart bruker bruker ofte en stor målestokk, 1:50000 er vanlig, det betyr at kartet viser et stort område (skalert mye). I orientering er det sjelden brukt større målestokk enn 1:15000, og 1:7500 og 1:10000 er vanlig. Når målstokken er liten, f.eks. 1:7500, kan man få plass til flere detaljer på kartet, og det blir ofte lettere å orientere presist."
-    },
-    {
-      "id": 17,
-      "name": "Kompass",
-      "description": "Et kompass viser hvor nord og sør er (og dermed vet man også hvor øst og vest er). Dette gjør at en orienteringsløper kan bruke kompasset til å for eksempel holde rett kurs mot nord (dersom nord er den riktige veien til den neste <i><a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Orienteringspost\">posten</a></i>). Eller man kan bruke kompasset til å orientere kartet (det vil si å få kartet til å stemme med virkeligheten)."
-    },
-    {
-      "id": 18,
-      "name": "Orienteringspost",
-      "description": "En orienteringspost (kalt bare post eller flagg) er en postskjerm med en tilhørende stemplingsenhet. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Tidtaking\">tidtaking</a></i>. Bildet viser en postskjerm <img src=\"http://osi-orientering.com/wp-content/uploads/2015/04/postskjerm.jpg\" />."
-    },
-    {
-      "id": 19,
-      "name": "Tommelkompass",
-      "description": "Et kompass som kan festes på tommelen, det er slike kompass som er vanligst blant orienteringsløpere. De tradisjonelle kompassene kalles platekompass. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Kompass\">kompass</a></i>"
-    },
-    {
-      "id": 20,
-      "name": "A-nivå",
-      "description": "Det mest krevende nivået for en orienteringsløype, her bør alle orienteringsteknikker beherskes.. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Vanskelighetsgrad\">vanskelighetsgrad</a></i>"
-    },
-    {
-      "id": 21,
-      "name": "B-nivå",
-      "description": "Det nest vanskeligste nivået for en orienteringsløype. B-løyper krever kort finorientering inn mot posten og forståelse av høydekurver. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Vanskelighetsgrad\">vanskelighetsgrad</a></i>"
-    },
-    {
-      "id": 22,
-      "name": "C-nivå",
-      "description": "Det nest enkleste nivået for en orienteringsløype. C-løyper følger stort sett <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Ledelinje\">ledelinjer</a>, men enkelt steder forventes løperne å forlate ledelinjene. Det kan finnes veivalgsmuligheter.<i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Vanskelighetsgrad\">vanskelighetsgrad</a></i>"
-    },
-    {
-      "id": 23,
-      "name": "N-nivå",
-      "description": "Det enkleste nivået for en orienteringsløype, nybegynnervennlig. N-løyper har ett opplagt veivalg langs sammenhengende <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Ledelinje\">ledelinjer</a> som vei, sti, bekk og gjerde. Alle postene kan sees fra ledelinjene. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Vanskelighetsgrad\">vanskelighetsgrad</a></i>"
-    },
-    {
-      "id": 24,
-      "name": "Vanskelighetsgrad",
-      "description": "En løype i orientering deles inn i fire vanskelighetsgrader, <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_A-niv\">A</a>, <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_B-niv\">B</a>, <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_C-niv\">C</a> og <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_N-niv\">N</a>. Der A er vanskeligst, B er litt lettere, C enda litt lettere og N er nybegynnerløyper."
-    },
-    {
-      "id": 25,
-      "name": "Henge",
-      "description": "Det å henge betyr å følge etter en annen orienteringsløper uten å bruke sitt eget kart til å finne frem. Dette er sett på som dårlig stil i orientering."
-    },
-    {
-      "id": 26,
-      "name": "D",
-      "description": "D står for Dame, f.eks. D17- betyr damer over 17 år. Brukes under påmelding til orienteringsløp og i resultatlister. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_H\">H</a></i>."
-    },
-    {
-      "id": 27,
-      "name": "H",
-      "description": "H står for Herre. F.eks. H17- betyr menn over 17 år. Brukes i påmelding til orienteringsløp og i resultatlister. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_D\">D</a></i>."
-    },
-    {
-      "id": 28,
-      "name": "O",
-      "description": "I orientering er man glad i bokstaven O, og denne bruker man så ofte man har mulighet. o-sko (<a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Orinteringssko\">orienteringssko</a>), o-trening (orienteringstrening), o-hilsen (orienteringshilsen, altså istedenfor <i>hilsen Truls</i> blir det <i>o-hilsen Truls</i>), o-prikker (når du har løpt i skikkelig kvistkvas vil armene dine få o-prikker), o-sporten, o-løp osv. "
-    },
-    {
-      "id": 29,
-      "name": "Orienteringssko",
-      "description": "I orientering bruker man sko med grove knaster under skoen og ofte også med pigger i sålen for best mulig grep på sleipt underlag, også fint å bruke under isete forhold."
-    },
-    {
-      "id": 30,
-      "name": "Ledelinje",
-      "description": "En ledelinje er noe som det er enkelt å se og følge på kartet, såvel som i naturen. Eksempler på en ledelinjer kan være bekker, stier eller kanten av et jorde. Alle disse er enkle å se på kartet, og man kan enkelt følge dem i terrenget. En ledelinje leder deg trygt fra et sted til et annet, eller det kan være noe du helt sikkert treffer på om du kommer vinkelrett mot den (også kalt et sikkert oppfang, noe som fanger deg opp om du løper rett på)."
-    },
-    {
-      "id": 31,
-      "name": "Georeferere",
-      "description": "Et orienteringskart kan georefereres, det vil si å samkjøre kartet med det nasjonale koordinatsystemet. Dette kan for eksempel gjøres ved å kalibrere kartet mot Google Maps, slik at man i teorien kunne byttet ut en flik av Google Maps med det aktuelle orienteringskartet. Dette er nyttig for eksempel når man ønsker å legge et GPS spor oppå kartet for å se hvor man har løpt (f.eks. om man har brukt en klokke med GPS). GPS-en baserer seg på koordinater, og da er det nødvendig at orienteringskartet har koordinater som er samkjørt med det samme koordinatsystemet som GPS-en bruker."
-    },
-    {
-      "id": 32,
-      "name": "Kjempesprekken",
-      "description": "Dette er årets OSI Orientering høydepunkt. Kjempesprekken er et langt tradisjonsløp som starter med utgangspunkt i KSI-hytta. I starten var det bare 30 km og 18 km, men etter hvert kom 12 km og 6 km til, og 30 km forsvant. I dag er det 18 km, 12 km og 6 km løyper i nydelig Nordmarka-natur. Det er bankett med klubbens medlemmer etter løpet på KSI-hytta."
-    },
-    {
-      "id": 33,
-      "name": "Tiomila ",
-      "description": "Et av Skandinavias største og råeste stafettløp i orientering. Stafetten holdes i Sverige om våren, hvor damene løper etapper på dagen (5 etapper) og herrene løper etapper på natten (10 etapper). "
-    },
-    {
-      "id": 34,
-      "name": "Jukola",
-      "description": "Jukola er en av verdens største orienteringsstafetter, med rundt 15 000 deltakere. Jukola arrangeres i Finland i juni måned. Damene løper på dagtid (4 etapper) og herrene på natta (7 etapper)."
-    },
-    {
-      "id": 35,
-      "name": "Night Hawk",
-      "description": "I Sverige har man Tiomila, i Finland har man Jukola, i Norge er det Night Hawk som gjelder. En stor orienteringsstafett som går i august. Damene har 6 etapper og herrene har 8 etapper. For både damer og herrer er halvparten av etappene på natta, og den andre halvparten på dagen."
-    },
-    {
-      "id": 36,
-      "name": "Nattorientering",
-      "description": "Orientering i mørket. For mange orienteringsløpere er nattorientering mer fascinerende enn å finne frem i dagslys. Å oppfatte detaljer i terrenget rundt deg i lyset fra en hodelykt er helt annerledes enn å se seg rundt i dagslys. Det blir enda viktigere å vite nøyaktig hvor på kartet en er for å vite hvilke detaljer en skal se etter rundt seg. Å vite at en nærmer seg en post for så se reflekslyset fra posten, gir en god mestringsfølelse."
-    },
-    {
-      "id": 37,
-      "name": "Bryte",
-      "description": "Om man skader seg, eller man roter seg så bort at man ikke klarer å finne neste post, er alternativet å bryte. Dette vil si å avbryte løpet og finne raskeste vei tilbake til <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Samlingsplass\">samlingsplass</a> (da er det viktig å registrere seg i mål likevel, ellers kan det oppstå leteaksjon etter savnede løpere). Løpere som bryter vil bli oppført som DNF (Did Not Finish) på resultatlista."
-    },
-    {
-      "id": 38,
-      "name": "Direkteklasser",
-      "description": "Direkteklasser er klasser der man kan melde seg på ved oppmøte på konkurransedagen, man behøver altså ikke å forhåndspåmelde seg. Det er vanligvis ikke alders eller kjønnsinndeling i disse klassene. Direktepåmelding er praktisk for etternølere."
-    },
-    {
-      "id": 39,
-      "name": "Ekvidistanse",
-      "description": "Ekvidistanse er høydeforskjellen mellom to høydekurver (som er de brune strekene på kartet). Ekvidistansen avgjør hvor detaljert høyder kan vises i kartet, er for eksempel ekvidistansen 2.5 meter vil alle høydeforskjeller større enn 2.5 meter kunne vises med høydekurver på kartet. Er derimot ekvidistansen 20 meter, kan kun alle høydeforskjeller på 20 meter eller større vises med høydekurver på kartet. Det vanlige på orienteringskart er 5 meter. Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Tellekurve\">tellekurve</a>"
-    },
-    {
-      "id": 40,
-      "name": "Tellekurve",
-      "description": "Hver 5. høydekurve på et kart vil være litt tykkere, dette er en tellekurve. Disse brukes for rask og enkelt å kunne regne ut større høydeforskjeller i terrenget. Er for eksempel <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Ekvidistanse\">ekvidistansen</a> 5 meter, betyr det at det er 25 høydemeter (5 meter ekvidistanse x 5 høydekurver) mellom hver tellekurve, og om det er 3 tellekurver mellom deg og neste post betyr det at det er 75 høydemeter å klatre (3 tellekurver x 25 meter)."
-    },
-    {
-      "id": 41,
-      "name": "OSI",
-      "description": "Oslostudentenes Idrettsklubb. Også forkortet Oslostudentenes IK"
-    },
-    {
-      "id": 42,
-      "name": "Turorientering",
-      "description": "Turorientering er orientering i ditt eget tempo når du vil. Du kjøper et kart med inntegnede poster, disse postene er i skogen hele sommerhalvåret, og du kan gå/løpe til dem når du ønsker. Postene har en kode ved seg som du kan registrere på <a href=\"http://turorientering.no/\">turorientering.no</a> for å stige på poenglistene."
-    },
-    {
-      "id": 43,
-      "name": "Stolpejakten",
-      "description": "Stolpejakten er et gratis tilbud som går ut på å finne stolper sentralt plassert i ulike kommuner. Stolpene kan registreres både ved å laste ned en app på telefonen der man enten scanner QR-koden eller skriver inn koden som hver stolpe er utstyrt med. Kart over stolpene kan lastes ned (og selv skrives ut) fra deres nettsider, eventuelt kan man bruke kartet i appen. Stolpejakten er veldig likt <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste#namedirectory_Turorientering\">turorientering</a>, men er som oftest i mer urbane strøk. Les mer på <a href=\"https://www.stolpejakten.no/#/about\">Stolpejakten.no</a>\n"
-    },
-    {
-      "id": 44,
-      "name": "Nulle",
-      "description": "Å nulle betyr å nullstille sin personlige tidtakerbrikke. Dette betyr å fjerne gamle løp, og må gjøres før man starter på et nytt løp. Om man glemmer å nulle vil man ikke få riktig tid og blir derfor disket."
-    },
-    {
-      "id": 45,
-      "name": "Livelox",
-      "description": "<a href=\"https://www.livelox.com/\">Livelox</a> er en nettside der det er mulig å analysere og se hvor man har løpt på et orienteringsløp. Dette gjør man ved at arrangøren laster opp kartet på forhånd, og at utøverne etter løpet kan laste opp sine GPS-spor (som man enten har brukt mobilen eller en klokke med GPS til å lage). Det finnes flere andre slike tjenester (f.eks. <a href=\"http://3drerun.worldofo.com/\">3D Rerun</a> og <a href=\"http://www.opath.se/\">OPath</a>), men Livelox er den mest utbredte."
-    }
-   ]
+  {
+    "name": "PM",
+    "description": "En PM (promemoria) til et orienteringsløp vil si løpsinstruksen, altså mer detaljert informasjon om løpet. F.eks. nøyaktig hvor starten er eller informasjon om matstasjoner. Det er ikke vanlig å gi ut PM ved mindre løp.",
+    "tags": [],
+    "aliases": ["promemoria"]
+  },
+  {
+    "name": "Samlingsplass",
+    "description": "Området hvor man finner mål, speaker, funksjonærer, dusj, resultater, premieutdeling o.l.. Starten er ofte et annet sted, men skiltet fra samlingsplass. ",
+    "tags": [],
+    "aliases": ["arena"]
+  },
+  {
+    "name": "Kavle",
+    "description": "Svensk ord for stafett i orienteringssammenheng, kan også kalles budkavle. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Stafett\">stafett</a></i>.",
+    "tags": ["stafett"],
+    "aliases": []
+  },
+  {
+    "name": "Bomme",
+    "description": "Når man ikke treffer posten slik man ønsker og dermed taper tid, snakker man om å bomme. Å bomme for en proff kan være å miste 10-20 sekunder fordi man ikke fant posten med en gang, mens for en nybegynner snakker man ofte heller om minutter og i verste fall titalls minutter.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "EMIT",
+    "description": "I norsk orientering bruker man et eletronisk tidtakersystem som produseres av det norske firmaet EMIT, <i>se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Tidtaking\">tidtaking</a></i>. I Sverige brukes <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_SPORTIdent\">SportIdent</a>. Bildet viser en grønn EMIT løperbrikke som stemples i en oransje stemplingsenhet <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/emit_stempling.jpg\" />",
+    "tags": ["tidtaking"],
+    "aliases": []
+  },
+  {
+    "name": "Tidtaking",
+    "description": "Tidtaking i orientering baserer seg på at man har en løperbrikke som er registrert på en bestemt løper. Når denne løperen kommer til en orienteringspost, legges denne løperbrikka på en stemplingsenhet, dette gjør at det blir registrert i løperbrikka at løperen har vært innom posten. Når man kommer til mål registreres løperbrikka og man får vite tiden man brukte på løypa (og mellomtiden mellom postene). De to vanligste tidtakersystemene er <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_SPORTIdent\">SportIdent</a> og <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_EMIT\">EMIT</a>. ",
+    "tags": ["tidtaking"],
+    "aliases": []
+  },
+  {
+    "name": "Gafling",
+    "description": "For å forhindre at konkurrenter følger etter hverandre (<i><a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Henge\">se henging</a></i>) når man løper, er det mulig å lage gaflede løyper. Det vil si løpere i samme klasse får løyper som er litt forskjellige. De fleste postene er som oftest like, men det kan være en post der noen løpere må ta en post som er f.eks. 50-100 meter fra en annen post som andre løpere i samme klasse må ta. Dette gjør at man må vite hvor på kartet man er så man tar riktig post, velger man feil post blir man disket.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Postbeskrivelse",
+    "description": "Dette er en lapp som følger med kartet, den kan også være printet på kartet. Den har symboler som forklarer hvordan en post ligger. F.eks. at post 3 ligger vest for en stor stein. Altså detaljert postinformasjon.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "SPORTIdent",
+    "description": "Elektronisk tidtakersystem for orientering. Samme konsept som EMIT. Enheten man stempler med kalles for SI-brikke. SPORTIdent brukes blant annet i Sverige. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Tidtaking\">tidtaking</a></i>. <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/sportident_stempling.jpg\" />",
+    "tags": ["tidtaking"],
+    "aliases": []
+  },
+  {
+    "name": "SFR",
+    "description": "SFR (Start Finish Result) er et russisk tidtakersystem for orientering. Samme konsept som EMIT.",
+    "tags": ["tidtaking"],
+    "aliases": []
+  },
+  {
+    "name": "Rankingløp",
+    "description": "Rankingløp er uformelle treningsløp som arrangeres ukentlig av OSI Orientering og IL GeoForm. For hvert løp man løper samler man poeng til en totalranking, derav navnet Rankingløp. Se mer på vår side om <a href=\"http://osi-orientering.com/rankinglop/om-rankinglopene/\">rankingløp</a>.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Nordmarkskarusellen",
+    "description": "Nordmarkskarusellen er en samling løp rundt om i sør-enden av Nordmarka. Tre løp på våren og fire løp på høsten. Det tilbys nybegynnervennlige løyper og krevende løyper. Løpene er et samarbeid mellom klubbene OSI, Kjelsås, Heming, Lillomarka, Koll og Nydalen. Les mer på Nordmarkskarusellen sin <a href=\"http://nordmarkskarusellen.com/\">hjemmeside</a>.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Eventor",
+    "description": "<a href=\"http://eventor.orientering.no\">Eventor</a> er en nettside som inneholder terminliste over alle orienteringsløp, man kan også melde seg på de fleste løpene der og resultatene fra løpene vil bli lastet opp dit. Registrer din egen bruker på siden for å melde deg på løp. Eventor er i utgangspunktet et svensk system, men er også i bruk her i Norge, i Australia og for internasjonale løp.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Kart",
+    "description": "Et kart viser landskapet i mindre og forenklet format, og er det en orienteringsløper bruker for å finne frem til postene. Kartet inneholder mange symboler som viser hva som finnes i terrenget, det kan være høydekurver for å vise høydeforskjeller, svarte prikker for å vise steiner eller blå flekker for å vise vann. Norges Orienteringsforbund har lagt ut en <a href=\"http://osi-orientering.com/wp-content/uploads/2016/01/karttegn_isom_2008.pdf\">oversikt</a> over de vanligste. Kartet kan være i forskjellige <i><a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Mlestokk\">målestokker</a></i>, f.eks. 1:5000 i sprint, eller ofte 1:10000 i vanlige orienteringsløp. ",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Målestokk",
+    "description": "Målestokk sier hvor mye et kart er skalert i forhold til virkeligheten. Om målestokken er 1:10000, betyr det at 1 cm på kartet, er 10000 cm (eller 100 meter) i virkeligheten. Turkart bruker bruker ofte en stor målestokk, 1:50000 er vanlig, det betyr at kartet viser et stort område (skalert mye). I orientering er det sjelden brukt større målestokk enn 1:15000, og 1:7500 og 1:10000 er vanlig. Når målstokken er liten, f.eks. 1:7500, kan man få plass til flere detaljer på kartet, og det blir ofte lettere å orientere presist.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Kompass",
+    "description": "Et kompass viser hvor nord og sør er (og dermed vet man også hvor øst og vest er). Dette gjør at en orienteringsløper kan bruke kompasset til å for eksempel holde rett kurs mot nord (dersom nord er den riktige veien til den neste <i><a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Orienteringspost\">posten</a></i>). Eller man kan bruke kompasset til å orientere kartet (det vil si å få kartet til å stemme med virkeligheten).",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Orienteringspost",
+    "description": "En orienteringspost (kalt bare post eller flagg) er en postskjerm med en tilhørende stemplingsenhet. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Tidtaking\">tidtaking</a></i>. Bildet viser en postskjerm <img src=\"http://osi-orientering.com/wp-content/uploads/2015/04/postskjerm.jpg\" />.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Tommelkompass",
+    "description": "Et kompass som kan festes på tommelen, det er slike kompass som er vanligst blant orienteringsløpere. De tradisjonelle kompassene kalles platekompass. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Kompass\">kompass</a></i>",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "A-nivå",
+    "description": "Det mest krevende nivået for en orienteringsløype, her bør alle orienteringsteknikker beherskes.. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Vanskelighetsgrad\">vanskelighetsgrad</a></i>",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "B-nivå",
+    "description": "Det nest vanskeligste nivået for en orienteringsløype. B-løyper krever kort finorientering inn mot posten og forståelse av høydekurver. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Vanskelighetsgrad\">vanskelighetsgrad</a></i>",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "C-nivå",
+    "description": "Det nest enkleste nivået for en orienteringsløype. C-løyper følger stort sett <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Ledelinje\">ledelinjer</a>, men enkelt steder forventes løperne å forlate ledelinjene. Det kan finnes veivalgsmuligheter.<i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Vanskelighetsgrad\">vanskelighetsgrad</a></i>",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "N-nivå",
+    "description": "Det enkleste nivået for en orienteringsløype, nybegynnervennlig. N-løyper har ett opplagt veivalg langs sammenhengende <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Ledelinje\">ledelinjer</a> som vei, sti, bekk og gjerde. Alle postene kan sees fra ledelinjene. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Vanskelighetsgrad\">vanskelighetsgrad</a></i>",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Vanskelighetsgrad",
+    "description": "En løype i orientering deles inn i fire vanskelighetsgrader, <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_A-niv\">A</a>, <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_B-niv\">B</a>, <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_C-niv\">C</a> og <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_N-niv\">N</a>. Der A er vanskeligst, B er litt lettere, C enda litt lettere og N er nybegynnerløyper.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Henge",
+    "description": "Det å henge betyr å følge etter en annen orienteringsløper uten å bruke sitt eget kart til å finne frem. Dette er sett på som dårlig stil i orientering.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "D",
+    "description": "D står for Dame, f.eks. D17- betyr damer over 17 år. Brukes under påmelding til orienteringsløp og i resultatlister. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_H\">H</a></i>.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "H",
+    "description": "H står for Herre. F.eks. H17- betyr menn over 17 år. Brukes i påmelding til orienteringsløp og i resultatlister. <i>Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_D\">D</a></i>.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "O",
+    "description": "I orientering er man glad i bokstaven O, og denne bruker man så ofte man har mulighet. o-sko (<a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Orinteringssko\">orienteringssko</a>), o-trening (orienteringstrening), o-hilsen (orienteringshilsen, altså istedenfor <i>hilsen Truls</i> blir det <i>o-hilsen Truls</i>), o-prikker (når du har løpt i skikkelig kvistkvas vil armene dine få o-prikker), o-sporten, o-løp osv. ",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Orienteringssko",
+    "description": "I orientering bruker man sko med grove knaster under skoen og ofte også med pigger i sålen for best mulig grep på sleipt underlag, også fint å bruke under isete forhold.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Ledelinje",
+    "description": "En ledelinje er noe som det er enkelt å se og følge på kartet, såvel som i naturen. Eksempler på en ledelinjer kan være bekker, stier eller kanten av et jorde. Alle disse er enkle å se på kartet, og man kan enkelt følge dem i terrenget. En ledelinje leder deg trygt fra et sted til et annet, eller det kan være noe du helt sikkert treffer på om du kommer vinkelrett mot den (også kalt et sikkert oppfang, noe som fanger deg opp om du løper rett på).",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Georeferere",
+    "description": "Et orienteringskart kan georefereres, det vil si å samkjøre kartet med det nasjonale koordinatsystemet. Dette kan for eksempel gjøres ved å kalibrere kartet mot Google Maps, slik at man i teorien kunne byttet ut en flik av Google Maps med det aktuelle orienteringskartet. Dette er nyttig for eksempel når man ønsker å legge et GPS spor oppå kartet for å se hvor man har løpt (f.eks. om man har brukt en klokke med GPS). GPS-en baserer seg på koordinater, og da er det nødvendig at orienteringskartet har koordinater som er samkjørt med det samme koordinatsystemet som GPS-en bruker.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Kjempesprekken",
+    "description": "Dette er årets OSI Orientering høydepunkt. Kjempesprekken er et langt tradisjonsløp som starter med utgangspunkt i KSI-hytta. I starten var det bare 30 km og 18 km, men etter hvert kom 12 km og 6 km til, og 30 km forsvant. I dag er det 18 km, 12 km og 6 km løyper i nydelig Nordmarka-natur. Det er bankett med klubbens medlemmer etter løpet på KSI-hytta.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Tiomila ",
+    "description": "Et av Skandinavias største og råeste stafettløp i orientering. Stafetten holdes i Sverige om våren, hvor damene løper etapper på dagen (5 etapper) og herrene løper etapper på natten (10 etapper). ",
+    "tags": ["stafett"],
+    "aliases": []
+  },
+  {
+    "name": "Jukola",
+    "description": "Jukola er en av verdens største orienteringsstafetter, med rundt 15 000 deltakere. Jukola arrangeres i Finland i juni måned. Damene løper på dagtid (4 etapper) og herrene på natta (7 etapper).",
+    "tags": ["stafett"],
+    "aliases": []
+  },
+  {
+    "name": "Night Hawk",
+    "description": "I Sverige har man Tiomila, i Finland har man Jukola, i Norge er det Night Hawk som gjelder. En stor orienteringsstafett som går i august. Damene har 6 etapper og herrene har 8 etapper. For både damer og herrer er halvparten av etappene på natta, og den andre halvparten på dagen.",
+    "tags": ["stafett"],
+    "aliases": []
+  },
+  {
+    "name": "Nattorientering",
+    "description": "Orientering i mørket. For mange orienteringsløpere er nattorientering mer fascinerende enn å finne frem i dagslys. Å oppfatte detaljer i terrenget rundt deg i lyset fra en hodelykt er helt annerledes enn å se seg rundt i dagslys. Det blir enda viktigere å vite nøyaktig hvor på kartet en er for å vite hvilke detaljer en skal se etter rundt seg. Å vite at en nærmer seg en post for så se reflekslyset fra posten, gir en god mestringsfølelse.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Bryte",
+    "description": "Om man skader seg, eller man roter seg så bort at man ikke klarer å finne neste post, er alternativet å bryte. Dette vil si å avbryte løpet og finne raskeste vei tilbake til <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Samlingsplass\">samlingsplass</a> (da er det viktig å registrere seg i mål likevel, ellers kan det oppstå leteaksjon etter savnede løpere). Løpere som bryter vil bli oppført som DNF (Did Not Finish) på resultatlista.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Direkteklasser",
+    "description": "Direkteklasser er klasser der man kan melde seg på ved oppmøte på konkurransedagen, man behøver altså ikke å forhåndspåmelde seg. Det er vanligvis ikke alders eller kjønnsinndeling i disse klassene. Direktepåmelding er praktisk for etternølere.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Ekvidistanse",
+    "description": "Ekvidistanse er høydeforskjellen mellom to høydekurver (som er de brune strekene på kartet). Ekvidistansen avgjør hvor detaljert høyder kan vises i kartet, er for eksempel ekvidistansen 2.5 meter vil alle høydeforskjeller større enn 2.5 meter kunne vises med høydekurver på kartet. Er derimot ekvidistansen 20 meter, kan kun alle høydeforskjeller på 20 meter eller større vises med høydekurver på kartet. Det vanlige på orienteringskart er 5 meter. Se <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Tellekurve\">tellekurve</a>",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Tellekurve",
+    "description": "Hver 5. høydekurve på et kart vil være litt tykkere, dette er en tellekurve. Disse brukes for rask og enkelt å kunne regne ut større høydeforskjeller i terrenget. Er for eksempel <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste/#namedirectory_Ekvidistanse\">ekvidistansen</a> 5 meter, betyr det at det er 25 høydemeter (5 meter ekvidistanse x 5 høydekurver) mellom hver tellekurve, og om det er 3 tellekurver mellom deg og neste post betyr det at det er 75 høydemeter å klatre (3 tellekurver x 25 meter).",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "OSI",
+    "description": "Oslostudentenes Idrettsklubb. Også forkortet Oslostudentenes IK",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Turorientering",
+    "description": "Turorientering er orientering i ditt eget tempo når du vil. Du kjøper et kart med inntegnede poster, disse postene er i skogen hele sommerhalvåret, og du kan gå/løpe til dem når du ønsker. Postene har en kode ved seg som du kan registrere på <a href=\"http://turorientering.no/\">turorientering.no</a> for å stige på poenglistene.",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Stolpejakten",
+    "description": "Stolpejakten er et gratis tilbud som går ut på å finne stolper sentralt plassert i ulike kommuner. Stolpene kan registreres både ved å laste ned en app på telefonen der man enten scanner QR-koden eller skriver inn koden som hver stolpe er utstyrt med. Kart over stolpene kan lastes ned (og selv skrives ut) fra deres nettsider, eventuelt kan man bruke kartet i appen. Stolpejakten er veldig likt <a href=\"http://osi-orientering.com/nybegynnerkurs/orienteringsordliste#namedirectory_Turorientering\">turorientering</a>, men er som oftest i mer urbane strøk. Les mer på <a href=\"https://www.stolpejakten.no/#/about\">Stolpejakten.no</a>\n",
+    "tags": [],
+    "aliases": []
+  },
+  {
+    "name": "Nulle",
+    "description": "Å nulle betyr å nullstille sin personlige tidtakerbrikke. Dette betyr å fjerne gamle løp, og må gjøres før man starter på et nytt løp. Om man glemmer å nulle vil man ikke få riktig tid og blir derfor disket.",
+    "tags": ["tidtaking"],
+    "aliases": []
+  },
+  {
+    "name": "Livelox",
+    "description": "<a href=\"https://www.livelox.com/\">Livelox</a> er en nettside der det er mulig å analysere og se hvor man har løpt på et orienteringsløp. Dette gjør man ved at arrangøren laster opp kartet på forhånd, og at utøverne etter løpet kan laste opp sine GPS-spor (som man enten har brukt mobilen eller en klokke med GPS til å lage). Det finnes flere andre slike tjenester (f.eks. <a href=\"http://3drerun.worldofo.com/\">3D Rerun</a> og <a href=\"http://www.opath.se/\">OPath</a>), men Livelox er den mest utbredte.",
+    "tags": [],
+    "aliases": []
+  }
+]
