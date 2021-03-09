@@ -28,15 +28,17 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+        Om du har lyst til å bidra med bedre beskrivelser eller nye ord kan du
+        redigere{" "}
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/mikaello/oordliste/blob/master/resources/orienteering_dictionary.json"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          denne oversikten på GitHub
         </a>
       </footer>
     </div>
   );
 }
+// Mye o-software som kanskje kan legges inn: http://o-training.net/blog/2011/11/30/interesting-new-orienteering-analysis-tools-coming/
