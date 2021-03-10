@@ -18,11 +18,13 @@ export default function Home() {
         </p>
 
         <dl>
-          {dictionary.map(({ name, description }) => (
+          {dictionary.map(({ name, description, aliases }) => (
             <>
-              <dt key={name} id={name}>
-                {name}
-              </dt>
+              {[name, ...aliases].map((dictEntry) => (
+                <dt key={dictEntry} id={dictEntry}>
+                  {dictEntry}
+                </dt>
+              ))}
               <dd
                 key={name}
                 dangerouslySetInnerHTML={{ __html: description }}
