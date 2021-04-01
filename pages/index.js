@@ -43,7 +43,8 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           denne oversikten på GitHub
-        </a>
+        </a>. Om du ønsker å utvikle en tjeneste basert på denne ordlisten kan
+        du bruke det bakenforliggende <a href="https://oordliste.vercel.app/api/dictionary">API-iet</a>.
       </footer>
     </div>
   );
