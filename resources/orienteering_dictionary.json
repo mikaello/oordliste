@@ -21,7 +21,7 @@
     "aliases": []
   },
   {
-    "name": "Bomme",
+    "name": "bomme",
     "description": "Når man ikke treffer posten slik man ønsker og dermed taper tid, snakker man om å bomme. Å bomme for en proff kan være å miste 10-20 sekunder fordi man ikke fant posten med en gang, mens for en nybegynner snakker man ofte heller om minutter og i verste fall titalls minutter.",
     "tags": [],
     "related": [],
@@ -29,27 +29,27 @@
   },
   {
     "name": "EMIT",
-    "description": "I norsk orientering bruker man et eletronisk tidtakersystem som produseres av det norske firmaet EMIT, <i>se <a href=\"/#Tidtaking\">tidtaking</a></i>. I Sverige brukes <a href=\"/#SPORTIdent\">SportIdent</a>. Bildet viser en grønn EMIT løperbrikke som stemples i en oransje stemplingsenhet <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/emit_stempling.jpg\" />",
+    "description": "I norsk orientering bruker man et eletronisk tidtakersystem som produseres av det norske firmaet EMIT, <i>se <a href=\"/#tidtaking\">tidtaking</a></i>. I Sverige brukes <a href=\"/#SPORTIdent\">SportIdent</a>. Bildet viser en grønn EMIT løperbrikke som stemples i en oransje stemplingsenhet <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/emit_stempling.jpg\" />",
     "tags": ["tidtaking"],
     "related": ["SPORTIdent", "SFR"],
     "aliases": []
   },
   {
-    "name": "Tidtaking",
+    "name": "tidtaking",
     "description": "Tidtaking i orientering baserer seg på at man har en løperbrikke som er registrert på en bestemt løper. Når denne løperen kommer til en orienteringspost, legges denne løperbrikka på en stemplingsenhet, dette gjør at det blir registrert i løperbrikka at løperen har vært innom posten. Når man kommer til mål registreres løperbrikka og man får vite tiden man brukte på løypa (og mellomtiden mellom postene). De to vanligste tidtakersystemene er <a href=\"/#SPORTIdent\">SportIdent</a> og <a href=\"/#EMIT\">EMIT</a>. ",
     "tags": ["tidtaking"],
     "related": ["EMIT", "SPORTIdent", "SFR"],
     "aliases": []
   },
   {
-    "name": "Gafling",
-    "description": "For å forhindre at konkurrenter følger etter hverandre (<a href=\"/#Henge\">se henging</a>) når man løper, er det mulig å lage gaflede løyper. Det vil si løpere i samme klasse får løyper som er litt forskjellige. De fleste postene er som oftest like, men det kan være en post der noen løpere må ta en post som er f.eks. 50-100 meter fra en annen post som andre løpere i samme klasse må ta. Dette gjør at man må vite hvor på kartet man er så man tar riktig post, velger man feil post blir man disket.",
+    "name": "gafling",
+    "description": "For å forhindre at konkurrenter følger etter hverandre (<a href=\"/#henge\">se henging</a>) når man løper, er det mulig å lage gaflede løyper. Det vil si løpere i samme klasse får løyper som er litt forskjellige. De fleste postene er som oftest like, men det kan være en post der noen løpere må ta en post som er f.eks. 50-100 meter fra en annen post som andre løpere i samme klasse må ta. Dette gjør at man må vite hvor på kartet man er så man tar riktig post, velger man feil post blir man disket.",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Postbeskrivelse",
+    "name": "postbeskrivelse",
     "description": "Dette er en lapp som følger med kartet, den kan også være printet på kartet. Den har symboler som forklarer hvordan en post ligger. F.eks. at post 3 ligger vest for en stor stein. Altså detaljert postinformasjon.",
     "tags": [],
     "related": [],
@@ -57,7 +57,7 @@
   },
   {
     "name": "SPORTIdent",
-    "description": "Elektronisk tidtakersystem for orientering. Samme konsept som EMIT. Enheten man stempler med kalles for SI-brikke. SPORTIdent brukes blant annet i Sverige. <i>Se <a href=\"/#Tidtaking\">tidtaking</a></i>. <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/sportident_stempling.jpg\" />",
+    "description": "Elektronisk tidtakersystem for orientering. Samme konsept som EMIT. Enheten man stempler med kalles for SI-brikke. SPORTIdent brukes blant annet i Sverige. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>. <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/sportident_stempling.jpg\" />",
     "tags": ["tidtaking"],
     "related": ["EMIT", "SFR"],
     "aliases": []
@@ -91,77 +91,77 @@
     "aliases": []
   },
   {
-    "name": "Kart",
-    "description": "Et kart viser landskapet i mindre og forenklet format, og er det en orienteringsløper bruker for å finne frem til postene. Kartet inneholder mange symboler som viser hva som finnes i terrenget, det kan være høydekurver for å vise høydeforskjeller, svarte prikker for å vise steiner eller blå flekker for å vise vann. Norges Orienteringsforbund har lagt ut en <a href=\"http://osi-orientering.com/wp-content/uploads/2016/01/karttegn_isom_2008.pdf\">oversikt</a> over de vanligste. Kartet kan være i forskjellige <i><a href=\"/#Målestokk\">målestokker</a></i>, f.eks. 1:5000 i sprint, eller ofte 1:10000 i vanlige orienteringsløp. ",
+    "name": "kart",
+    "description": "Et kart viser landskapet i mindre og forenklet format, og er det en orienteringsløper bruker for å finne frem til postene. Kartet inneholder mange symboler som viser hva som finnes i terrenget, det kan være høydekurver for å vise høydeforskjeller, svarte prikker for å vise steiner eller blå flekker for å vise vann. Norges Orienteringsforbund har lagt ut en <a href=\"http://osi-orientering.com/wp-content/uploads/2016/01/karttegn_isom_2008.pdf\">oversikt</a> over de vanligste. Kartet kan være i forskjellige <i><a href=\"/#målestokk\">målestokker</a></i>, f.eks. 1:5000 i sprint, eller ofte 1:10000 i vanlige orienteringsløp. ",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Målestokk",
+    "name": "målestokk",
     "description": "Målestokk sier hvor mye et kart er skalert i forhold til virkeligheten. Om målestokken er 1:10000, betyr det at 1 cm på kartet, er 10000 cm (eller 100 meter) i virkeligheten. Turkart bruker bruker ofte en stor målestokk, 1:50000 er vanlig, det betyr at kartet viser et stort område (skalert mye). I orientering er det sjelden brukt større målestokk enn 1:15000, og 1:7500 og 1:10000 er vanlig. Når målstokken er liten, f.eks. 1:7500, kan man få plass til flere detaljer på kartet, og det blir ofte lettere å orientere presist.",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Kompass",
-    "description": "Et kompass viser hvor nord og sør er (og dermed vet man også hvor øst og vest er). Dette gjør at en orienteringsløper kan bruke kompasset til å for eksempel holde rett kurs mot nord (dersom nord er den riktige veien til den neste <i><a href=\"/#Orienteringspost\">posten</a></i>). Eller man kan bruke kompasset til å orientere kartet (det vil si å få kartet til å stemme med virkeligheten).",
+    "name": "kompass",
+    "description": "Et kompass viser hvor nord og sør er (og dermed vet man også hvor øst og vest er). Dette gjør at en orienteringsløper kan bruke kompasset til å for eksempel holde rett kurs mot nord (dersom nord er den riktige veien til den neste <i><a href=\"/#orienteringspost\">posten</a></i>). Eller man kan bruke kompasset til å orientere kartet (det vil si å få kartet til å stemme med virkeligheten).",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Orienteringspost",
-    "description": "En orienteringspost (kalt bare post eller flagg) er en postskjerm med en tilhørende stemplingsenhet. <i>Se <a href=\"/#Tidtaking\">tidtaking</a></i>. Bildet viser en postskjerm <img src=\"http://osi-orientering.com/wp-content/uploads/2015/04/postskjerm.jpg\" />.",
+    "name": "orienteringspost",
+    "description": "En orienteringspost (kalt bare post eller flagg) er en postskjerm med en tilhørende stemplingsenhet. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>. Bildet viser en postskjerm <img src=\"http://osi-orientering.com/wp-content/uploads/2015/04/postskjerm.jpg\" />.",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Tommelkompass",
-    "description": "Et kompass som kan festes på tommelen, det er slike kompass som er vanligst blant orienteringsløpere. De tradisjonelle kompassene kalles platekompass. <i>Se <a href=\"/#Kompass\">kompass</a></i>",
+    "name": "tommelkompass",
+    "description": "Et kompass som kan festes på tommelen, det er slike kompass som er vanligst blant orienteringsløpere. De tradisjonelle kompassene kalles platekompass. <i>Se <a href=\"/#kompass\">kompass</a></i>",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
     "name": "A-nivå",
-    "description": "Det mest krevende nivået for en orienteringsløype, her bør alle orienteringsteknikker beherskes.. <i>Se <a href=\"/#Vanskelighetsgrad\">vanskelighetsgrad</a></i>",
+    "description": "Det mest krevende nivået for en orienteringsløype, her bør alle orienteringsteknikker beherskes.. <i>Se <a href=\"/#vanskelighetsgrad\">vanskelighetsgrad</a></i>",
     "tags": [],
     "related": ["B-nivå", "C-nivå", "N-nivå"],
     "aliases": []
   },
   {
     "name": "B-nivå",
-    "description": "Det nest vanskeligste nivået for en orienteringsløype. B-løyper krever kort finorientering inn mot posten og forståelse av høydekurver. <i>Se <a href=\"/#Vanskelighetsgrad\">vanskelighetsgrad</a></i>",
+    "description": "Det nest vanskeligste nivået for en orienteringsløype. B-løyper krever kort finorientering inn mot posten og forståelse av høydekurver. <i>Se <a href=\"/#vanskelighetsgrad\">vanskelighetsgrad</a></i>",
     "tags": [],
     "related": ["A-nivå", "C-nivå", "N-nivå"],
     "aliases": []
   },
   {
     "name": "C-nivå",
-    "description": "Det nest enkleste nivået for en orienteringsløype. C-løyper følger stort sett <a href=\"/#Ledelinje\">ledelinjer</a>, men enkelt steder forventes løperne å forlate ledelinjene. Det kan finnes veivalgsmuligheter.<i>Se <a href=\"/#Vanskelighetsgrad\">vanskelighetsgrad</a></i>",
+    "description": "Det nest enkleste nivået for en orienteringsløype. C-løyper følger stort sett <a href=\"/#ledelinje\">ledelinjer</a>, men enkelt steder forventes løperne å forlate ledelinjene. Det kan finnes veivalgsmuligheter.<i>Se <a href=\"/#vanskelighetsgrad\">vanskelighetsgrad</a></i>",
     "tags": [],
     "related": ["A-nivå", "B-nivå", "N-nivå"],
     "aliases": []
   },
   {
     "name": "N-nivå",
-    "description": "Det enkleste nivået for en orienteringsløype, nybegynnervennlig. N-løyper har ett opplagt veivalg langs sammenhengende <a href=\"/#Ledelinje\">ledelinjer</a> som vei, sti, bekk og gjerde. Alle postene kan sees fra ledelinjene. <i>Se <a href=\"/#Vanskelighetsgrad\">vanskelighetsgrad</a></i>",
+    "description": "Det enkleste nivået for en orienteringsløype, nybegynnervennlig. N-løyper har ett opplagt veivalg langs sammenhengende <a href=\"/#ledelinje\">ledelinjer</a> som vei, sti, bekk og gjerde. Alle postene kan sees fra ledelinjene. <i>Se <a href=\"/#vanskelighetsgrad\">vanskelighetsgrad</a></i>",
     "tags": [],
     "related": ["A-nivå", "B-nivå", "C-nivå"],
     "aliases": []
   },
   {
-    "name": "Vanskelighetsgrad",
+    "name": "vanskelighetsgrad",
     "description": "En løype i orientering deles inn i fire vanskelighetsgrader, <a href=\"/#A-niv\">A</a>, <a href=\"/#B-niv\">B</a>, <a href=\"/#C-niv\">C</a> og <a href=\"/#N-niv\">N</a>. Der A er vanskeligst, B er litt lettere, C enda litt lettere og N er nybegynnerløyper.",
     "tags": [],
     "related": ["A-nivå", "B-nivå", "C-nivå", "N-nivå"],
     "aliases": []
   },
   {
-    "name": "Henge",
+    "name": "henge",
     "description": "Det å henge betyr å følge etter en annen orienteringsløper uten å bruke sitt eget kart til å finne frem. Dette er sett på som dårlig stil i orientering.",
     "tags": [],
     "related": [],
@@ -183,27 +183,27 @@
   },
   {
     "name": "O",
-    "description": "I orientering er man glad i bokstaven O, og denne bruker man så ofte man har mulighet. o-sko (<a href=\"/#Orinteringssko\">orienteringssko</a>), o-trening (orienteringstrening), o-hilsen (orienteringshilsen, altså istedenfor <i>hilsen Truls</i> blir det <i>o-hilsen Truls</i>), o-prikker (når du har løpt i skikkelig kvistkvas vil armene dine få o-prikker), o-sporten, o-løp osv. ",
+    "description": "I orientering er man glad i bokstaven O, og denne bruker man så ofte man har mulighet. o-sko (<a href=\"/#orienteringssko\">orienteringssko</a>), o-trening (orienteringstrening), o-hilsen (orienteringshilsen, altså istedenfor <i>hilsen Truls</i> blir det <i>o-hilsen Truls</i>), o-prikker (når du har løpt i skikkelig kvistkvas vil armene dine få o-prikker), o-sporten, o-løp osv. ",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Orienteringssko",
+    "name": "orienteringssko",
     "description": "I orientering bruker man sko med grove knaster under skoen og ofte også med pigger i sålen for best mulig grep på sleipt underlag, også fint å bruke under isete forhold.",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Ledelinje",
+    "name": "ledelinje",
     "description": "En ledelinje er noe som det er enkelt å se og følge på kartet, såvel som i naturen. Eksempler på en ledelinjer kan være bekker, stier eller kanten av et jorde. Alle disse er enkle å se på kartet, og man kan enkelt følge dem i terrenget. En ledelinje leder deg trygt fra et sted til et annet, eller det kan være noe du helt sikkert treffer på om du kommer vinkelrett mot den (også kalt et sikkert oppfang, noe som fanger deg opp om du løper rett på).",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Georeferere",
+    "name": "georeferere",
     "description": "Et orienteringskart kan georefereres, det vil si å samkjøre kartet med det nasjonale koordinatsystemet. Dette kan for eksempel gjøres ved å kalibrere kartet mot Google Maps, slik at man i teorien kunne byttet ut en flik av Google Maps med det aktuelle orienteringskartet. Dette er nyttig for eksempel når man ønsker å legge et GPS spor oppå kartet for å se hvor man har løpt (f.eks. om man har brukt en klokke med GPS). GPS-en baserer seg på koordinater, og da er det nødvendig at orienteringskartet har koordinater som er samkjørt med det samme koordinatsystemet som GPS-en bruker.",
     "tags": [],
     "related": [],
@@ -238,36 +238,36 @@
     "aliases": []
   },
   {
-    "name": "Nattorientering",
+    "name": "nattorientering",
     "description": "Orientering i mørket. For mange orienteringsløpere er nattorientering mer fascinerende enn å finne frem i dagslys. Å oppfatte detaljer i terrenget rundt deg i lyset fra en hodelykt er helt annerledes enn å se seg rundt i dagslys. Det blir enda viktigere å vite nøyaktig hvor på kartet en er for å vite hvilke detaljer en skal se etter rundt seg. Å vite at en nærmer seg en post for så se reflekslyset fra posten, gir en god mestringsfølelse.",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Bryte",
+    "name": "bryte",
     "description": "Om man skader seg, eller man roter seg så bort at man ikke klarer å finne neste post, er alternativet å bryte. Dette vil si å avbryte løpet og finne raskeste vei tilbake til <a href=\"/#samlingsplass\">samlingsplass</a> (da er det viktig å registrere seg i mål likevel, ellers kan det oppstå leteaksjon etter savnede løpere). Løpere som bryter vil bli oppført som DNF (Did Not Finish) på resultatlista.",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Direkteklasser",
+    "name": "direkteklasser",
     "description": "Direkteklasser er klasser der man kan melde seg på ved oppmøte på konkurransedagen, man behøver altså ikke å forhåndspåmelde seg. Det er vanligvis ikke alders eller kjønnsinndeling i disse klassene. Direktepåmelding er praktisk for etternølere.",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Ekvidistanse",
-    "description": "Ekvidistanse er høydeforskjellen mellom to høydekurver (som er de brune strekene på kartet). Ekvidistansen avgjør hvor detaljert høyder kan vises i kartet, er for eksempel ekvidistansen 2.5 meter vil alle høydeforskjeller større enn 2.5 meter kunne vises med høydekurver på kartet. Er derimot ekvidistansen 20 meter, kan kun alle høydeforskjeller på 20 meter eller større vises med høydekurver på kartet. Det vanlige på orienteringskart er 5 meter. Se <a href=\"/#Tellekurve\">tellekurve</a>",
+    "name": "ekvidistanse",
+    "description": "Ekvidistanse er høydeforskjellen mellom to høydekurver (som er de brune strekene på kartet). Ekvidistansen avgjør hvor detaljert høyder kan vises i kartet, er for eksempel ekvidistansen 2.5 meter vil alle høydeforskjeller større enn 2.5 meter kunne vises med høydekurver på kartet. Er derimot ekvidistansen 20 meter, kan kun alle høydeforskjeller på 20 meter eller større vises med høydekurver på kartet. Det vanlige på orienteringskart er 5 meter. Se <a href=\"/#tellekurve\">tellekurve</a>",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Tellekurve",
-    "description": "Hver 5. høydekurve på et kart vil være litt tykkere, dette er en tellekurve. Disse brukes for rask og enkelt å kunne regne ut større høydeforskjeller i terrenget. Er for eksempel <a href=\"/#Ekvidistanse\">ekvidistansen</a> 5 meter, betyr det at det er 25 høydemeter (5 meter ekvidistanse x 5 høydekurver) mellom hver tellekurve, og om det er 3 tellekurver mellom deg og neste post betyr det at det er 75 høydemeter å klatre (3 tellekurver x 25 meter).",
+    "name": "tellekurve",
+    "description": "Hver 5. høydekurve på et kart vil være litt tykkere, dette er en tellekurve. Disse brukes for rask og enkelt å kunne regne ut større høydeforskjeller i terrenget. Er for eksempel <a href=\"/#ekvidistanse\">ekvidistansen</a> 5 meter, betyr det at det er 25 høydemeter (5 meter ekvidistanse x 5 høydekurver) mellom hver tellekurve, og om det er 3 tellekurver mellom deg og neste post betyr det at det er 75 høydemeter å klatre (3 tellekurver x 25 meter).",
     "tags": [],
     "related": [],
     "aliases": []
@@ -280,7 +280,7 @@
     "aliases": []
   },
   {
-    "name": "Turorientering",
+    "name": "turorientering",
     "description": "Turorientering er orientering i ditt eget tempo når du vil. Du kjøper et kart med inntegnede poster, disse postene er i skogen hele sommerhalvåret, og du kan gå/løpe til dem når du ønsker. Postene har en kode ved seg som du kan registrere på <a href=\"http://turorientering.no/\">turorientering.no</a> for å stige på poenglistene.",
     "tags": [],
     "related": [],
@@ -288,13 +288,13 @@
   },
   {
     "name": "Stolpejakten",
-    "description": "Stolpejakten er et gratis tilbud som går ut på å finne stolper sentralt plassert i ulike kommuner. Stolpene kan registreres både ved å laste ned en app på telefonen der man enten scanner QR-koden eller skriver inn koden som hver stolpe er utstyrt med. Kart over stolpene kan lastes ned (og selv skrives ut) fra deres nettsider, eventuelt kan man bruke kartet i appen. Stolpejakten er veldig likt <a href=\"#Turorientering\">turorientering</a>, men er som oftest i mer urbane strøk. Les mer på <a href=\"https://www.stolpejakten.no/#/about\">Stolpejakten.no</a>\n",
+    "description": "Stolpejakten er et gratis tilbud som går ut på å finne stolper sentralt plassert i ulike kommuner. Stolpene kan registreres både ved å laste ned en app på telefonen der man enten scanner QR-koden eller skriver inn koden som hver stolpe er utstyrt med. Kart over stolpene kan lastes ned (og selv skrives ut) fra deres nettsider, eventuelt kan man bruke kartet i appen. Stolpejakten er veldig likt <a href=\"#turorientering\">turorientering</a>, men er som oftest i mer urbane strøk. Les mer på <a href=\"https://www.stolpejakten.no/#/about\">Stolpejakten.no</a>\n",
     "tags": [],
     "related": [],
     "aliases": []
   },
   {
-    "name": "Nulle",
+    "name": "nulle",
     "description": "Å nulle betyr å nullstille sin personlige tidtakerbrikke. Dette betyr å fjerne gamle løp, og må gjøres før man starter på et nytt løp. Om man glemmer å nulle vil man ikke få riktig tid og blir derfor disket.",
     "tags": ["tidtaking"],
     "related": [],
