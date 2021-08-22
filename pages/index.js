@@ -36,15 +36,17 @@ export default function Home() {
 
       <footer className={styles.footer}>
         Om du har lyst til å bidra med bedre beskrivelser eller nye ord kan du
-        redigere&nbsp;
+        redigere{" "}
         <a
           href="https://github.com/mikaello/oordliste/blob/master/resources/orienteering_dictionary.json"
           target="_blank"
           rel="noopener noreferrer"
         >
           denne oversikten på GitHub
-        </a>. Om du ønsker å utvikle en tjeneste basert på denne ordlisten kan
-        du bruke det bakenforliggende <a href="https://oordliste.vercel.app/api/dictionary">API-iet</a>.
+        </a>
+        . Om du ønsker å utvikle en tjeneste basert på denne ordlisten kan du
+        bruke det bakenforliggende{" "}
+        <a href="https://oordliste.vercel.app/api/dictionary">API-iet</a>.
       </footer>
     </div>
   );
