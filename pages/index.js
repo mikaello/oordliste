@@ -21,7 +21,11 @@ export default function Home() {
           {dictionary.map(({ name, description, aliases }) => (
             <>
               {[name, ...aliases].map((dictEntry) => (
-                <dt className={styles.oTerm} key={dictEntry} id={dictEntry}>
+                <dt
+                  className={styles.oTerm}
+                  key={dictEntry}
+                  id={slugify(dictEntry)}
+                >
                   {dictEntry}
                 </dt>
               ))}
@@ -58,4 +62,13 @@ export default function Home() {
     </div>
   );
 }
+
+const slugify = (str) =>
+  str
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, "")
+    .replace(/[\s_-]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
 // Mye o-software som kanskje kan legges inn: http://o-training.net/blog/2011/11/30/interesting-new-orienteering-analysis-tools-coming/
