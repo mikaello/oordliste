@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Orienteringsordliste</title>
+        <title>Orienterings\-ordliste</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -21,11 +21,12 @@ export default function Home() {
           {dictionary.map(({ name, description, aliases }) => (
             <>
               {[name, ...aliases].map((dictEntry) => (
-                <dt key={dictEntry} id={dictEntry}>
+                <dt className={styles.oTerm} key={dictEntry} id={dictEntry}>
                   {dictEntry}
                 </dt>
               ))}
               <dd
+                className={styles.oDescription}
                 key={name}
                 dangerouslySetInnerHTML={{ __html: description }}
               ></dd>
@@ -35,18 +36,24 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        Om du har lyst til å bidra med bedre beskrivelser eller nye ord kan du
-        redigere{" "}
-        <a
-          href="https://github.com/mikaello/oordliste/blob/master/resources/orienteering_dictionary.json"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          denne oversikten på GitHub
-        </a>
-        . Om du ønsker å utvikle en tjeneste basert på denne ordlisten kan du
-        bruke det bakenforliggende{" "}
-        <a href="https://oordliste.vercel.app/api/dictionary">API-iet</a>.
+        <p>
+          Om du har lyst til å bidra med bedre beskrivelser eller nye ord kan du
+          redigere{" "}
+          <a
+            href="https://github.com/mikaello/oordliste/blob/master/resources/orienteering_dictionary.json"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            denne oversikten på GitHub
+          </a>
+          .
+        </p>
+        <p>
+          {" "}
+          Dersom du ønsker å utvikle en tjeneste basert på denne ordlisten kan
+          du bruke det bakenforliggende{" "}
+          <a href="https://oordliste.vercel.app/api/dictionary">API-iet</a>.
+        </p>
       </footer>
     </div>
   );
