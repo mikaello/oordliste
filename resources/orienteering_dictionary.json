@@ -57,21 +57,21 @@
   },
   {
     "name": "SPORTIdent",
-    "description": "Elektronisk tidtakersystem for orientering. Samme konsept som EMIT. Enheten man stempler med kalles for SI-brikke. SPORTIdent brukes blant annet i Sverige. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>. <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/sportident_stempling.jpg\" />",
+    "description": "Elektronisk tidtakersystem for orientering. <a href=\"https://www.sportident.com/\">SportIdent</a> er samme konsept som EMIT. Enheten man stempler med kalles for SI-brikke. SPORTIdent brukes blant annet i Sverige. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>. <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/sportident_stempling.jpg\" />",
     "tags": ["tidtaking"],
     "related": ["EMIT", "SFR"],
     "aliases": []
   },
   {
     "name": "SFR",
-    "description": "SFR (Start Finish Result) er et russisk tidtakersystem for orientering. Samme konsept som EMIT.",
+    "description": "<a href=\"http://sfr-system.com/\">SFR</a> (Start Finish Result) er et russisk tidtakersystem for orientering. Samme konsept som EMIT.",
     "tags": ["tidtaking"],
     "related": ["EMIT", "SPORTIdent"],
     "aliases": []
   },
   {
     "name": "Rankingløp",
-    "description": "Rankingløp er uformelle treningsløp som arrangeres ukentlig av OSI Orientering og IL GeoForm. For hvert løp man løper samler man poeng til en totalranking, derav navnet Rankingløp. Se mer på vår side om <a href=\"http://osi-orientering.com/rankinglop/om-rankinglopene/\">rankingløp</a>.",
+    "description": "Rankingløp er uformelle treningsløp som arrangeres ukentlig av OSI Orientering og IL GeoForm. For hvert løp man løper samler man poeng til en totalranking, derav navnet Rankingløp. Se mer på vår side om <a href=\"https://ilgeoform.no/rankinglop/\">rankingløp</a>.",
     "tags": [],
     "related": [],
     "aliases": []
