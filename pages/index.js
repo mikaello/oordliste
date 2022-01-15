@@ -31,7 +31,7 @@ export default function Home() {
               ))}
               <dd
                 className={styles.oDescription}
-                key={name}
+                key={"description_" + name}
                 dangerouslySetInnerHTML={{ __html: description }}
               ></dd>
             </>
