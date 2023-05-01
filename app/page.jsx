@@ -1,15 +1,9 @@
-import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import dictionary from "../resources/orienteering_dictionary.json";
 
-export default function Home() {
+export default function Page() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Orienterings\-ordliste</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main className={styles.main}>
         <h1 className={styles.title}>Orienteringsordliste</h1>
 
