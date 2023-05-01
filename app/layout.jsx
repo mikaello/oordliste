@@ -1,4 +1,5 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata = {
   title: "Orienteringsordliste",
@@ -12,7 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="no">
-      <body>{children}</body>
+      <body>
+        <Analytics />
+        {children}
+      </body>
     </html>
   );
 }
