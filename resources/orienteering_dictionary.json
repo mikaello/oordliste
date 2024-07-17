@@ -259,6 +259,20 @@
     "aliases": []
   },
   {
+    "name": "presisjonsorientering",
+    "description": "Presisjonsorientering er en gren innen orientering som er lagt til rette for både funksjonsfriske og bevegelsehemmede. Løypene skal gå langs stier eller veier som er tilgjengelig for rullestol. I terrenget langs løypa er det plassert et antall poster, som skal løses korrekt. På en normal post er det plassert et antall skjermer, og man skal bestemme hvilken (om noen) som er riktig ifølge kart og postbeskrivelse. Det finnes også enskjermsposter, hvor deltageren skal bestemme hvilken (om noen) av flere postbeskrivelser som er korrekt.",
+    "tags": [],
+    "related": [],
+    "aliases": ["pre-o"]
+  },
+  {
+    "name": "småtroll",
+    "description": "Småtroll er løyper for de aller minste. Disse er merket og gjør gjerne noe ut av at postene skal være mer interessante enn bare o-skjermer. Løypene kan også være av mer hinder-aktig art, ikke særlig fokus på kart (og dette er heller ikke nødvendig for å komme gjennom løypa). Som regel premie til alle når man har kommet seg gjennom løypa.",
+    "tags": [],
+    "related": [],
+    "aliases": []
+  },
+  {
     "name": "ekvidistanse",
     "description": "Ekvidistanse er høydeforskjellen mellom to høydekurver (som er de brune strekene på kartet). Ekvidistansen avgjør hvor detaljert høyder kan vises i kartet, er for eksempel ekvidistansen 2.5 meter vil alle høydeforskjeller større enn 2.5 meter kunne vises med høydekurver på kartet. Er derimot ekvidistansen 20 meter, kan kun alle høydeforskjeller på 20 meter eller større vises med høydekurver på kartet. Det vanlige på orienteringskart er 5 meter. Se <a href=\"/#tellekurve\">tellekurve</a>",
     "tags": [],
