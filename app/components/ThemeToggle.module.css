@@ -1,0 +1,20 @@
+.toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  line-height: 1;
+  color: var(--text);
+  transition: border-color 0.15s ease;
+}
+
+.toggle:hover,
+.toggle:focus {
+  border-color: var(--link);
+  outline: none;
+}

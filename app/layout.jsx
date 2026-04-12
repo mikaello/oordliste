@@ -1,5 +1,6 @@
 import "../styles/globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import ThemeToggle from "./components/ThemeToggle";
 
 export const metadata = {
   title: "Orienteringsordliste",
@@ -12,9 +13,10 @@ export default function RootLayout({
   children,
 }) {
   return (
-    <html lang="no">
+    <html lang="no" suppressHydrationWarning>
       <body>
         <Analytics />
+        <ThemeToggle />
         {children}
       </body>
     </html>
