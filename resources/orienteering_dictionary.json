@@ -320,5 +320,40 @@
     "tags": [],
     "related": [],
     "aliases": []
+  },
+  {
+    "name": "postplukk",
+    "description": "Postplukk er et orienteringsløp med svært mange poster tett på hverandre, slik at løperen plukker post etter post uten å løpe langt mellom hver. Formatet legger vekt på kart- og postlesing fremfor løping.",
+    "tags": [],
+    "related": ["orienteringspost"],
+    "aliases": []
+  },
+  {
+    "name": "ringen",
+    "description": "Ringen er sirkelen som markerer postens nøyaktige posisjon på orienteringskartet. Sirkelen er tegnet rundt det eksakte punktet som skal oppsøkes. <i>Se også <a href=\"/#postbeskrivelse\">postbeskrivelse</a></i>.",
+    "tags": [],
+    "related": ["kart", "orienteringspost", "postbeskrivelse"],
+    "aliases": []
+  },
+  {
+    "name": "startpost",
+    "description": "Startposten er den første posten i et løyp. I større løp er startposten plassert et stykke fra selve startstedet, og veien dit er markert med bånd slik at løperen ikke trenger å navigere den første biten. I mindre løp er start og startpost ofte på samme sted. Startposten er markert med en trekant på kartet.",
+    "tags": [],
+    "related": ["orienteringspost"],
+    "aliases": []
+  },
+  {
+    "name": "klippetang",
+    "description": "En klippetang er det opprinnelige stemplingsverktøyet i orientering, brukt før elektronisk tidtaking. Den lager et unikt mønster av hull i stempelkortet når den klemmes fast. Klippetangen er i dag nesten ikke i bruk og sees svært sjelden i vanlige løp. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>.",
+    "tags": ["tidtaking"],
+    "related": ["tidtaking", "orienteringspost"],
+    "aliases": []
+  },
+  {
+    "name": "Sportiduino",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> er et åpen kildekode-system for elektronisk tidtaking i orientering, og er et rimeligere alternativ til <a href=\"/#SPORTIdent\">SPORTIdent</a> og <a href=\"/#EMIT\">EMIT</a>. Systemet er basert på Arduino-plattformen, men krever betydelig tid og innsats å sette opp da man selv må bygge poster og brikkeleser.",
+    "tags": ["tidtaking"],
+    "related": ["tidtaking", "SPORTIdent", "EMIT"],
+    "aliases": []
   }
 ]
