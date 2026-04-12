@@ -29,7 +29,7 @@
   },
   {
     "name": "EMIT",
-    "description": "I norsk orientering bruker man et eletronisk tidtakersystem som produseres av det norske firmaet EMIT, <i>se <a href=\"/#tidtaking\">tidtaking</a></i>. I Sverige brukes <a href=\"/#SPORTIdent\">SportIdent</a>. Bildet viser en grønn EMIT løperbrikke som stemples i en oransje stemplingsenhet <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/emit_stempling.jpg\" />",
+    "description": "I norsk orientering bruker man et eletronisk tidtakersystem som produseres av det norske firmaet EMIT, <i>se <a href=\"/#tidtaking\">tidtaking</a></i>. I Sverige brukes <a href=\"/#SPORTIdent\">SportIdent</a>.",
     "tags": ["tidtaking"],
     "related": ["SPORTIdent", "SFR"],
     "aliases": []
@@ -57,7 +57,7 @@
   },
   {
     "name": "SPORTIdent",
-    "description": "Elektronisk tidtakersystem for orientering. <a href=\"https://www.sportident.com/\">SportIdent</a> er samme konsept som EMIT. Enheten man stempler med kalles for SI-brikke. SPORTIdent brukes blant annet i Sverige. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>. <img src=\"http://osi-orientering.com/wp-content/uploads/2015/03/sportident_stempling.jpg\" />",
+    "description": "Elektronisk tidtakersystem for orientering. <a href=\"https://www.sportident.com/\">SportIdent</a> er samme konsept som EMIT. Enheten man stempler med kalles for SI-brikke. SPORTIdent brukes blant annet i Sverige. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>.",
     "tags": ["tidtaking"],
     "related": ["EMIT", "SFR"],
     "aliases": []
@@ -113,7 +113,7 @@
   },
   {
     "name": "orienteringspost",
-    "description": "En orienteringspost (kalt bare post eller flagg) er en postskjerm med en tilhørende stemplingsenhet. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>. Bildet viser en postskjerm <img src=\"http://osi-orientering.com/wp-content/uploads/2015/04/postskjerm.jpg\" />.",
+    "description": "En orienteringspost (kalt bare post eller flagg) er en postskjerm med en tilhørende stemplingsenhet. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>.",
     "tags": [],
     "related": [],
     "aliases": []
