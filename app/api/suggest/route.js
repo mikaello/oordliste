@@ -53,6 +53,8 @@ export async function POST(request) {
   );
 
   if (!res.ok) {
+    const errorBody = await res.json().catch(() => ({}));
+    console.error("GitHub API error:", res.status, errorBody);
     return NextResponse.json(
       { error: "Failed to submit suggestion" },
       { status: 502 }
