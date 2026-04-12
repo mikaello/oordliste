@@ -320,5 +320,40 @@
     "tags": [],
     "related": [],
     "aliases": []
+  },
+  {
+    "name": "postplukk",
+    "description": "Etter et orienteringsløp må postene hentes inn fra terrenget. Dette kalles postplukk. Vanligvis er det arrangørklubben som organiserer dette, og det er gjerne løpere som hjelper til.",
+    "tags": [],
+    "related": ["orienteringspost"],
+    "aliases": []
+  },
+  {
+    "name": "ringen",
+    "description": "Ringen er sirkelen som markerer postens nøyaktige posisjon på orienteringskartet. Sirkelen er tegnet rundt det eksakte punktet som skal oppsøkes. <i>Se også <a href=\"/#postbeskrivelse\">postbeskrivelse</a></i>.",
+    "tags": [],
+    "related": ["kart", "orienteringspost", "postbeskrivelse"],
+    "aliases": []
+  },
+  {
+    "name": "startpost",
+    "description": "Startposten er den første posten i et løyp, plassert et stykke fra startstedet. Løperen navigerer selv fra start til startposten. I konkurranser er startposten ofte markert med en trekant på kartet.",
+    "tags": [],
+    "related": ["orienteringspost"],
+    "aliases": []
+  },
+  {
+    "name": "klippetang",
+    "description": "En klippetang er et manuelt stemplingsverktøy som lager et unikt mønster av hull i stempelkortet når det klemmes fast. Klippetangen er et alternativ til elektronisk tidtaking og brukes fortsatt på noen løp. Hvert post har sin egen tang med unikt mønster.",
+    "tags": ["tidtaking"],
+    "related": ["tidtaking", "orienteringspost"],
+    "aliases": []
+  },
+  {
+    "name": "Sportiduino",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> er et åpen kildekode-system for elektronisk tidtaking i orientering, og er et rimeligere alternativ til <a href=\"/#SPORTIdent\">SPORTIdent</a> og <a href=\"/#EMIT\">EMIT</a>. Systemet er basert på Arduino-plattformen.",
+    "tags": ["tidtaking"],
+    "related": ["tidtaking", "SPORTIdent", "EMIT"],
+    "aliases": []
   }
 ]
