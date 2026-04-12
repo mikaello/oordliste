@@ -41,3 +41,11 @@ type oordliste = []{
 
 Every push to default branch will create a new deployment and publish the website at https://oordliste.vercel.app
 
+## Environment variables
+
+| Variable | Description |
+|---|---|
+| `GITHUB_TOKEN` | A fine-grained GitHub PAT with `issues: write` permission on this repo. Required for the "suggest a word" form. |
+
+Create the token at https://github.com/settings/personal-access-tokens and set it in the Vercel project under Settings → Environment Variables.
+
