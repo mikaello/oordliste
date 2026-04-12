@@ -1,9 +1,45 @@
+:root {
+  --bg: #ffffff;
+  --text: #000000;
+  --border: #eaeaea;
+  --link: #0070f3;
+  --code-bg: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #e5e5e5;
+    --border: #333333;
+    --link: #4da6ff;
+    --code-bg: #1e1e1e;
+  }
+}
+
+[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #000000;
+  --border: #eaeaea;
+  --link: #0070f3;
+  --code-bg: #fafafa;
+}
+
+[data-theme="dark"] {
+  --bg: #121212;
+  --text: #e5e5e5;
+  --border: #333333;
+  --link: #4da6ff;
+  --code-bg: #1e1e1e;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
 }
 
 a {
