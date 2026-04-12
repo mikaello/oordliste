@@ -1,5 +1,6 @@
 import styles from "../styles/Home.module.css";
 import dictionary from "../resources/orienteering_dictionary.json";
+import SuggestForm from "./components/SuggestForm";
 
 export default function Page() {
   return (
@@ -31,6 +32,8 @@ export default function Page() {
             </>
           ))}
         </dl>
+
+        <SuggestForm />
       </main>
 
       <footer className={styles.footer}>
