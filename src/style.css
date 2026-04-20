@@ -117,8 +117,17 @@ dl { margin: 0; }
 .o-description {
   margin-left: 0;
   padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+.o-also-in {
+  margin-left: 0;
+  margin-top: 0.15rem;
+  padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--border);
   margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted, color-mix(in srgb, var(--text) 60%, transparent));
 }
 
 .footer {

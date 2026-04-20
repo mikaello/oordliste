@@ -6,5 +6,19 @@
     <dt class="o-term" id="{{ alias | slugify }}">{{ alias }}</dt>
     {%- endfor %}
     <dd class="o-description">{{ entry.description | safe }}</dd>
+    {%- if entry.id %}
+      {%- set crossLinks = [] %}
+      {%- for locale, map in dictionaryMaps %}
+        {%- if locale != langCode %}
+          {%- set other = map[entry.id] %}
+          {%- if other %}
+            {%- set crossLinks = (crossLinks.push("<a href='" + langPaths[locale] + "#" + (other.name | slugify) + "'>" + other.name + "</a> (" + translations[locale].langName + ")"), crossLinks) %}
+          {%- endif %}
+        {%- endif %}
+      {%- endfor %}
+      {%- if crossLinks.length %}
+    <dd class="o-also-in">{{ crossLinks | join(" &middot; ") | safe }}</dd>
+      {%- endif %}
+    {%- endif %}
   {%- endfor %}
 </dl>
