@@ -1,0 +1,9 @@
+<dl>
+  {%- for entry in dictionary %}
+    <dt class="o-term" id="{{ entry.name | slugify }}">{{ entry.name }}</dt>
+    {%- for alias in entry.aliases %}
+    <dt class="o-term" id="{{ alias | slugify }}">{{ alias }}</dt>
+    {%- endfor %}
+    <dd class="o-description">{{ entry.description | safe }}</dd>
+  {%- endfor %}
+</dl>

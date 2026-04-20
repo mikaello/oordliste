@@ -1,0 +1,71 @@
+{%- set lang = translations[langCode] %}
+<!DOCTYPE html>
+<html lang="{{ lang.langCode }}">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ lang.title }}</title>
+  <meta name="description" content="{{ lang.subtitle }}" />
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="stylesheet" href="/style.css" />
+  <script>
+    (function() {
+      var stored = localStorage.getItem('theme');
+      var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="lang-switcher" aria-label="{{ lang.languageLabel }}">
+      {%- set langs = [
+        { code: 'no', name: 'Norsk', path: '/' },
+        { code: 'en', name: 'English', path: '/en/' },
+        { code: 'sv', name: 'Svenska', path: '/sv/' },
+        { code: 'da', name: 'Dansk', path: '/da/' },
+        { code: 'fi', name: 'Suomi', path: '/fi/' }
+      ] %}
+      {%- for l in langs %}
+        <a href="{{ l.path }}"{% if l.code == lang.langCode %} class="active" aria-current="page"{% endif %}>{{ l.name }}</a>
+      {%- endfor %}
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" aria-label="{{ lang.darkMode }}">🌙</button>
+  </header>
+
+  <main class="main">
+    <h1 class="title">{{ lang.title }}</h1>
+    <p class="description">{{ lang.subtitle }}</p>
+    {{ content | safe }}
+  </main>
+
+  <footer class="footer">
+    <p>
+      {{ lang.contributeText }}
+      <a href="https://github.com/mikaello/oordliste/blob/master/resources/orienteering_dictionary.json" target="_blank" rel="noopener noreferrer">{{ lang.contributeLinkText }}</a>.
+    </p>
+    <p>
+      {{ lang.apiText }}
+      <a href="/api/dictionary">{{ lang.apiLinkText }}</a>.
+    </p>
+  </footer>
+
+  <script>
+    var btn = document.getElementById('theme-toggle');
+    var root = document.documentElement;
+    function updateBtn(theme) {
+      btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+      btn.setAttribute('aria-label', theme === 'dark' ? '{{ lang.lightMode }}' : '{{ lang.darkMode }}');
+    }
+    var current = root.getAttribute('data-theme') || 'light';
+    updateBtn(current);
+    btn.addEventListener('click', function() {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      updateBtn(next);
+    });
+  </script>
+  <script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
