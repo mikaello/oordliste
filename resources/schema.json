@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Orienteering Dictionary",
+  "description": "Schema for orienteering dictionary resource files.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "description", "tags", "related", "aliases"],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for the entry, used for cross-references."
+      },
+      "name": {
+        "type": "string",
+        "description": "Display name of the term."
+      },
+      "description": {
+        "type": "string",
+        "description": "Definition or explanation of the term. May contain HTML."
+      },
+      "tags": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Categorization tags for the entry."
+      },
+      "related": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "IDs of related dictionary entries."
+      },
+      "aliases": {
+        "type": "array",
+        "items": { "type": "string" },
+        "description": "Alternative names or spellings for the term."
+      }
+    }
+  }
+}

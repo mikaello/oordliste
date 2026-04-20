@@ -4,9 +4,14 @@
   "private": true,
   "scripts": {
     "build": "eleventy",
-    "dev": "eleventy --serve"
+    "dev": "eleventy --serve",
+    "validate": "ajv validate -s resources/schema.json -d 'resources/orienteering_dictionary*.json' --all-errors"
   },
   "dependencies": {
     "@11ty/eleventy": "3.0.0"
+  },
+  "devDependencies": {
+    "ajv": "8.18.0",
+    "ajv-cli": "5.0.0"
   }
 }
