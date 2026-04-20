@@ -4,356 +4,538 @@
     "description": "A PM (from Latin <i>pro memoria</i>) for an orienteering event is the event programme or race instructions — detailed information such as the exact start location, parking directions, and water station details. A PM is typically only produced for larger events.",
     "tags": [],
     "related": [],
-    "aliases": ["promemoria", "event programme", "race instructions"]
+    "aliases": [
+      "promemoria",
+      "event programme",
+      "race instructions"
+    ],
+    "id": "PM"
   },
   {
     "name": "event centre",
     "description": "The event centre (also called the arena) is the central hub of an orienteering event. Here you will find the finish, download station, officials, results boards, presentations, and often showers or refreshments. The start is often located elsewhere but is signposted from the event centre.",
     "tags": [],
     "related": [],
-    "aliases": ["arena"]
+    "aliases": [
+      "arena"
+    ],
+    "id": "samlingsplass"
   },
   {
     "name": "relay",
     "description": "A relay (known in Scandinavian orienteering as <i>kavle</i> or <i>budkavle</i>) is a team format where each team member runs one or more legs of the course, handing over to the next team member at the end of their leg.",
-    "tags": ["relay"],
+    "tags": [
+      "relay"
+    ],
     "related": [],
-    "aliases": ["kavle", "budkavle"]
+    "aliases": [
+      "kavle",
+      "budkavle"
+    ],
+    "id": "kavle"
   },
   {
     "name": "error",
     "description": "An error (or mistake) occurs when a competitor fails to navigate precisely to a control and loses time as a result. For elite runners, an error might mean losing 10–20 seconds; for beginners, errors can cost several minutes or more.",
     "tags": [],
     "related": [],
-    "aliases": ["mistake"]
+    "aliases": [
+      "mistake"
+    ],
+    "id": "bomme"
   },
   {
     "name": "EMIT",
     "description": "EMIT is an electronic timing system for orienteering produced by the Norwegian company EMIT. It is the most common timing system used in Norway. Internationally, <a href=\"/#sportident\">SPORTIdent</a> is the more widely used standard. <i>See <a href=\"/#timing\">timing</a></i>.",
-    "tags": ["timing"],
-    "related": ["SPORTIdent", "SFR"],
-    "aliases": []
+    "tags": [
+      "timing"
+    ],
+    "related": [
+      "SPORTIdent",
+      "SFR"
+    ],
+    "aliases": [],
+    "id": "EMIT"
   },
   {
     "name": "timing",
     "description": "Electronic timing in orienteering works via a personal timing chip registered to each competitor. When a runner arrives at a control, they punch their chip on the timing unit at that control, recording the visit. At the finish the chip is downloaded and the total time and split times between controls are displayed. The two most common systems are <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>.",
-    "tags": ["timing"],
-    "related": ["EMIT", "SPORTIdent", "SFR"],
-    "aliases": []
+    "tags": [
+      "timing"
+    ],
+    "related": [
+      "EMIT",
+      "SPORTIdent",
+      "SFR"
+    ],
+    "aliases": [],
+    "id": "tidtaking"
   },
   {
     "name": "forking",
     "description": "Forking is used to prevent competitors from <a href=\"/#following\">following</a> each other around the course. Runners in the same class receive courses that differ slightly — most controls are shared, but at certain points some runners must visit a control a short distance away from the one others in the same class visit. Runners must navigate carefully to punch the correct control; punching the wrong one results in disqualification.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "gafling"
   },
   {
     "name": "control description",
     "description": "A control description (also called a clue sheet) is a slip attached to the map or printed directly on it. It uses standardised IOF symbols to specify exactly what feature each control is placed on — for example, that control 3 is on the west side of a large boulder.",
     "tags": [],
     "related": [],
-    "aliases": ["clue sheet"]
+    "aliases": [
+      "clue sheet"
+    ],
+    "id": "postbeskrivelse"
   },
   {
     "name": "SPORTIdent",
     "description": "<a href=\"https://www.sportident.com/\">SPORTIdent</a> is the most widely used electronic timing system in international orienteering. The personal chip is called an SI-card (or dibber in the UK). SPORTIdent is the standard at World Championships and the dominant system across Europe, the UK, and Australia. <i>See <a href=\"/#timing\">timing</a></i>.",
-    "tags": ["timing"],
-    "related": ["EMIT", "SFR"],
-    "aliases": ["SI"]
+    "tags": [
+      "timing"
+    ],
+    "related": [
+      "EMIT",
+      "SFR"
+    ],
+    "aliases": [
+      "SI"
+    ],
+    "id": "SPORTIdent"
   },
   {
     "name": "SFR",
     "description": "<a href=\"http://sfr-system.com/\">SFR</a> (Start Finish Result) is a Russian electronic timing system for orienteering, working on the same principle as SPORTIdent and EMIT.",
-    "tags": ["timing"],
-    "related": ["EMIT", "SPORTIdent"],
-    "aliases": []
+    "tags": [
+      "timing"
+    ],
+    "related": [
+      "EMIT",
+      "SPORTIdent"
+    ],
+    "aliases": [],
+    "id": "SFR"
   },
   {
     "name": "Rankingløp",
     "description": "Rankingløp is an informal training race series organised weekly by OSI Orientering and IL GeoForm in Oslo. Points are accumulated over the season to build a total ranking — hence the name. See the <a href=\"https://ilgeoform.no/rankinglop/\">Rankingløp page</a> for more information.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "Rankingløp"
   },
   {
     "name": "Nordmarkskarusellen",
     "description": "Nordmarkskarusellen is a series of events held in the southern part of Nordmarka, Oslo — three races in spring and four in autumn. Both beginner-friendly and challenging courses are offered. The series is a collaboration between the clubs OSI, Kjelsås, Heming, Lillomarka, Koll, and Nydalen. More information at the <a href=\"http://nordmarkskarusellen.com/\">Nordmarkskarusellen website</a>.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "Nordmarkskarusellen"
   },
   {
     "name": "Eventor",
     "description": "<a href=\"http://eventor.orientering.no\">Eventor</a> is an online platform listing orienteering events, supporting online entry, and publishing results. Originally developed in Sweden, it is also used in Norway, Australia, and for international events. Register an account to enter events online.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "Eventor"
   },
   {
     "name": "map",
     "description": "An orienteering map shows the terrain in a simplified format and is the primary tool a runner uses to navigate between controls. It uses a rich set of symbols: contour lines show elevation, black dots indicate boulders, blue areas show water, and so on. Maps are produced at different <i><a href=\"/#scale\">scales</a></i>, typically 1:5000 for sprint orienteering and 1:10000 for forest orienteering.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "kart"
   },
   {
     "name": "scale",
     "description": "The scale of a map describes how much the real world has been reduced. A scale of 1:10000 means 1 cm on the map represents 10000 cm (100 metres) on the ground. Hiking maps often use scales such as 1:50000, covering a large area with limited detail. Orienteering maps are typically 1:7500 or 1:10000 for forest courses and 1:5000 or 1:4000 for sprint. A larger scale (smaller denominator) allows more terrain detail to be shown, enabling more precise navigation.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "målestokk"
   },
   {
     "name": "compass",
     "description": "A compass indicates the direction of north (and therefore south, east, and west). An orienteer uses a compass to hold a bearing towards the next <i><a href=\"/#control\">control</a></i>, or to set the map — rotating it to align with the surrounding terrain.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "kompass"
   },
   {
     "name": "control",
     "description": "An orienteering control (also called a flag or post) consists of an orange-and-white marker flag and an attached timing unit used to record a competitor's visit to that point. <i>See <a href=\"/#timing\">timing</a></i>.",
     "tags": [],
     "related": [],
-    "aliases": ["flag", "post"]
+    "aliases": [
+      "flag",
+      "post"
+    ],
+    "id": "orienteringspost"
   },
   {
     "name": "thumb compass",
     "description": "A thumb compass is strapped to the thumb, allowing the runner to hold the map and compass together as one unit — the most popular style among orienteers. Traditional plate compasses are also used but are less common in competition. <i>See <a href=\"/#compass\">compass</a></i>.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "tommelkompass"
   },
   {
     "name": "A-level",
     "description": "A-level is the most technically demanding course difficulty in the Scandinavian grading system. All orienteering techniques are required. <i>See <a href=\"/#difficulty-level\">difficulty level</a></i>.",
     "tags": [],
-    "related": ["B-level", "C-level", "N-level"],
-    "aliases": []
+    "related": [
+      "B-level",
+      "C-level",
+      "N-level"
+    ],
+    "aliases": [],
+    "id": "A-nivå"
   },
   {
     "name": "B-level",
     "description": "B-level is the second most difficult course grade in the Scandinavian grading system. B-level courses require short fine-navigation legs into the control and a good understanding of contour lines. <i>See <a href=\"/#difficulty-level\">difficulty level</a></i>.",
     "tags": [],
-    "related": ["A-level", "C-level", "N-level"],
-    "aliases": []
+    "related": [
+      "A-level",
+      "C-level",
+      "N-level"
+    ],
+    "aliases": [],
+    "id": "B-nivå"
   },
   {
     "name": "C-level",
     "description": "C-level is the second easiest course grade in the Scandinavian grading system. C-level courses mostly follow <a href=\"/#handrail\">handrails</a>, but runners are expected to leave handrails at certain points. Route choice opportunities may exist. <i>See <a href=\"/#difficulty-level\">difficulty level</a></i>.",
     "tags": [],
-    "related": ["A-level", "B-level", "N-level"],
-    "aliases": []
+    "related": [
+      "A-level",
+      "B-level",
+      "N-level"
+    ],
+    "aliases": [],
+    "id": "C-nivå"
   },
   {
     "name": "N-level",
     "description": "N-level is the easiest course grade in the Scandinavian grading system, designed for beginners. N-level courses follow continuous <a href=\"/#handrail\">handrails</a> such as paths, tracks, streams, and fences, with all controls visible from the handrail. <i>See <a href=\"/#difficulty-level\">difficulty level</a></i>.",
     "tags": [],
-    "related": ["A-level", "B-level", "C-level"],
-    "aliases": []
+    "related": [
+      "A-level",
+      "B-level",
+      "C-level"
+    ],
+    "aliases": [],
+    "id": "N-nivå"
   },
   {
     "name": "difficulty level",
     "description": "In the Scandinavian grading system, courses are divided into four difficulty levels: <a href=\"/#a-level\">A</a>, <a href=\"/#b-level\">B</a>, <a href=\"/#c-level\">C</a>, and <a href=\"/#n-level\">N</a>, where A is the hardest and N is a beginner course. Other countries use colour-coded systems — the UK uses White, Yellow, Orange, Light Green, Green, Blue, and Brown; Australia uses White, Yellow, Orange, Red, and Blue.",
     "tags": [],
-    "related": ["A-level", "B-level", "C-level", "N-level"],
-    "aliases": []
+    "related": [
+      "A-level",
+      "B-level",
+      "C-level",
+      "N-level"
+    ],
+    "aliases": [],
+    "id": "vanskelighetsgrad"
   },
   {
     "name": "following",
     "description": "Following means trailing another orienteer and navigating using their decisions rather than your own map reading. This is considered poor sportsmanship in orienteering.",
     "tags": [],
     "related": [],
-    "aliases": ["tailing", "shadowing"]
+    "aliases": [
+      "tailing",
+      "shadowing"
+    ],
+    "id": "henge"
   },
   {
     "name": "W",
     "description": "W stands for Women, used in English-language class designations (e.g. W21E for elite women aged 21 and over). In Scandinavian events you will see D instead, from the Swedish/Norwegian word <i>Dame/Damer</i>.",
     "tags": [],
-    "related": ["M"],
-    "aliases": ["D"]
+    "related": [
+      "M"
+    ],
+    "aliases": [
+      "D"
+    ],
+    "id": "D"
   },
   {
     "name": "M",
     "description": "M stands for Men, used in English-language class designations (e.g. M21E for elite men aged 21 and over). In Scandinavian events you will see H instead, from the Swedish/Norwegian word <i>Herre/Herrer</i>.",
     "tags": [],
-    "related": ["W"],
-    "aliases": ["H"]
+    "related": [
+      "W"
+    ],
+    "aliases": [
+      "H"
+    ],
+    "id": "H"
   },
   {
     "name": "O",
     "description": "Orienteers love the letter O and use it wherever possible: o-shoes (<a href=\"/#orienteering-shoes\">orienteering shoes</a>), o-training (orienteering training), o-suit, o-sport, and so on. It is shorthand for orienteering and is widely used in English-speaking clubs as well as Scandinavian ones.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "O"
   },
   {
     "name": "orienteering shoes",
     "description": "Orienteering shoes have aggressive lugged soles and are often fitted with metal spikes for the best possible grip on slippery terrain, wet roots, and icy ground.",
     "tags": [],
     "related": [],
-    "aliases": ["o-shoes"]
+    "aliases": [
+      "o-shoes"
+    ],
+    "id": "orienteringssko"
   },
   {
     "name": "handrail",
     "description": "A handrail is a linear feature that is easy to identify on the map and easy to follow in the terrain — examples include streams, paths, field edges, and fences. A handrail guides you safely from one place to another and can also act as a catching feature: a line you will inevitably cross if you overshoot your target.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "ledelinje"
   },
   {
     "name": "georeferencing",
     "description": "Georeferencing an orienteering map means aligning it with a standard coordinate system (such as WGS84). This allows GPS tracks recorded on a watch or phone to be overlaid accurately on the map for post-race route analysis. Without georeferencing, a GPS track and the map cannot be reliably aligned.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "georeferere"
   },
   {
     "name": "Kjempesprekken",
     "description": "Kjempesprekken is the highlight of OSI Orientering's year — a long-standing traditional event starting near the KSI hut in Nordmarka, Oslo. Courses of 18 km, 12 km, and 6 km wind through beautiful Nordmarka terrain. A club banquet follows the race at the KSI hut.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "Kjempesprekken"
   },
   {
     "name": "Tiomila",
     "description": "One of Scandinavia's biggest and most prestigious orienteering relays, held in Sweden each spring. Women compete during the day (5 legs) and men run through the night (10 legs).",
-    "tags": ["relay"],
-    "related": ["Jukola", "Night Hawk"],
-    "aliases": []
+    "tags": [
+      "relay"
+    ],
+    "related": [
+      "Jukola",
+      "Night Hawk"
+    ],
+    "aliases": [],
+    "id": "Tiomila"
   },
   {
     "name": "Jukola",
     "description": "Jukola is one of the world's largest orienteering relays, with around 15 000 competitors. Held in Finland each June, women race during the day (4 legs) and men race through the night (7 legs).",
-    "tags": ["relay"],
-    "related": ["Tiomila", "Night Hawk"],
-    "aliases": []
+    "tags": [
+      "relay"
+    ],
+    "related": [
+      "Tiomila",
+      "Night Hawk"
+    ],
+    "aliases": [],
+    "id": "Jukola"
   },
   {
     "name": "Night Hawk",
     "description": "Night Hawk is Norway's equivalent of Tiomila and Jukola — a major orienteering relay held in August. Women run 6 legs and men run 8 legs, with roughly half of each relay taking place in darkness and the other half in daylight.",
-    "tags": ["relay"],
-    "related": ["Tiomila", "Jukola"],
-    "aliases": []
+    "tags": [
+      "relay"
+    ],
+    "related": [
+      "Tiomila",
+      "Jukola"
+    ],
+    "aliases": [],
+    "id": "Night Hawk"
   },
   {
     "name": "night orienteering",
     "description": "Orienteering in the dark. Many orienteers find night orienteering more absorbing than daylight running — navigating by headtorch demands much greater concentration and map contact. Knowing your precise position on the map matters even more when the visible world is restricted to the beam of your torch. Spotting the reflective marker of a control in the darkness gives a great sense of achievement.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "nattorientering"
   },
   {
     "name": "retire",
     "description": "If you are injured or hopelessly lost, you may retire from the race. Find the quickest safe route back to the <a href=\"/#event-centre\">event centre</a>. It is essential to report to the finish or download station even when retiring, so officials know you are safe and do not launch a search. Runners who retire are recorded as DNF (Did Not Finish) on the results.",
     "tags": [],
     "related": [],
-    "aliases": ["DNF"]
+    "aliases": [
+      "DNF"
+    ],
+    "id": "bryte"
   },
   {
     "name": "open entry",
     "description": "Open entry (or direct start) classes are courses that can be entered on the day at the event without advance registration. There is typically no age or gender split in these classes. They are ideal for newcomers or anyone who missed the entry deadline.",
     "tags": [],
     "related": [],
-    "aliases": ["direct start", "direct entry"]
+    "aliases": [
+      "direct start",
+      "direct entry"
+    ],
+    "id": "direkteklasser"
   },
   {
     "name": "trail orienteering",
     "description": "Trail orienteering (pre-O) is the IOF-recognised discipline designed to be accessible to both able-bodied and mobility-impaired participants. Courses follow paths and tracks accessible by wheelchair. The challenge is map-reading accuracy rather than running speed — at each control site, several markers are placed and the competitor must identify which one (if any) matches the map and <a href=\"/#control-description\">control description</a>. Some controls have a single marker where the task is to decide which of several control descriptions is correct.",
     "tags": [],
     "related": [],
-    "aliases": ["pre-O", "precision orienteering"]
+    "aliases": [
+      "pre-O",
+      "precision orienteering"
+    ],
+    "id": "presisjonsorientering"
   },
   {
     "name": "children's courses",
     "description": "Children's courses (known in Norway as <i>småtroll</i>, meaning 'little trolls') are designed for the very youngest participants. They are marked routes featuring fun, engaging controls rather than standard orienteering flags, with an emphasis on enjoyment and adventure over precise map reading. All finishers typically receive a prize.",
     "tags": [],
     "related": [],
-    "aliases": ["småtroll"]
+    "aliases": [
+      "småtroll"
+    ],
+    "id": "småtroll"
   },
   {
     "name": "contour interval",
     "description": "The contour interval is the difference in elevation between two adjacent contour lines (the brown lines on an orienteering map). A smaller contour interval allows more elevation detail to be shown. On most orienteering maps the contour interval is 5 metres. See <a href=\"/#index-contour\">index contour</a>.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "ekvidistanse"
   },
   {
     "name": "index contour",
     "description": "Every fifth contour line on a map is drawn thicker — this is an index contour. Index contours make it quick and easy to calculate larger height differences. With a <a href=\"/#contour-interval\">contour interval</a> of 5 metres, each index contour represents 25 metres of elevation. Three index contours between you and your next control therefore means 75 metres of climbing.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "tellekurve"
   },
   {
     "name": "OSI",
     "description": "OSI stands for Oslostudentenes Idrettsklubb (Oslo Students' Sports Club). The orienteering branch, OSI Orientering, organises events and training in and around Oslo.",
     "tags": [],
     "related": [],
-    "aliases": ["Oslostudentenes Idrettsklubb", "Oslostudentenes IK"]
+    "aliases": [
+      "Oslostudentenes Idrettsklubb",
+      "Oslostudentenes IK"
+    ],
+    "id": "OSI"
   },
   {
     "name": "permanent course",
     "description": "A permanent course is an orienteering course you can complete at your own pace, whenever you like throughout the season. You purchase or download a map with the controls marked; the controls remain in the forest for months. Controls are typically coded and visits can be logged on platforms such as <a href=\"http://turorientering.no/\">turorientering.no</a> to track your progress.",
     "tags": [],
     "related": [],
-    "aliases": ["turorientering"]
+    "aliases": [
+      "turorientering"
+    ],
+    "id": "turorientering"
   },
   {
     "name": "Stolpejakten",
     "description": "Stolpejakten is a free activity based on finding posts (stolper) placed at locations across participating municipalities. Each post has a unique code that can be logged via QR code scan or manual entry in the <a href=\"https://www.stolpejakten.no/#/about\">Stolpejakten app</a>. Downloadable maps are available from the app and website. Stolpejakten is similar to a <a href=\"#permanent-course\">permanent course</a> but is typically found in more urban areas.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "Stolpejakten"
   },
   {
     "name": "clear",
     "description": "Clearing erases any previous run data stored on your timing chip before a new race. This must be done at a dedicated clear station before the start. Forgetting to clear your chip may result in incorrect timing data and disqualification.",
-    "tags": ["timing"],
+    "tags": [
+      "timing"
+    ],
     "related": [],
-    "aliases": ["clearing"]
+    "aliases": [
+      "clearing"
+    ],
+    "id": "nulle"
   },
   {
     "name": "Livelox",
     "description": "<a href=\"https://www.livelox.com/\">Livelox</a> is a platform for analysing and sharing orienteering routes. Event organisers upload the course map in advance; after the event, competitors upload GPS tracks from their watch or phone to see their route overlaid on the map and compare it with other runners. Other services such as <a href=\"http://3drerun.worldofo.com/\">3D Rerun</a> and <a href=\"http://www.opath.se/\">OPath</a> offer similar functionality, but Livelox is the most widely used.",
     "tags": [],
     "related": [],
-    "aliases": []
+    "aliases": [],
+    "id": "Livelox"
   },
   {
     "name": "score event",
     "description": "A score event (also called score orienteering or a scatter event) has a large number of controls placed close together. Runners collect controls one by one without travelling far between them. The format emphasises map reading and control identification over running fitness.",
     "tags": [],
-    "related": ["control"],
-    "aliases": ["score orienteering", "scatter event"]
+    "related": [
+      "control"
+    ],
+    "aliases": [
+      "score orienteering",
+      "scatter event"
+    ],
+    "id": "postplukk"
   },
   {
     "name": "control circle",
     "description": "The control circle is the circle printed on the orienteering map marking the exact position of a control. The circle is centred on the precise feature to be found. <i>See also <a href=\"/#control-description\">control description</a></i>.",
     "tags": [],
-    "related": ["map", "control", "control description"],
-    "aliases": []
+    "related": [
+      "map",
+      "control",
+      "control description"
+    ],
+    "aliases": [],
+    "id": "ringen"
   },
   {
     "name": "start control",
     "description": "The start control is the first control on a course. At larger events it is positioned some distance from the physical start line, with the route to it marked by streamers so runners do not need to navigate the first section. At smaller events the start and start control are usually at the same point. The start control is represented by a triangle on the map.",
     "tags": [],
-    "related": ["control"],
-    "aliases": []
+    "related": [
+      "control"
+    ],
+    "aliases": [],
+    "id": "startpost"
   },
   {
     "name": "pin punch",
     "description": "A pin punch is the traditional manual punching tool used in orienteering before electronic timing. When pressed against a punch card it leaves a unique pattern of holes, proving a competitor visited that control. Pin punches are rarely seen in modern competitions. <i>See <a href=\"/#timing\">timing</a></i>.",
-    "tags": ["timing"],
-    "related": ["timing", "control"],
-    "aliases": []
+    "tags": [
+      "timing"
+    ],
+    "related": [
+      "timing",
+      "control"
+    ],
+    "aliases": [],
+    "id": "klippetang"
   },
   {
     "name": "Sportiduino",
     "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> is an open-source electronic timing system for orienteering, offering a lower-cost alternative to <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>. It is based on the Arduino platform. Setting up a Sportiduino system requires significant time and effort as controls and a chip reader must be built from components.",
-    "tags": ["timing"],
-    "related": ["timing", "SPORTIdent", "EMIT"],
-    "aliases": []
+    "tags": [
+      "timing"
+    ],
+    "related": [
+      "timing",
+      "SPORTIdent",
+      "EMIT"
+    ],
+    "aliases": [],
+    "id": "Sportiduino"
   }
 ]

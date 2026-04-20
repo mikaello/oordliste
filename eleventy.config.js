@@ -84,10 +84,19 @@ const translations = {
   },
 };
 
+const langPaths = { no: "/", en: "/en/", sv: "/sv/", da: "/da/", fi: "/fi/" };
+
 const dictionaries = {
   no: require("./resources/orienteering_dictionary.json"),
   en: require("./resources/orienteering_dictionary_en.json"),
 };
+
+const dictionaryMaps = Object.fromEntries(
+  Object.entries(dictionaries).map(([locale, dict]) => [
+    locale,
+    Object.fromEntries(dict.map((e) => [e.id, e])),
+  ])
+);
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "public/favicon.ico": "favicon.ico" });
@@ -97,6 +106,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addGlobalData("translations", translations);
   eleventyConfig.addGlobalData("dictionaries", dictionaries);
+  eleventyConfig.addGlobalData("dictionaryMaps", dictionaryMaps);
+  eleventyConfig.addGlobalData("langPaths", langPaths);
 
   return {
     dir: {
