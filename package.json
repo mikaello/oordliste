@@ -5,12 +5,13 @@
   "scripts": {
     "build": "eleventy",
     "dev": "eleventy --serve",
-    "validate": "node scripts/validate-resources.mjs"
+    "validate": "ajv validate -s resources/schema.json -d 'resources/orienteering_dictionary*.json' --all-errors"
   },
   "dependencies": {
     "@11ty/eleventy": "3.0.0"
   },
   "devDependencies": {
-    "ajv": "8.18.0"
+    "ajv": "8.18.0",
+    "ajv-cli": "5.0.0"
   }
 }
