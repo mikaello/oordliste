@@ -1,0 +1,536 @@
+[
+  {
+    "name": "PM",
+    "description": "En PM (promemoria) för ett orienteringslopp är tävlingsinstruktionen — mer detaljerad information om tävlingen. Till exempel exakt var starten finns, parkeringsanvisningar och information om vätskekontroller. PM delas vanligtvis inte ut vid mindre tävlingar.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "promemoria"
+    ],
+    "id": "PM"
+  },
+  {
+    "name": "samlingsplats",
+    "description": "Samlingsplatsen (även kallad arenan) är navet i ett orienteringslopp. Här hittar man mål, nedladdningsstation, funktionärer, resultatlistor, prisutdelning och ofta även dusch och förfriskningar. Starten är ofta belägen på en annan plats men är skyltad från samlingsplatsen.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "arena"
+    ],
+    "id": "samlingsplass"
+  },
+  {
+    "name": "budkavle",
+    "description": "Budkavle (eller kavle) är det svenska ordet för stafett inom orientering. Ordet är av svenskt ursprung och är sedan länge etablerat i skandinavisk orienteringskultur. En stafett innebär att varje lagmedlem springer en sträcka och lämnar sedan över till näste löpare vid en växling.",
+    "tags": [
+      "stafett"
+    ],
+    "related": [],
+    "aliases": [
+      "kavle",
+      "stafett"
+    ],
+    "id": "kavle"
+  },
+  {
+    "name": "missa",
+    "description": "Att missa (eller slå fel) innebär att man inte tar sig till en kontroll på ett bra sätt och därmed tappar tid. För en elitlöpare kan ett fel innebära 10–20 sekunders tidförlust, medan nybörjare kan tappa flera minuter på ett enda misstag.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "slå fel",
+      "fel"
+    ],
+    "id": "bomme"
+  },
+  {
+    "name": "EMIT",
+    "description": "EMIT är ett elektroniskt tidtagningssystem för orientering tillverkat av det norska företaget EMIT. Det är det vanligaste tidtagningssystemet i norsk orientering. I Sverige används <a href=\"/#sportident\">SPORTIdent</a> som standard. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [
+      "SPORTIdent",
+      "SFR"
+    ],
+    "aliases": [],
+    "id": "EMIT"
+  },
+  {
+    "name": "tidtagning",
+    "description": "Elektronisk tidtagning i orientering bygger på att varje löpare har en personlig bricka registrerad på sig. När löparen kommer till en kontroll stämplar hen sin bricka i stämpelenheten, vilket registrerar besöket. I mål laddas brickan ner och man får ut sluttid samt mellantider mellan kontrollerna.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [
+      "EMIT",
+      "SPORTIdent",
+      "SFR"
+    ],
+    "aliases": [],
+    "id": "tidtaking"
+  },
+  {
+    "name": "gaffling",
+    "description": "Gaffling används för att förhindra att tävlande hänger efter varandra (<a href=\"/#hnga\">se hänga</a>). Löpare i samma klass får banor som skiljer sig lite åt — de flesta kontroller är gemensamma, men vid vissa punkter besöker olika löpare kontroller på lite olika ställen innan de möts igen på nästa gemensamma kontroll.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "gafling"
+  },
+  {
+    "name": "kontrollbeskrivning",
+    "description": "En kontrollbeskrivning är ett blad som medföljer kartan, ibland tryckt direkt på den. Den använder standardiserade IOF-symboler för att ange exakt vad varje kontroll är placerad vid — till exempel att kontroll 3 är på västra sidan av en stor sten.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "kontrollbeskrivningslapp"
+    ],
+    "id": "postbeskrivelse"
+  },
+  {
+    "name": "SPORTIdent",
+    "description": "<a href=\"https://www.sportident.com/\">SPORTIdent</a> är det dominerande elektroniska tidtagningssystemet inom orientering i Sverige och internationellt. Den personliga brickan kallas SI-bricka. SPORTIdent är standard vid VM och används vid de allra flesta tävlingar i Sverige. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [
+      "EMIT",
+      "SFR"
+    ],
+    "aliases": [
+      "SI"
+    ],
+    "id": "SPORTIdent"
+  },
+  {
+    "name": "SFR",
+    "description": "<a href=\"http://sfr-system.com/\">SFR</a> (Start Finish Result) är ett ryskt elektroniskt tidtagningssystem för orientering. Samma princip som SPORTIdent och EMIT.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [
+      "EMIT",
+      "SPORTIdent"
+    ],
+    "aliases": [],
+    "id": "SFR"
+  },
+  {
+    "name": "Rankingløp",
+    "description": "Rankingløp är ett informellt träningslopp som arrangeras veckovis av OSI Orientering och IL GeoForm i Oslo. Poäng samlas under säsongen till en totalrankning — därav namnet. Se mer på <a href=\"https://ilgeoform.no/rankinglop/\">Rankingløp-sidan</a>.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Rankingløp"
+  },
+  {
+    "name": "Nordmarkskarusellen",
+    "description": "Nordmarkskarusellen är en tävlingsserie i södra delen av Nordmarka i Oslo — tre lopp på våren och fyra på hösten. Både nybörjarvänliga och krävande banor erbjuds. Serien är ett samarbete mellan klubbarna OSI, Kjelsås, Heming, Lillomarka, Koll och Nydalen. Mer information finns på <a href=\"https://nordmarkskarusellen.no/\">nordmarkskarusellen.no</a>.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Nordmarkskarusellen"
+  },
+  {
+    "name": "Eventor",
+    "description": "<a href=\"https://eventor.orientering.se\">Eventor</a> är en webbtjänst som ursprungligen utvecklades i Sverige av Svenska Orienteringsförbundet (SOFT). Tjänsten samlar tävlingskalender, anmälan och resultat för orienteringstävlingar och används i Sverige, Norge, Australien och för internationella tävlingar. Skapa ett konto för att anmäla dig till tävlingar online.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Eventor"
+  },
+  {
+    "name": "karta",
+    "description": "En orienteringskarta visar terrängen i förenklat format och är löparens viktigaste verktyg för att navigera mellan kontrollerna. Kartan innehåller många symboler: höjdkurvor visar höjdförhållanden, svarta prickar markerar stenar, blå ytor visar vatten och så vidare. Kartor trycks i olika <i><a href=\"/#skala\">skalor</a></i>, vanligen 1:7 500 eller 1:10 000 för tävlingsorientering och 1:15 000 för långdistans.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "kart"
+  },
+  {
+    "name": "skala",
+    "description": "Kartskalan anger hur mycket verkligheten har skalats ned. En skala på 1:10 000 innebär att 1 cm på kartan motsvarar 10 000 cm (100 meter) i verkligheten. Turkarter använder ofta 1:50 000 och täcker ett stort område med begränsad detaljrikedom. Orienteringskartor har vanligtvis skalan 1:7 500 eller 1:10 000, och 1:15 000 för långdistans.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "kartskala"
+    ],
+    "id": "målestokk"
+  },
+  {
+    "name": "kompass",
+    "description": "Ett kompass visar var norr (och söder, öster, väster) befinner sig. En orienterare använder kompassen för att hålla riktning mot nästa <a href=\"/#kontroll\">kontroll</a> eller för att lägga upp kartan — vrida den så att den stämmer med terrängen runt om.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "kompass"
+  },
+  {
+    "name": "kontroll",
+    "description": "En orienteringskontroll (även kallad flagga eller post) består av en orange-vit kontrollflagga med en tillhörande stämplingsenhet som registrerar löparens besök. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "flagga",
+      "post"
+    ],
+    "id": "orienteringspost"
+  },
+  {
+    "name": "tumkompass",
+    "description": "Ett tumkompass fästs på tummen och gör att man kan hålla karta och kompass som en enhet — den vanligaste kompasstypen bland orienterare. Traditionella plattakompassar förekommer också men är mer sällsynta i tävling. <i>Se <a href=\"/#kompass\">kompass</a></i>.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "tommelkompass"
+  },
+  {
+    "name": "A-nivå",
+    "description": "A-nivå är den tekniskt mest krävande svårighetsgraden för en orienteringsbana. Alla orienteringstekniker behöver behärskas. <i>Se <a href=\"/#svrighetsgrad\">svårighetsgrad</a></i>.",
+    "tags": [],
+    "related": [
+      "B-nivå",
+      "C-nivå",
+      "N-nivå"
+    ],
+    "aliases": [],
+    "id": "A-nivå"
+  },
+  {
+    "name": "B-nivå",
+    "description": "B-nivå är den näst svåraste svårighetsgraden för en orienteringsbana. B-banor kräver kort finorientering in mot kontrollen och god förståelse för höjdkurvor. <i>Se <a href=\"/#svrighetsgrad\">svårighetsgrad</a></i>.",
+    "tags": [],
+    "related": [
+      "A-nivå",
+      "C-nivå",
+      "N-nivå"
+    ],
+    "aliases": [],
+    "id": "B-nivå"
+  },
+  {
+    "name": "C-nivå",
+    "description": "C-nivå är den näst enklaste svårighetsgraden för en orienteringsbana. C-banor följer i stort sett <a href=\"/#ledlinje\">ledlinjer</a>, men löparna förväntas ibland lämna ledlinjerna. Vägvalsmöjligheter kan förekomma. <i>Se <a href=\"/#svrighetsgrad\">svårighetsgrad</a></i>.",
+    "tags": [],
+    "related": [
+      "A-nivå",
+      "B-nivå",
+      "N-nivå"
+    ],
+    "aliases": [],
+    "id": "C-nivå"
+  },
+  {
+    "name": "N-nivå",
+    "description": "N-nivå är den enklaste svårighetsgraden för en orienteringsbana, utformad för nybörjare. N-banor följer sammanhängande <a href=\"/#ledlinje\">ledlinjer</a> som vägar, stigar, bäckar och stängsel, och alla kontroller kan ses från ledlinjen. <i>Se <a href=\"/#svrighetsgrad\">svårighetsgrad</a></i>.",
+    "tags": [],
+    "related": [
+      "A-nivå",
+      "B-nivå",
+      "C-nivå"
+    ],
+    "aliases": [],
+    "id": "N-nivå"
+  },
+  {
+    "name": "svårighetsgrad",
+    "description": "En orienteringsbana indelas i fyra svårighetsgrader: <a href=\"/#a-niv\">A</a>, <a href=\"/#b-niv\">B</a>, <a href=\"/#c-niv\">C</a> och <a href=\"/#n-niv\">N</a>, där A är svårast och N är nybörjarbana. Det skandinaviska graderingssystemet används i Sverige, Norge och Finland.",
+    "tags": [],
+    "related": [
+      "A-nivå",
+      "B-nivå",
+      "C-nivå",
+      "N-nivå"
+    ],
+    "aliases": [],
+    "id": "vanskelighetsgrad"
+  },
+  {
+    "name": "hänga",
+    "description": "Att hänga innebär att följa en annan orienterare och navigera med hjälp av dennas beslut snarare än sin egen kartläsning. Detta betraktas som dålig sportsmannaanda inom orientering. Kurskonstruktörer använder <a href=\"/#gaffling\">gaffling</a> för att motverka detta.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "följa efter"
+    ],
+    "id": "henge"
+  },
+  {
+    "name": "D",
+    "description": "D står för Dam (Damer), till exempel D17- (damer 17 år och yngre). Används vid anmälan till orienteringstävlingar och i resultatlister. Samma beteckning D för Damer används i Sverige som i Norge.",
+    "tags": [],
+    "related": [
+      "H"
+    ],
+    "aliases": [],
+    "id": "D"
+  },
+  {
+    "name": "H",
+    "description": "H står för Herr (Herrar), till exempel H17- (herrar 17 år och yngre). Används vid anmälan till orienteringstävlingar och i resultatlister. Samma beteckning H för Herrar används i Sverige som i Norge.",
+    "tags": [],
+    "related": [
+      "D"
+    ],
+    "aliases": [],
+    "id": "H"
+  },
+  {
+    "name": "O",
+    "description": "Inom orientering är man förtjust i bokstaven O och använder den så ofta som möjligt: o-skor (<a href=\"/#orienteringsskor\">orienteringsskor</a>), o-träning (orienteringsträning), o-kläder, o-sport och o-hälsning. Det är en förkortning för orientering som används flitigt i svensk orienteringskultur.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "O"
+  },
+  {
+    "name": "orienteringsskor",
+    "description": "Orienteringsskor har grova knobbsulor och är ofta försedda med broddar i sulorna för bästa möjliga grepp i hal terräng, på blöta rötter och i isiga förhållanden.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "o-skor"
+    ],
+    "id": "orienteringssko"
+  },
+  {
+    "name": "ledlinje",
+    "description": "En ledlinje är något som är enkelt att identifiera på kartan och enkelt att följa i terrängen — till exempel bäckar, stigar, åkerkanter och stängsel. En ledlinje hjälper dig att ta dig säkert från en plats till en annan och kan även fungera som stopplinje: en linje du oundvikligen korsar om du springer för långt.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "ledelinje"
+  },
+  {
+    "name": "georeferera",
+    "description": "Att georeferera en orienteringskarta innebär att kartan kalibreras mot ett standardiserat koordinatsystem (t.ex. WGS84). Det möjliggör att GPS-spår från klocka eller telefon kan läggas exakt ovanpå kartan för analys av löprutten. Utan georeferering kan GPS-spår och karta inte tillförlitligt sammanfogas.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "georeferere"
+  },
+  {
+    "name": "Kjempesprekken",
+    "description": "Kjempesprekken är OSI Orienterings årliga höjdpunkt — ett traditionsrikt långlopp som startar vid KSI-stugan i Nordmarka i Oslo. Banorna på 18 km, 12 km och 6 km löper igenom vacker Nordmarksterräng. En bankett hålls på KSI-stugan efter loppet.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Kjempesprekken"
+  },
+  {
+    "name": "Tiomila",
+    "description": "Tiomila är ett av Sveriges och Skandinaviens mest prestigefyllda orienteringsstafetter. Stafetten arrangeras i Sverige varje vår, där damerna springer etapper på dagtid (5 etapper) och herrarna springer på natten (10 etapper).",
+    "tags": [
+      "stafett"
+    ],
+    "related": [
+      "Jukola",
+      "Night Hawk"
+    ],
+    "aliases": [],
+    "id": "Tiomila"
+  },
+  {
+    "name": "Jukola",
+    "description": "Jukola är en av världens största orienteringsstafetter med runt 15 000 deltagare. Jukola arrangeras i Finland i juni, där damerna springer på dagtid (4 etapper) och herrarna springer på natten (7 etapper).",
+    "tags": [
+      "stafett"
+    ],
+    "related": [
+      "Tiomila",
+      "Night Hawk"
+    ],
+    "aliases": [],
+    "id": "Jukola"
+  },
+  {
+    "name": "Night Hawk",
+    "description": "I Sverige har vi Tiomila, i Finland Jukola — i Norge är Night Hawk den stora stafetten. Night Hawk arrangeras i augusti och är en stor orienteringsstafett. Damerna har 6 etapper och herrarna 8 etapper, och ungefär hälften av varje stafett sker i mörker och hälften i dagsljus.",
+    "tags": [
+      "stafett"
+    ],
+    "related": [
+      "Tiomila",
+      "Jukola"
+    ],
+    "aliases": [],
+    "id": "Night Hawk"
+  },
+  {
+    "name": "nattorientering",
+    "description": "Orientering i mörker. Många orienterare upplever nattorientering som mer fascinerande än att orientera i dagsljus. Att navigera med hjälp av en pannlampa ställer högre krav på kartläsning och koncentration. Att veta exakt var man befinner sig på kartan är ännu viktigare när sikten begränsas till pannlampans ljuskägla.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "nattorientering"
+  },
+  {
+    "name": "bryta",
+    "description": "Om du skadar dig eller kör fast så att du inte hittar nästa kontroll är alternativet att bryta. Det innebär att avbryta loppet och ta den snabbaste säkra vägen tillbaka till <a href=\"/#samlingsplats\">samlingsplatsen</a>. Det är viktigt att anmäla sig vid mål eller nedladdningsstation även när du bryter, så att funktionärerna vet att du är i säkerhet och inte behöver starta en sökinsats.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "DNF"
+    ],
+    "id": "bryte"
+  },
+  {
+    "name": "direktklasser",
+    "description": "Direktklasser är klasser man kan anmäla sig till på tävlingsdagen utan förhandsanmälan. Det finns vanligtvis ingen ålders- eller könsindelning i dessa klasser. Direktklasser passar utmärkt för nybörjare eller den som missat anmälningsdeadline.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "direkteklasser"
+  },
+  {
+    "name": "precisionsorientering",
+    "description": "Precisionsorientering (trailorientering, pre-O) är den IOF-erkända grenen som är anpassad för både rörelsehindrade och rörelsestarka deltagare. Banorna går längs stigar och vägar tillgängliga med rullstol. Utmaningen ligger i kartläsningens noggrannhet snarare än löpningshastigheten — vid varje kontrollplats finns flera markeringar och deltagaren ska peka ut vilken som stämmer med kartbilden.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "trailorientering",
+      "pre-O"
+    ],
+    "id": "presisjonsorientering"
+  },
+  {
+    "name": "småtroll",
+    "description": "Småtroll är banor för de allra yngsta deltagarna. De är markerade och har roliga, engagerande kontroller snarare än vanliga orienteringsflaggor, med fokus på glädje och äventyr snarare än exakt kartläsning. Alla barn är välkomna, oavsett tidigare erfarenhet.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "småtroll"
+  },
+  {
+    "name": "ekvidistans",
+    "description": "Ekvidistansen är höjdskillnaden mellan två angränsande höjdkurvor (de bruna linjerna på orienteringskartan). En mindre ekvidistans möjliggör mer detaljerad höjdvisning. På de flesta orienteringskartor är ekvidistansen 5 meter. Se <a href=\"/#rknekurva\">räknekurva</a>.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "ekvidistanse"
+  },
+  {
+    "name": "räknekurva",
+    "description": "Var femte höjdkurva på kartan är lite tjockare — det är en räknekurva (även kallad indexkurva). Räknekurvor gör det enkelt att snabbt räkna ut större höjdskillnader. Med en <a href=\"/#ekvidistans\">ekvidistans</a> på 5 meter representerar varje räknekurva 25 meter i höjd. Tre räknekurvor innebär 75 meters höjdskillnad.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "indexkurva"
+    ],
+    "id": "tellekurve"
+  },
+  {
+    "name": "OSI",
+    "description": "Oslostudentenes Idrettsklubb. Även förkortat Oslostudentenes IK. Orienteringssektionen, OSI Orientering, arrangerar tävlingar och träning i och runt Oslo.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "Oslostudentenes Idrettsklubb",
+      "Oslostudentenes IK"
+    ],
+    "id": "OSI"
+  },
+  {
+    "name": "motionsorientering",
+    "description": "Motionsorientering (även kallad permanent bana) är orientering i ditt eget tempo, när du vill under säsongen. Du köper eller laddar ner en karta med inritade kontroller som finns kvar i skogen under hela sommarhalvåret. Kontrollerna har vanligtvis en kod som registreras, och besök kan loggas digitalt.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "permanent bana",
+      "turorientering"
+    ],
+    "id": "turorientering"
+  },
+  {
+    "name": "Stolpejakten",
+    "description": "Stolpejakten är ett gratis friluftsprogram där man söker upp stolpar placerade på utvalda platser i olika kommuner. Programmet är populärt i både Sverige och Norge och är ett gemensamt nordiskt initiativ. Stolparna registreras via en app genom att scanna QR-koden eller ange en kod manuellt. Nedladdningsbara kartor finns på <a href=\"https://www.stolpejakten.se\">stolpejakten.se</a>.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Stolpejakten"
+  },
+  {
+    "name": "nollning",
+    "description": "Nollning innebär att rensa sin personliga tidtagningsbricka från data från tidigare lopp. Detta måste göras vid nollningsstationen innan varje nytt lopp. Glömmer man att nolla kan man få felaktig tid och riskerar diskvalificering.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [],
+    "aliases": [
+      "rensning"
+    ],
+    "id": "nulle"
+  },
+  {
+    "name": "Livelox",
+    "description": "<a href=\"https://www.livelox.com/\">Livelox</a> är en plattform för att analysera och dela orienteringsspår. Arrangören laddar upp kartan i förväg; efter tävlingen laddar deltagarna upp GPS-spår från klocka eller telefon för att se sin rutt inlagd på kartan och jämföra med andra löpare.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Livelox"
+  },
+  {
+    "name": "postplockning",
+    "description": "Postplockning är en orienteringsform med väldigt många kontroller tätt på varandra, så att löparen plockar kontroll efter kontroll utan att behöva springa långt emellan. Formatet betonar kart- och kontrollläsning snarare än löpkapacitet.",
+    "tags": [],
+    "related": [
+      "kontroll"
+    ],
+    "aliases": [
+      "snabborienteringsbana"
+    ],
+    "id": "postplukk"
+  },
+  {
+    "name": "cirkeln",
+    "description": "Cirkeln är den ring som markerar kontrollens exakta position på orienteringskartan. Cirkeln är centrerad på det exakta terrängobjektet som ska besökas. <i>Se även <a href=\"/#kontrollbeskrivning\">kontrollbeskrivning</a></i>.",
+    "tags": [],
+    "related": [
+      "karta",
+      "kontroll",
+      "kontrollbeskrivning"
+    ],
+    "aliases": [],
+    "id": "ringen"
+  },
+  {
+    "name": "startkontroll",
+    "description": "Startkontrollen är den första kontrollen på en bana. Vid större tävlingar är startkontrollen placerad en bit från den egentliga startplatsen, och vägen dit är markerad med band så att löparen inte behöver navigera den första biten. Vid mindre tävlingar sammanfaller start och startkontroll.",
+    "tags": [],
+    "related": [
+      "kontroll"
+    ],
+    "aliases": [
+      "startpunkt"
+    ],
+    "id": "startpost"
+  },
+  {
+    "name": "klippare",
+    "description": "En klippare är det traditionella manuella stämplingsverktyget i orientering, som användes innan elektronisk tidtagning. Den lämnar ett unikt mönster av hål i stämpelkortet när den trycks fast, vilket bevisar att löparen besökte kontrollen. Klippare syns sällan i moderna tävlingar. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [
+      "tidtagning",
+      "kontroll"
+    ],
+    "aliases": [],
+    "id": "klippetang"
+  },
+  {
+    "name": "Sportiduino",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> är ett system med öppen källkod för elektronisk tidtagning i orientering och är ett prisvärt alternativ till <a href=\"/#sportident\">SPORTIdent</a> och <a href=\"/#emit\">EMIT</a>. Det är baserat på Arduino-plattformen och kräver inga licenser.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [
+      "tidtagning",
+      "SPORTIdent",
+      "EMIT"
+    ],
+    "aliases": [],
+    "id": "Sportiduino"
+  }
+]

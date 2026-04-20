@@ -99,6 +99,7 @@ const langPaths = { no: "/", en: "/en/", sv: "/sv/", da: "/da/", fi: "/fi/" };
 const dictionaries = {
   no: require("./resources/orienteering_dictionary.json"),
   en: require("./resources/orienteering_dictionary_en.json"),
+  sv: require("./resources/orienteering_dictionary_sv.json"),
 };
 
 const dictionaryMaps = Object.fromEntries(
