@@ -30,8 +30,10 @@
         <a href="{{ l.path }}"{% if l.code == lang.langCode %} class="active" aria-current="page"{% endif %}>{{ l.name }}</a>
       {%- endfor %}
     </nav>
-    <button class="theme-toggle" id="theme-toggle" aria-label="{{ lang.darkMode }}">🌙</button>
-    <button class="translations-toggle" id="translations-toggle" aria-pressed="false">{{ lang.showTranslations }}</button>
+    <div class="header-actions">
+      <button class="translations-toggle" id="translations-toggle" aria-pressed="false">{{ lang.showTranslations }}</button>
+      <button class="theme-toggle" id="theme-toggle" aria-label="{{ lang.darkMode }}">🌙</button>
+    </div>
   </header>
 
   <main class="main">
