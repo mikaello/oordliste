@@ -46,13 +46,14 @@
   },
   {
     "name": "EMIT",
-    "description": "EMIT is an electronic timing system for orienteering produced by the Norwegian company EMIT. It is the most common timing system used in Norway. Internationally, <a href=\"/#sportident\">SPORTIdent</a> is the more widely used standard. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "description": "EMIT is an electronic timing system for orienteering produced by the Norwegian company EMIT. It is the dominant timing system in Norwegian and Finnish orienteering. Internationally, <a href=\"/#sportident\">SPORTIdent</a> is the more widely used standard. <i>See <a href=\"/#timing\">timing</a></i>.",
     "tags": [
       "timing"
     ],
     "related": [
       "SPORTIdent",
-      "SFR"
+      "SFR",
+      "emiTag"
     ],
     "aliases": [],
     "id": "EMIT"
@@ -97,7 +98,8 @@
     ],
     "related": [
       "EMIT",
-      "SFR"
+      "SFR",
+      "SIAC"
     ],
     "aliases": [
       "SI"
@@ -124,14 +126,6 @@
     "related": [],
     "aliases": [],
     "id": "Rankingløp"
-  },
-  {
-    "name": "Nordmarkskarusellen",
-    "description": "Nordmarkskarusellen is a series of events held in the southern part of Nordmarka, Oslo — three races in spring and four in autumn. Both beginner-friendly and challenging courses are offered. The series is a collaboration between the clubs OSI, Kjelsås, Heming, Lillomarka, Koll, and Nydalen. More information at the <a href=\"http://nordmarkskarusellen.com/\">Nordmarkskarusellen website</a>.",
-    "tags": [],
-    "related": [],
-    "aliases": [],
-    "id": "Nordmarkskarusellen"
   },
   {
     "name": "Eventor",
@@ -381,7 +375,7 @@
   },
   {
     "name": "open entry",
-    "description": "Open entry (or direct start) classes are courses that can be entered on the day at the event without advance registration. There is typically no age or gender split in these classes. They are ideal for newcomers or anyone who missed the entry deadline.",
+    "description": "Open entry (or direct start) classes are courses that can be entered on the day at the event without advance registration. There is typically no age or gender split in these classes. They are ideal for newcomers, anyone who missed the entry deadline, and families with children where parents need flexibility around arrival times.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -429,7 +423,7 @@
   },
   {
     "name": "OSI",
-    "description": "OSI stands for Oslostudentenes Idrettsklubb (Oslo Students' Sports Club). The orienteering branch, OSI Orientering, organises events and training in and around Oslo.",
+    "description": "OSI stands for Oslostudentenes Idrettsklubb (Oslo Students' Sports Club). The orienteering branch, OSI Orientering, organises events and training in and around Oslo. This glossary was created by OSI Orientering.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -526,7 +520,7 @@
   },
   {
     "name": "Sportiduino",
-    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> is an open-source electronic timing system for orienteering, offering a lower-cost alternative to <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>. It is based on the Arduino platform. Setting up a Sportiduino system requires significant time and effort as controls and a chip reader must be built from components.",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> is an open-source electronic timing system for orienteering, offering a lower-cost alternative to <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>. It is based on the Arduino platform; setting it up requires significant time and effort as controls and a chip reader must be built from components. Another open-source timing alternative is <a href=\"https://github.com/oribos-ts\">OribosTS</a>.",
     "tags": [
       "timing"
     ],
@@ -537,5 +531,52 @@
     ],
     "aliases": [],
     "id": "Sportiduino"
+  },
+  {
+    "name": "SIAC",
+    "description": "SIAC (SPORTIdent Air+ Card) is SPORTIdent's contactless timing chip. Unlike a standard SI-card, the SIAC does not need to be physically inserted into the control unit — it registers automatically when held close enough, then beeps and flashes to confirm a valid punch. SIAC requires controls equipped with Air+ units. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "tags": [
+      "timing"
+    ],
+    "related": [
+      "SPORTIdent",
+      "emiTag",
+      "timing"
+    ],
+    "aliases": [
+      "SPORTIdent Air+ Card",
+      "SI Air+"
+    ],
+    "id": "SIAC"
+  },
+  {
+    "name": "emiTag",
+    "description": "The emiTag is EMIT's contactless timing chip — the equivalent of <a href=\"/#siac\">SIAC</a> for the SPORTIdent system. It registers automatically as it passes close to the control unit without needing physical insertion. Used at events running the EMIT system. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "tags": [
+      "timing"
+    ],
+    "related": [
+      "EMIT",
+      "SIAC",
+      "SPORTIdent",
+      "timing"
+    ],
+    "aliases": [],
+    "id": "emiTag"
+  },
+  {
+    "name": "Huichang",
+    "description": "Huichang is a Chinese electronic timing system for orienteering, produced by Beijing Huichang Sports Technology. It is the dominant timing system in Chinese orienteering and is widely used across Asia. It operates on the same principles as <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "tags": [
+      "timing"
+    ],
+    "related": [
+      "SPORTIdent",
+      "EMIT",
+      "SFR",
+      "timing"
+    ],
+    "aliases": [],
+    "id": "Huichang"
   }
 ]

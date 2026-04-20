@@ -45,13 +45,14 @@
   },
   {
     "name": "EMIT",
-    "description": "EMIT är ett elektroniskt tidtagningssystem för orientering tillverkat av det norska företaget EMIT. Det är det vanligaste tidtagningssystemet i norsk orientering. I Sverige används <a href=\"/#sportident\">SPORTIdent</a> som standard. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "description": "EMIT är ett elektroniskt tidtagningssystem för orientering tillverkat av det norska företaget EMIT. Det är det dominerande systemet i norsk och finsk orientering. I Sverige och internationellt används <a href=\"/#sportident\">SPORTIdent</a> som standard. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
     "tags": [
       "tidtagning"
     ],
     "related": [
       "SPORTIdent",
-      "SFR"
+      "SFR",
+      "emiTag"
     ],
     "aliases": [],
     "id": "EMIT"
@@ -96,7 +97,8 @@
     ],
     "related": [
       "EMIT",
-      "SFR"
+      "SFR",
+      "SIAC"
     ],
     "aliases": [
       "SI"
@@ -123,14 +125,6 @@
     "related": [],
     "aliases": [],
     "id": "Rankingløp"
-  },
-  {
-    "name": "Nordmarkskarusellen",
-    "description": "Nordmarkskarusellen är en tävlingsserie i södra delen av Nordmarka i Oslo — tre lopp på våren och fyra på hösten. Både nybörjarvänliga och krävande banor erbjuds. Serien är ett samarbete mellan klubbarna OSI, Kjelsås, Heming, Lillomarka, Koll och Nydalen. Mer information finns på <a href=\"https://nordmarkskarusellen.no/\">nordmarkskarusellen.no</a>.",
-    "tags": [],
-    "related": [],
-    "aliases": [],
-    "id": "Nordmarkskarusellen"
   },
   {
     "name": "Eventor",
@@ -377,7 +371,7 @@
   },
   {
     "name": "direktklasser",
-    "description": "Direktklasser är klasser man kan anmäla sig till på tävlingsdagen utan förhandsanmälan. Det finns vanligtvis ingen ålders- eller könsindelning i dessa klasser. Direktklasser passar utmärkt för nybörjare eller den som missat anmälningsdeadline.",
+    "description": "Direktklasser är klasser man kan anmäla sig till på tävlingsdagen utan förhandsanmälan. Det finns vanligtvis ingen ålders- eller könsindelning i dessa klasser. Direktklasser passar utmärkt för nybörjare, den som missat anmälningsdeadline och familjer med barn där föräldrar behöver flexibilitet kring ankomsttider.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -422,7 +416,7 @@
   },
   {
     "name": "OSI",
-    "description": "Oslostudentenes Idrettsklubb. Även förkortat Oslostudentenes IK. Orienteringssektionen, OSI Orientering, arrangerar tävlingar och träning i och runt Oslo.",
+    "description": "Oslostudentenes Idrettsklubb, även förkortat Oslostudentenes IK. Orienteringssektionen OSI Orientering arrangerar tävlingar och träning i och runt Oslo. Denna ordlista skapades av OSI Orientering.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -521,7 +515,7 @@
   },
   {
     "name": "Sportiduino",
-    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> är ett system med öppen källkod för elektronisk tidtagning i orientering och är ett prisvärt alternativ till <a href=\"/#sportident\">SPORTIdent</a> och <a href=\"/#emit\">EMIT</a>. Det är baserat på Arduino-plattformen och kräver inga licenser.",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> är ett system med öppen källkod för elektronisk tidtagning i orientering och ett prisvärt alternativ till <a href=\"/#sportident\">SPORTIdent</a> och <a href=\"/#emit\">EMIT</a>. Det är baserat på Arduino-plattformen och kräver inga licenser, men ett visst mått av teknisk kompetens för att bygga kontroller och bricklösare. Ett annat alternativ med öppen källkod är <a href=\"https://github.com/oribos-ts\">OribosTS</a>.",
     "tags": [
       "tidtagning"
     ],
@@ -532,5 +526,52 @@
     ],
     "aliases": [],
     "id": "Sportiduino"
+  },
+  {
+    "name": "SIAC",
+    "description": "SIAC (SPORTIdent Air+ Card) är SPORTIdents kontaktlösa bricka. Till skillnad från en vanlig SI-bricka behöver man inte trycka ner brickan i stämplingslådan – den registrerar automatiskt när den hålls nära kontrollenheten och piper och blinkar för att bekräfta giltig stämpling. SIAC kräver kontroller utrustade med Air+-enheter. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [
+      "SPORTIdent",
+      "emiTag",
+      "tidtagning"
+    ],
+    "aliases": [
+      "SPORTIdent Air+ Card",
+      "SI Air+"
+    ],
+    "id": "SIAC"
+  },
+  {
+    "name": "emiTag",
+    "description": "emiTag är EMITs kontaktlösa bricka – motsvarigheten till <a href=\"/#siac\">SIAC</a> för SPORTIdent. Den registrerar automatiskt när den förs nära kontrollenheten utan att behöva tryckas in. Används på tävlingar med EMIT-systemet. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [
+      "EMIT",
+      "SIAC",
+      "SPORTIdent",
+      "tidtagning"
+    ],
+    "aliases": [],
+    "id": "emiTag"
+  },
+  {
+    "name": "Huichang",
+    "description": "Huichang är ett kinesiskt elektroniskt tidtagningssystem för orientering, tillverkat av Beijing Huichang Sports Technology. Det är det dominerande tidtagningssystemet i kinesisk orientering och används brett i Asien. Systemet fungerar enligt samma princip som <a href=\"/#sportident\">SPORTIdent</a> och <a href=\"/#emit\">EMIT</a>. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "tags": [
+      "tidtagning"
+    ],
+    "related": [
+      "SPORTIdent",
+      "EMIT",
+      "SFR",
+      "tidtagning"
+    ],
+    "aliases": [],
+    "id": "Huichang"
   }
 ]
