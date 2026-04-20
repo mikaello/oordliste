@@ -1,5 +1,6 @@
 <dl>
-  {%- for entry in dictionary %}
+  {%- set entries = dictionaries[langCode] or dictionaries['no'] %}
+  {%- for entry in entries %}
     <dt class="o-term" id="{{ entry.name | slugify }}">{{ entry.name }}</dt>
     {%- for alias in entry.aliases %}
     <dt class="o-term" id="{{ alias | slugify }}">{{ alias }}</dt>

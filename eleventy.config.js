@@ -84,7 +84,10 @@ const translations = {
   },
 };
 
-const dictionary = require("./resources/orienteering_dictionary.json");
+const dictionaries = {
+  no: require("./resources/orienteering_dictionary.json"),
+  en: require("./resources/orienteering_dictionary_en.json"),
+};
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "public/favicon.ico": "favicon.ico" });
@@ -93,7 +96,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("slugify", slugify);
 
   eleventyConfig.addGlobalData("translations", translations);
-  eleventyConfig.addGlobalData("dictionary", dictionary);
+  eleventyConfig.addGlobalData("dictionaries", dictionaries);
 
   return {
     dir: {
