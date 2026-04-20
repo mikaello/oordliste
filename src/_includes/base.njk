@@ -30,7 +30,10 @@
         <a href="{{ l.path }}"{% if l.code == lang.langCode %} class="active" aria-current="page"{% endif %}>{{ l.name }}</a>
       {%- endfor %}
     </nav>
-    <button class="theme-toggle" id="theme-toggle" aria-label="{{ lang.darkMode }}">🌙</button>
+    <div class="header-actions">
+      <button class="translations-toggle" id="translations-toggle" aria-pressed="false">{{ lang.showTranslations }}</button>
+      <button class="theme-toggle" id="theme-toggle" aria-label="{{ lang.darkMode }}">🌙</button>
+    </div>
   </header>
 
   <main class="main">
@@ -64,6 +67,22 @@
       root.setAttribute('data-theme', next);
       localStorage.setItem('theme', next);
       updateBtn(next);
+    });
+
+    var transBtn = document.getElementById('translations-toggle');
+    var body = document.body;
+    function updateTransBtn(on) {
+      transBtn.textContent = on ? '{{ lang.hideTranslations }}' : '{{ lang.showTranslations }}';
+      transBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+    }
+    var transOn = localStorage.getItem('show-translations') === 'true';
+    if (transOn) body.classList.add('show-translations');
+    updateTransBtn(transOn);
+    transBtn.addEventListener('click', function() {
+      transOn = !transOn;
+      body.classList.toggle('show-translations', transOn);
+      localStorage.setItem('show-translations', transOn);
+      updateTransBtn(transOn);
     });
   </script>
   <script defer src="/_vercel/insights/script.js"></script>

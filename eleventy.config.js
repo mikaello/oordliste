@@ -21,6 +21,8 @@ const translations = {
     lightMode: "Bytt til lyst tema",
     darkMode: "Bytt til mørkt tema",
     languageLabel: "Språk",
+    showTranslations: "Vis andre språk",
+    hideTranslations: "Skjul andre språk",
   },
   en: {
     langCode: "en",
@@ -36,6 +38,8 @@ const translations = {
     lightMode: "Switch to light mode",
     darkMode: "Switch to dark mode",
     languageLabel: "Language",
+    showTranslations: "Show other languages",
+    hideTranslations: "Hide other languages",
   },
   sv: {
     langCode: "sv",
@@ -51,6 +55,8 @@ const translations = {
     lightMode: "Byt till ljust tema",
     darkMode: "Byt till mörkt tema",
     languageLabel: "Språk",
+    showTranslations: "Visa andra språk",
+    hideTranslations: "Dölj andra språk",
   },
   da: {
     langCode: "da",
@@ -66,6 +72,8 @@ const translations = {
     lightMode: "Skift til lyst tema",
     darkMode: "Skift til mørkt tema",
     languageLabel: "Sprog",
+    showTranslations: "Vis andre sprog",
+    hideTranslations: "Skjul andre sprog",
   },
   fi: {
     langCode: "fi",
@@ -81,10 +89,24 @@ const translations = {
     lightMode: "Vaihda vaaleaan teemaan",
     darkMode: "Vaihda tummaan teemaan",
     languageLabel: "Kieli",
+    showTranslations: "Näytä muut kielet",
+    hideTranslations: "Piilota muut kielet",
   },
 };
 
-const dictionary = require("./resources/orienteering_dictionary.json");
+const langPaths = { no: "/", en: "/en/", sv: "/sv/", da: "/da/", fi: "/fi/" };
+
+const dictionaries = {
+  no: require("./resources/orienteering_dictionary.json"),
+  en: require("./resources/orienteering_dictionary_en.json"),
+};
+
+const dictionaryMaps = Object.fromEntries(
+  Object.entries(dictionaries).map(([locale, dict]) => [
+    locale,
+    Object.fromEntries(dict.map((e) => [e.id, e])),
+  ])
+);
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "public/favicon.ico": "favicon.ico" });
@@ -93,7 +115,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("slugify", slugify);
 
   eleventyConfig.addGlobalData("translations", translations);
-  eleventyConfig.addGlobalData("dictionary", dictionary);
+  eleventyConfig.addGlobalData("dictionaries", dictionaries);
+  eleventyConfig.addGlobalData("dictionaryMaps", dictionaryMaps);
+  eleventyConfig.addGlobalData("langPaths", langPaths);
 
   return {
     dir: {
