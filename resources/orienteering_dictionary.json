@@ -510,7 +510,7 @@
   },
   {
     "name": "emiTag",
-    "description": "emiTag er EMITs kontaktløse brikke – tilsvarende <a href=\"/#siac\">SIAC</a> for SPORTIdent. Brikken registrerer automatisk når den føres nær kontrollenheten uten å måtte stikkes inn. Brukes på løp som benytter EMIT-systemet. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>.",
+    "description": "emiTag er EMITs kontaktløse brikke – tilsvarende <a href=\"/#siac\">SIAC</a> for SPORTIdent. Brikken registrerer automatisk når den føres nær kontrollenheten uten å måtte stemples på Brukes på løp som benytter EMIT-systemet. <i>Se <a href=\"/#tidtaking\">tidtaking</a></i>.",
     "tags": [
       "tidtaking"
     ],
