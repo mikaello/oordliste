@@ -493,11 +493,15 @@
     "id": "Livelox"
   },
   {
-    "name": "postindsamling",
-    "description": "Postindsamling er en træningsaktivitet, hvor man henter orienteringsposter ind efter et løb.",
+    "name": "postpluk",
+    "description": "Et postpluk (også kaldet score-løb) er et orienteringsformat med mange poster placeret tæt på hinanden. Løberne samler poster én ad gangen uden at bevæge sig langt mellem dem. Formatet lægger vægt på kortlæsning og postidentifikation frem for løbeform.",
     "tags": [],
-    "related": [],
-    "aliases": [],
+    "related": [
+      "orienteringspost"
+    ],
+    "aliases": [
+      "score-løb"
+    ],
     "id": "postplukk"
   },
   {
