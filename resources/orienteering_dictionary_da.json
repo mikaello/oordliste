@@ -124,7 +124,7 @@
   },
   {
     "name": "Eventor",
-    "description": "Eventor er det digitale tilmeldings- og stævneadministrationssystem, der bruges til orienteringsløb i Norge, Sverige og Australien. Eventor anvendes også i Danmark.",
+    "description": "Eventor er det digitale tilmeldings- og stævneadministrationssystem, der bruges til orienteringsløb i Norge, Sverige og Australien. I Danmark bruges <a href=\"https://www.o-service.dk/\">O-service</a> til stævneadministration.",
     "tags": [],
     "related": [],
     "aliases": [],
