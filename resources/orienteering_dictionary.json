@@ -479,7 +479,7 @@
   },
   {
     "name": "Sportiduino",
-    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> er et åpen kildekode-system for elektronisk tidtaking i orientering, og er et rimeligere alternativ til <a href=\"/#sportident\">SPORTIdent</a> og <a href=\"/#emit\">EMIT</a>. Systemet er basert på Arduino-plattformen, men krever betydelig tid og innsats å sette opp da man selv må bygge poster og brikkeleser. Et annet åpen kildekode-alternativ er <a href=\"https://github.com/oribos-ts\">OribosTS</a>.",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> er et åpen kildekode-system for elektronisk tidtaking i orientering, og er et rimeligere alternativ til <a href=\"/#sportident\">SPORTIdent</a> og <a href=\"/#emit\">EMIT</a>. Systemet er basert på Arduino-plattformen, men krever betydelig tid og innsats å sette opp da man selv må bygge poster og brikkeleser. Et annet åpen kildekode-alternativ er <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a>.",
     "tags": [
       "tidtaking"
     ],

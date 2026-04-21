@@ -520,7 +520,7 @@
   },
   {
     "name": "Sportiduino",
-    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> is an open-source electronic timing system for orienteering, offering a lower-cost alternative to <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>. It is based on the Arduino platform; setting it up requires significant time and effort as controls and a chip reader must be built from components. Another open-source timing alternative is <a href=\"https://github.com/oribos-ts\">OribosTS</a>.",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> is an open-source electronic timing system for orienteering, offering a lower-cost alternative to <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>. It is based on the Arduino platform; setting it up requires significant time and effort as controls and a chip reader must be built from components. Another open-source timing alternative is <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a>.",
     "tags": [
       "timing"
     ],
