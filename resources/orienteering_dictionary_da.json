@@ -45,7 +45,7 @@
   },
   {
     "name": "EMIT",
-    "description": "EMIT er et elektronisk tidtagningssystem til orientering fremstillet af det norske firma EMIT. Det er det dominerende system i norsk og finsk orientering. Internationalt er <a href=\"/#sportident\">SPORTIdent</a> mere udbredt. <i>Se <a href=\"/#tidtaking\">tidtagning</a></i>.",
+    "description": "EMIT er et elektronisk tidtagningssystem til orientering fremstillet af det norske firma EMIT. Det er det dominerende system i norsk og finsk orientering. Internationalt er <a href=\"/da/#sportident\">SPORTIdent</a> mere udbredt. <i>Se <a href=\"/da/#tidtaking\">tidtagning</a></i>.",
     "tags": [],
     "related": [
       "emiTag",
@@ -58,7 +58,7 @@
   },
   {
     "name": "tidtagning",
-    "description": "Tidtagning handler om at registrere løbernes tider under et orienteringsløb. De mest almindelige systemer er <a href=\"/#emit\">EMIT</a> og <a href=\"/#sportident\">SPORTIdent</a>.",
+    "description": "Tidtagning handler om at registrere løbernes tider under et orienteringsløb. De mest almindelige systemer er <a href=\"/da/#emit\">EMIT</a> og <a href=\"/da/#sportident\">SPORTIdent</a>.",
     "tags": [],
     "related": [
       "EMIT",
@@ -71,7 +71,7 @@
   },
   {
     "name": "gafling",
-    "description": "Gafling bruges til at forhindre løbere i at <a href=\"/#henge\">hænge</a> efter hinanden. Løbere i samme klasse får baner, der er lidt forskellige — de fleste poster er fælles, men ved visse punkter skal nogle løbere besøge en post et stykke fra den, andre i klassen skal tage. Løberne skal navigere omhyggeligt for at stemple den rigtige post; stempler man den forkerte, bliver man diskvalificeret.",
+    "description": "Gafling bruges til at forhindre løbere i at <a href=\"/da/#henge\">hænge</a> efter hinanden. Løbere i samme klasse får baner, der er lidt forskellige — de fleste poster er fælles, men ved visse punkter skal nogle løbere besøge en post et stykke fra den, andre i klassen skal tage. Løberne skal navigere omhyggeligt for at stemple den rigtige post; stempler man den forkerte, bliver man diskvalificeret.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -184,7 +184,7 @@
   },
   {
     "name": "A-niveau",
-    "description": "A-niveau er det sværeste banesvanskelighetsgrad i det skandinaviske klassificeringssystem. Alle orienteringsteknikker kræves. <i>Se <a href=\"/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
+    "description": "A-niveau er det sværeste banesvanskelighetsgrad i det skandinaviske klassificeringssystem. Alle orienteringsteknikker kræves. <i>Se <a href=\"/da/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
     "tags": [
       "løpsnivå"
     ],
@@ -198,7 +198,7 @@
   },
   {
     "name": "B-niveau",
-    "description": "B-niveau er det næstsværeste banesvanskelighetsgrad i det skandinaviske klassificeringssystem. B-baner kræver kort finorientering ind mod posten og forståelse for højdekurver. <i>Se <a href=\"/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
+    "description": "B-niveau er det næstsværeste banesvanskelighetsgrad i det skandinaviske klassificeringssystem. B-baner kræver kort finorientering ind mod posten og forståelse for højdekurver. <i>Se <a href=\"/da/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
     "tags": [
       "løpsnivå"
     ],
@@ -212,7 +212,7 @@
   },
   {
     "name": "C-niveau",
-    "description": "C-niveau er det næstlettest banesvanskelighetsgrad i det skandinaviske klassificeringssystem. C-baner følger for det meste <a href=\"/#ledelinje\">ledelinjer</a>, men løberne forventes at forlade ledelinjerne på visse steder. Der kan være veivalgsmuligheder. <i>Se <a href=\"/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
+    "description": "C-niveau er det næstlettest banesvanskelighetsgrad i det skandinaviske klassificeringssystem. C-baner følger for det meste <a href=\"/da/#ledelinje\">ledelinjer</a>, men løberne forventes at forlade ledelinjerne på visse steder. Der kan være veivalgsmuligheder. <i>Se <a href=\"/da/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
     "tags": [
       "løpsnivå"
     ],
@@ -226,7 +226,7 @@
   },
   {
     "name": "N-niveau (begynder)",
-    "description": "N-niveau er det lettest banesvanskelighetsgrad i det skandinaviske klassificeringssystem, beregnet til nybegyndere. N-baner følger sammenhængende <a href=\"/#ledelinje\">ledelinjer</a> som stier, spor, bække og hegn, og alle poster kan ses fra ledelinjerne. <i>Se <a href=\"/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
+    "description": "N-niveau er det lettest banesvanskelighetsgrad i det skandinaviske klassificeringssystem, beregnet til nybegyndere. N-baner følger sammenhængende <a href=\"/da/#ledelinje\">ledelinjer</a> som stier, spor, bække og hegn, og alle poster kan ses fra ledelinjerne. <i>Se <a href=\"/da/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
     "tags": [
       "løpsnivå"
     ],
@@ -242,7 +242,7 @@
   },
   {
     "name": "sværhedsgrad",
-    "description": "I det skandinaviske klassificeringssystem inddeles baner i fire sværhedsgrader: <a href=\"/#a-niv\">A</a>, <a href=\"/#b-niv\">B</a>, <a href=\"/#c-niv\">C</a> og <a href=\"/#n-niv\">N</a>, hvor A er sværest og N er nybegynderbaner. Andre lande bruger andre systemer — i Danmark bruges f.eks. Nem, Middel og Svær (N, M og S).",
+    "description": "I det skandinaviske klassificeringssystem inddeles baner i fire sværhedsgrader: <a href=\"/da/#a-niv\">A</a>, <a href=\"/da/#b-niv\">B</a>, <a href=\"/da/#c-niv\">C</a> og <a href=\"/da/#n-niv\">N</a>, hvor A er sværest og N er nybegynderbaner. Andre lande bruger andre systemer — i Danmark bruges f.eks. Nem, Middel og Svær (N, M og S).",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -280,7 +280,7 @@
   },
   {
     "name": "O",
-    "description": "I orientering er man glad for bogstavet O og bruger det, så ofte man kan: o-sko (<a href=\"/#orienteringssko\">orienteringssko</a>), o-træning (orienteringstræning), o-tøj, o-sport og o-hilsen. Det er en forkortelse for orientering, der bruges flittigt i orienteringskulturen.",
+    "description": "I orientering er man glad for bogstavet O og bruger det, så ofte man kan: o-sko (<a href=\"/da/#orienteringssko\">orienteringssko</a>), o-træning (orienteringstræning), o-tøj, o-sport og o-hilsen. Det er en forkortelse for orientering, der bruges flittigt i orienteringskulturen.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -308,7 +308,7 @@
   },
   {
     "name": "georeferere",
-    "description": "At georeferere et kort betyder at knytte det til geografiske koordinater, så det kan vises og bruges i digitale kortapplikationer. Dette kræves bl.a. for værktøjer som <a href=\"/#livelox\">Livelox</a>.",
+    "description": "At georeferere et kort betyder at knytte det til geografiske koordinater, så det kan vises og bruges i digitale kortapplikationer. Dette kræves bl.a. for værktøjer som <a href=\"/da/#livelox\">Livelox</a>.",
     "tags": [],
     "related": [
       "Livelox"
@@ -401,7 +401,7 @@
   },
   {
     "name": "præcisionsorientering",
-    "description": "Præcisionsorientering (pre-O) er en IOF-anerkendt gren, der er tilgængelig for både bevægelseshæmmede og raske deltagere. Banerne følger stier og veje, der er tilgængelige for kørestole. Udfordringen er kortlæsningsnøjagtighed snarere end løbehastighed — ved hvert kontrolpunkt er der placeret flere skærme, og deltageren skal afgøre, hvilken (om nogen) der stemmer overens med kortet og <a href=\"/#postbeskrivelse\">postbeskrivelsen</a>.",
+    "description": "Præcisionsorientering (pre-O) er en IOF-anerkendt gren, der er tilgængelig for både bevægelseshæmmede og raske deltagere. Banerne følger stier og veje, der er tilgængelige for kørestole. Udfordringen er kortlæsningsnøjagtighed snarere end løbehastighed — ved hvert kontrolpunkt er der placeret flere skærme, og deltageren skal afgøre, hvilken (om nogen) der stemmer overens med kortet og <a href=\"/da/#postbeskrivelse\">postbeskrivelsen</a>.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -455,7 +455,7 @@
   },
   {
     "name": "turorientering",
-    "description": "Turorientering (TRIM-O) er en ikke-konkurrencepræget form for orientering, hvor man finder poster ved hjælp af et kort uden tidtagning eller præmier. Se også <a href=\"/#stolpejakten\">Stolpejakten</a>.",
+    "description": "Turorientering (TRIM-O) er en ikke-konkurrencepræget form for orientering, hvor man finder poster ved hjælp af et kort uden tidtagning eller præmier. Se også <a href=\"/da/#stolpejakten\">Stolpejakten</a>.",
     "tags": [],
     "related": [
       "Stolpejakten"
@@ -467,7 +467,7 @@
   },
   {
     "name": "Stolpejakten",
-    "description": "Stolpejakten (norsk: 'stolpejagten') er en aktivitet arrangeret af det norske orienteringsforbund, hvor deltagerne finder permanente orienteringsposter ved hjælp af et kort. Der er ingen tidtagning — deltagerne går i eget tempo. Aktiviteten minder om <a href=\"/#turorientering\">turorientering</a>.",
+    "description": "Stolpejakten (norsk: 'stolpejagten') er en aktivitet arrangeret af det norske orienteringsforbund, hvor deltagerne finder permanente orienteringsposter ved hjælp af et kort. Der er ingen tidtagning — deltagerne går i eget tempo. Aktiviteten minder om <a href=\"/da/#turorientering\">turorientering</a>.",
     "tags": [],
     "related": [
       "turorientering"
@@ -509,7 +509,7 @@
   },
   {
     "name": "cirklen",
-    "description": "Cirklen er den ring på orienteringskortet, der markerer kontrolpunktets nøjagtige position. Cirklen er centreret om det præcise terrænpunkt, der skal opsøges. <i>Se også <a href=\"/#postbeskrivelse\">kontrolbeskrivelse</a></i>.",
+    "description": "Cirklen er den ring på orienteringskortet, der markerer kontrolpunktets nøjagtige position. Cirklen er centreret om det præcise terrænpunkt, der skal opsøges. <i>Se også <a href=\"/da/#postbeskrivelse\">kontrolbeskrivelse</a></i>.",
     "tags": [],
     "related": [],
     "aliases": [

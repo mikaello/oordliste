@@ -46,7 +46,7 @@
   },
   {
     "name": "EMIT",
-    "description": "EMIT is an electronic timing system for orienteering produced by the Norwegian company EMIT. It is the dominant timing system in Norwegian and Finnish orienteering. Internationally, <a href=\"/#sportident\">SPORTIdent</a> is the more widely used standard. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "description": "EMIT is an electronic timing system for orienteering produced by the Norwegian company EMIT. It is the dominant timing system in Norwegian and Finnish orienteering. Internationally, <a href=\"/en/#sportident\">SPORTIdent</a> is the more widely used standard. <i>See <a href=\"/en/#timing\">timing</a></i>.",
     "tags": [
       "timing"
     ],
@@ -60,7 +60,7 @@
   },
   {
     "name": "timing",
-    "description": "Electronic timing in orienteering works via a personal timing chip registered to each competitor. When a runner arrives at a control, they punch their chip on the timing unit at that control, recording the visit. At the finish the chip is downloaded and the total time and split times between controls are displayed. The two most common systems are <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>.",
+    "description": "Electronic timing in orienteering works via a personal timing chip registered to each competitor. When a runner arrives at a control, they punch their chip on the timing unit at that control, recording the visit. At the finish the chip is downloaded and the total time and split times between controls are displayed. The two most common systems are <a href=\"/en/#sportident\">SPORTIdent</a> and <a href=\"/en/#emit\">EMIT</a>.",
     "tags": [
       "timing"
     ],
@@ -74,7 +74,7 @@
   },
   {
     "name": "forking",
-    "description": "Forking is used to prevent competitors from <a href=\"/#following\">following</a> each other around the course. Runners in the same class receive courses that differ slightly — most controls are shared, but at certain points some runners must visit a control a short distance away from the one others in the same class visit. Runners must navigate carefully to punch the correct control; punching the wrong one results in disqualification.",
+    "description": "Forking is used to prevent competitors from <a href=\"/en/#following\">following</a> each other around the course. Runners in the same class receive courses that differ slightly — most controls are shared, but at certain points some runners must visit a control a short distance away from the one others in the same class visit. Runners must navigate carefully to punch the correct control; punching the wrong one results in disqualification.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -92,7 +92,7 @@
   },
   {
     "name": "SPORTIdent",
-    "description": "<a href=\"https://www.sportident.com/\">SPORTIdent</a> is the most widely used electronic timing system in international orienteering. The personal chip is called an SI-card (or dibber in the UK). SPORTIdent is the standard at World Championships and the dominant system across Europe, the UK, and Australia. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "description": "<a href=\"https://www.sportident.com/\">SPORTIdent</a> is the most widely used electronic timing system in international orienteering. The personal chip is called an SI-card (or dibber in the UK). SPORTIdent is the standard at World Championships and the dominant system across Europe, the UK, and Australia. <i>See <a href=\"/en/#timing\">timing</a></i>.",
     "tags": [
       "timing"
     ],
@@ -137,7 +137,7 @@
   },
   {
     "name": "map",
-    "description": "An orienteering map shows the terrain in a simplified format and is the primary tool a runner uses to navigate between controls. It uses a rich set of symbols: contour lines show elevation, black dots indicate boulders, blue areas show water, and so on. Maps are produced at different <i><a href=\"/#scale\">scales</a></i>, typically 1:5000 for sprint orienteering and 1:10000 for forest orienteering.",
+    "description": "An orienteering map shows the terrain in a simplified format and is the primary tool a runner uses to navigate between controls. It uses a rich set of symbols: contour lines show elevation, black dots indicate boulders, blue areas show water, and so on. Maps are produced at different <i><a href=\"/en/#scale\">scales</a></i>, typically 1:5000 for sprint orienteering and 1:10000 for forest orienteering.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -153,7 +153,7 @@
   },
   {
     "name": "compass",
-    "description": "A compass indicates the direction of north (and therefore south, east, and west). An orienteer uses a compass to hold a bearing towards the next <i><a href=\"/#control\">control</a></i>, or to set the map — rotating it to align with the surrounding terrain.",
+    "description": "A compass indicates the direction of north (and therefore south, east, and west). An orienteer uses a compass to hold a bearing towards the next <i><a href=\"/en/#control\">control</a></i>, or to set the map — rotating it to align with the surrounding terrain.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -161,7 +161,7 @@
   },
   {
     "name": "control",
-    "description": "An orienteering control (also called a flag or post) consists of an orange-and-white marker flag and an attached timing unit used to record a competitor's visit to that point. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "description": "An orienteering control (also called a flag or post) consists of an orange-and-white marker flag and an attached timing unit used to record a competitor's visit to that point. <i>See <a href=\"/en/#timing\">timing</a></i>.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -172,7 +172,7 @@
   },
   {
     "name": "thumb compass",
-    "description": "A thumb compass is strapped to the thumb, allowing the runner to hold the map and compass together as one unit — the most popular style among orienteers. Traditional plate compasses are also used but are less common in competition. <i>See <a href=\"/#compass\">compass</a></i>.",
+    "description": "A thumb compass is strapped to the thumb, allowing the runner to hold the map and compass together as one unit — the most popular style among orienteers. Traditional plate compasses are also used but are less common in competition. <i>See <a href=\"/en/#compass\">compass</a></i>.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -180,7 +180,7 @@
   },
   {
     "name": "A-level",
-    "description": "A-level is the most technically demanding course difficulty in the Scandinavian grading system. All orienteering techniques are required. <i>See <a href=\"/#difficulty-level\">difficulty level</a></i>.",
+    "description": "A-level is the most technically demanding course difficulty in the Scandinavian grading system. All orienteering techniques are required. <i>See <a href=\"/en/#difficulty-level\">difficulty level</a></i>.",
     "tags": [],
     "related": [
       "B-level",
@@ -192,7 +192,7 @@
   },
   {
     "name": "B-level",
-    "description": "B-level is the second most difficult course grade in the Scandinavian grading system. B-level courses require short fine-navigation legs into the control and a good understanding of contour lines. <i>See <a href=\"/#difficulty-level\">difficulty level</a></i>.",
+    "description": "B-level is the second most difficult course grade in the Scandinavian grading system. B-level courses require short fine-navigation legs into the control and a good understanding of contour lines. <i>See <a href=\"/en/#difficulty-level\">difficulty level</a></i>.",
     "tags": [],
     "related": [
       "A-level",
@@ -204,7 +204,7 @@
   },
   {
     "name": "C-level",
-    "description": "C-level is the second easiest course grade in the Scandinavian grading system. C-level courses mostly follow <a href=\"/#handrail\">handrails</a>, but runners are expected to leave handrails at certain points. Route choice opportunities may exist. <i>See <a href=\"/#difficulty-level\">difficulty level</a></i>.",
+    "description": "C-level is the second easiest course grade in the Scandinavian grading system. C-level courses mostly follow <a href=\"/en/#handrail\">handrails</a>, but runners are expected to leave handrails at certain points. Route choice opportunities may exist. <i>See <a href=\"/en/#difficulty-level\">difficulty level</a></i>.",
     "tags": [],
     "related": [
       "A-level",
@@ -216,7 +216,7 @@
   },
   {
     "name": "N-level",
-    "description": "N-level is the easiest course grade in the Scandinavian grading system, designed for beginners. N-level courses follow continuous <a href=\"/#handrail\">handrails</a> such as paths, tracks, streams, and fences, with all controls visible from the handrail. <i>See <a href=\"/#difficulty-level\">difficulty level</a></i>.",
+    "description": "N-level is the easiest course grade in the Scandinavian grading system, designed for beginners. N-level courses follow continuous <a href=\"/en/#handrail\">handrails</a> such as paths, tracks, streams, and fences, with all controls visible from the handrail. <i>See <a href=\"/en/#difficulty-level\">difficulty level</a></i>.",
     "tags": [],
     "related": [
       "A-level",
@@ -228,7 +228,7 @@
   },
   {
     "name": "difficulty level",
-    "description": "In the Scandinavian grading system, courses are divided into four difficulty levels: <a href=\"/#a-level\">A</a>, <a href=\"/#b-level\">B</a>, <a href=\"/#c-level\">C</a>, and <a href=\"/#n-level\">N</a>, where A is the hardest and N is a beginner course. Other countries use colour-coded systems — the UK uses White, Yellow, Orange, Light Green, Green, Blue, and Brown; Australia uses White, Yellow, Orange, Red, and Blue.",
+    "description": "In the Scandinavian grading system, courses are divided into four difficulty levels: <a href=\"/en/#a-level\">A</a>, <a href=\"/en/#b-level\">B</a>, <a href=\"/en/#c-level\">C</a>, and <a href=\"/en/#n-level\">N</a>, where A is the hardest and N is a beginner course. Other countries use colour-coded systems — the UK uses White, Yellow, Orange, Light Green, Green, Blue, and Brown; Australia uses White, Yellow, Orange, Red, and Blue.",
     "tags": [],
     "related": [
       "A-level",
@@ -276,7 +276,7 @@
   },
   {
     "name": "O",
-    "description": "Orienteers love the letter O and use it wherever possible: o-shoes (<a href=\"/#orienteering-shoes\">orienteering shoes</a>), o-training (orienteering training), o-suit, o-sport, and so on. It is shorthand for orienteering and is widely used in English-speaking clubs as well as Scandinavian ones.",
+    "description": "Orienteers love the letter O and use it wherever possible: o-shoes (<a href=\"/en/#orienteering-shoes\">orienteering shoes</a>), o-training (orienteering training), o-suit, o-sport, and so on. It is shorthand for orienteering and is widely used in English-speaking clubs as well as Scandinavian ones.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -365,7 +365,7 @@
   },
   {
     "name": "retire",
-    "description": "If you are injured or hopelessly lost, you may retire from the race. Find the quickest safe route back to the <a href=\"/#event-centre\">event centre</a>. It is essential to report to the finish or download station even when retiring, so officials know you are safe and do not launch a search. Runners who retire are recorded as DNF (Did Not Finish) on the results.",
+    "description": "If you are injured or hopelessly lost, you may retire from the race. Find the quickest safe route back to the <a href=\"/en/#event-centre\">event centre</a>. It is essential to report to the finish or download station even when retiring, so officials know you are safe and do not launch a search. Runners who retire are recorded as DNF (Did Not Finish) on the results.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -386,7 +386,7 @@
   },
   {
     "name": "trail orienteering",
-    "description": "Trail orienteering (pre-O) is the IOF-recognised discipline designed to be accessible to both able-bodied and mobility-impaired participants. Courses follow paths and tracks accessible by wheelchair. The challenge is map-reading accuracy rather than running speed — at each control site, several markers are placed and the competitor must identify which one (if any) matches the map and <a href=\"/#control-description\">control description</a>. Some controls have a single marker where the task is to decide which of several control descriptions is correct.",
+    "description": "Trail orienteering (pre-O) is the IOF-recognised discipline designed to be accessible to both able-bodied and mobility-impaired participants. Courses follow paths and tracks accessible by wheelchair. The challenge is map-reading accuracy rather than running speed — at each control site, several markers are placed and the competitor must identify which one (if any) matches the map and <a href=\"/en/#control-description\">control description</a>. Some controls have a single marker where the task is to decide which of several control descriptions is correct.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -407,7 +407,7 @@
   },
   {
     "name": "contour interval",
-    "description": "The contour interval is the difference in elevation between two adjacent contour lines (the brown lines on an orienteering map). A smaller contour interval allows more elevation detail to be shown. On most orienteering maps the contour interval is 5 metres. See <a href=\"/#index-contour\">index contour</a>.",
+    "description": "The contour interval is the difference in elevation between two adjacent contour lines (the brown lines on an orienteering map). A smaller contour interval allows more elevation detail to be shown. On most orienteering maps the contour interval is 5 metres. See <a href=\"/en/#index-contour\">index contour</a>.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -415,7 +415,7 @@
   },
   {
     "name": "index contour",
-    "description": "Every fifth contour line on a map is drawn thicker — this is an index contour. Index contours make it quick and easy to calculate larger height differences. With a <a href=\"/#contour-interval\">contour interval</a> of 5 metres, each index contour represents 25 metres of elevation. Three index contours between you and your next control therefore means 75 metres of climbing.",
+    "description": "Every fifth contour line on a map is drawn thicker — this is an index contour. Index contours make it quick and easy to calculate larger height differences. With a <a href=\"/en/#contour-interval\">contour interval</a> of 5 metres, each index contour represents 25 metres of elevation. Three index contours between you and your next control therefore means 75 metres of climbing.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -485,7 +485,7 @@
   },
   {
     "name": "control circle",
-    "description": "The control circle is the circle printed on the orienteering map marking the exact position of a control. The circle is centred on the precise feature to be found. <i>See also <a href=\"/#control-description\">control description</a></i>.",
+    "description": "The control circle is the circle printed on the orienteering map marking the exact position of a control. The circle is centred on the precise feature to be found. <i>See also <a href=\"/en/#control-description\">control description</a></i>.",
     "tags": [],
     "related": [
       "map",
@@ -507,7 +507,7 @@
   },
   {
     "name": "pin punch",
-    "description": "A pin punch is the traditional manual punching tool used in orienteering before electronic timing. When pressed against a punch card it leaves a unique pattern of holes, proving a competitor visited that control. Pin punches are rarely seen in modern competitions. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "description": "A pin punch is the traditional manual punching tool used in orienteering before electronic timing. When pressed against a punch card it leaves a unique pattern of holes, proving a competitor visited that control. Pin punches are rarely seen in modern competitions. <i>See <a href=\"/en/#timing\">timing</a></i>.",
     "tags": [
       "timing"
     ],
@@ -520,7 +520,7 @@
   },
   {
     "name": "Sportiduino",
-    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> is an open-source electronic timing system for orienteering, offering a lower-cost alternative to <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>. It is based on the Arduino platform; setting it up requires significant time and effort as controls and a chip reader must be built from components. Another open-source timing alternative is <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a>.",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> is an open-source electronic timing system for orienteering, offering a lower-cost alternative to <a href=\"/en/#sportident\">SPORTIdent</a> and <a href=\"/en/#emit\">EMIT</a>. It is based on the Arduino platform; setting it up requires significant time and effort as controls and a chip reader must be built from components. Another open-source timing alternative is <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a>.",
     "tags": [
       "timing"
     ],
@@ -534,7 +534,7 @@
   },
   {
     "name": "SIAC",
-    "description": "SIAC (SPORTIdent Air+ Card) is SPORTIdent's contactless timing chip. Unlike a standard SI-card, the SIAC does not need to be physically inserted into the control unit — it registers automatically when held close enough, then beeps and flashes to confirm a valid punch. SIAC requires controls equipped with Air+ units. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "description": "SIAC (SPORTIdent Air+ Card) is SPORTIdent's contactless timing chip. Unlike a standard SI-card, the SIAC does not need to be physically inserted into the control unit — it registers automatically when held close enough, then beeps and flashes to confirm a valid punch. SIAC requires controls equipped with Air+ units. <i>See <a href=\"/en/#timing\">timing</a></i>.",
     "tags": [
       "timing"
     ],
@@ -551,7 +551,7 @@
   },
   {
     "name": "emiTag",
-    "description": "The emiTag is EMIT's contactless timing chip — the equivalent of <a href=\"/#siac\">SIAC</a> for the SPORTIdent system. It registers automatically as it passes close to the control unit without needing physical insertion. Used at events running the EMIT system. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "description": "The emiTag is EMIT's contactless timing chip — the equivalent of <a href=\"/en/#siac\">SIAC</a> for the SPORTIdent system. It registers automatically as it passes close to the control unit without needing physical insertion. Used at events running the EMIT system. <i>See <a href=\"/en/#timing\">timing</a></i>.",
     "tags": [
       "timing"
     ],
@@ -566,7 +566,7 @@
   },
   {
     "name": "Huichang",
-    "description": "Huichang is a Chinese electronic timing system for orienteering, produced by Beijing Huichang Sports Technology. It is the dominant timing system in Chinese orienteering and is widely used across Asia. It operates on the same principles as <a href=\"/#sportident\">SPORTIdent</a> and <a href=\"/#emit\">EMIT</a>. <i>See <a href=\"/#timing\">timing</a></i>.",
+    "description": "Huichang is a Chinese electronic timing system for orienteering, produced by Beijing Huichang Sports Technology. It is the dominant timing system in Chinese orienteering and is widely used across Asia. It operates on the same principles as <a href=\"/en/#sportident\">SPORTIdent</a> and <a href=\"/en/#emit\">EMIT</a>. <i>See <a href=\"/en/#timing\">timing</a></i>.",
     "tags": [
       "timing"
     ],

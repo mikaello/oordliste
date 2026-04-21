@@ -45,7 +45,7 @@
   },
   {
     "name": "EMIT",
-    "description": "EMIT är ett elektroniskt tidtagningssystem för orientering tillverkat av det norska företaget EMIT. Det är det dominerande systemet i norsk och finsk orientering. I Sverige och internationellt används <a href=\"/#sportident\">SPORTIdent</a> som standard. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "description": "EMIT är ett elektroniskt tidtagningssystem för orientering tillverkat av det norska företaget EMIT. Det är det dominerande systemet i norsk och finsk orientering. I Sverige och internationellt används <a href=\"/sv/#sportident\">SPORTIdent</a> som standard. <i>Se <a href=\"/sv/#tidtagning\">tidtagning</a></i>.",
     "tags": [
       "tidtagning"
     ],
@@ -73,7 +73,7 @@
   },
   {
     "name": "gaffling",
-    "description": "Gaffling används för att förhindra att tävlande hänger efter varandra (<a href=\"/#hnga\">se hänga</a>). Löpare i samma klass får banor som skiljer sig lite åt — de flesta kontroller är gemensamma, men vid vissa punkter besöker olika löpare kontroller på lite olika ställen innan de möts igen på nästa gemensamma kontroll.",
+    "description": "Gaffling används för att förhindra att tävlande hänger efter varandra (<a href=\"/sv/#hnga\">se hänga</a>). Löpare i samma klass får banor som skiljer sig lite åt — de flesta kontroller är gemensamma, men vid vissa punkter besöker olika löpare kontroller på lite olika ställen innan de möts igen på nästa gemensamma kontroll.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -91,7 +91,7 @@
   },
   {
     "name": "SPORTIdent",
-    "description": "<a href=\"https://www.sportident.com/\">SPORTIdent</a> är det dominerande elektroniska tidtagningssystemet inom orientering i Sverige och internationellt. Den personliga brickan kallas SI-bricka. SPORTIdent är standard vid VM och används vid de allra flesta tävlingar i Sverige. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "description": "<a href=\"https://www.sportident.com/\">SPORTIdent</a> är det dominerande elektroniska tidtagningssystemet inom orientering i Sverige och internationellt. Den personliga brickan kallas SI-bricka. SPORTIdent är standard vid VM och används vid de allra flesta tävlingar i Sverige. <i>Se <a href=\"/sv/#tidtagning\">tidtagning</a></i>.",
     "tags": [
       "tidtagning"
     ],
@@ -136,7 +136,7 @@
   },
   {
     "name": "karta",
-    "description": "En orienteringskarta visar terrängen i förenklat format och är löparens viktigaste verktyg för att navigera mellan kontrollerna. Kartan innehåller många symboler: höjdkurvor visar höjdförhållanden, svarta prickar markerar stenar, blå ytor visar vatten och så vidare. Kartor trycks i olika <i><a href=\"/#skala\">skalor</a></i>, vanligen 1:7 500 eller 1:10 000 för tävlingsorientering och 1:15 000 för långdistans.",
+    "description": "En orienteringskarta visar terrängen i förenklat format och är löparens viktigaste verktyg för att navigera mellan kontrollerna. Kartan innehåller många symboler: höjdkurvor visar höjdförhållanden, svarta prickar markerar stenar, blå ytor visar vatten och så vidare. Kartor trycks i olika <i><a href=\"/sv/#skala\">skalor</a></i>, vanligen 1:7 500 eller 1:10 000 för tävlingsorientering och 1:15 000 för långdistans.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -154,7 +154,7 @@
   },
   {
     "name": "kompass",
-    "description": "Ett kompass visar var norr (och söder, öster, väster) befinner sig. En orienterare använder kompassen för att hålla riktning mot nästa <a href=\"/#kontroll\">kontroll</a> eller för att lägga upp kartan — vrida den så att den stämmer med terrängen runt om.",
+    "description": "Ett kompass visar var norr (och söder, öster, väster) befinner sig. En orienterare använder kompassen för att hålla riktning mot nästa <a href=\"/sv/#kontroll\">kontroll</a> eller för att lägga upp kartan — vrida den så att den stämmer med terrängen runt om.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -162,7 +162,7 @@
   },
   {
     "name": "kontroll",
-    "description": "En orienteringskontroll (även kallad flagga eller post) består av en orange-vit kontrollflagga med en tillhörande stämplingsenhet som registrerar löparens besök. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "description": "En orienteringskontroll (även kallad flagga eller post) består av en orange-vit kontrollflagga med en tillhörande stämplingsenhet som registrerar löparens besök. <i>Se <a href=\"/sv/#tidtagning\">tidtagning</a></i>.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -173,7 +173,7 @@
   },
   {
     "name": "tumkompass",
-    "description": "Ett tumkompass fästs på tummen och gör att man kan hålla karta och kompass som en enhet — den vanligaste kompasstypen bland orienterare. Traditionella plattakompassar förekommer också men är mer sällsynta i tävling. <i>Se <a href=\"/#kompass\">kompass</a></i>.",
+    "description": "Ett tumkompass fästs på tummen och gör att man kan hålla karta och kompass som en enhet — den vanligaste kompasstypen bland orienterare. Traditionella plattakompassar förekommer också men är mer sällsynta i tävling. <i>Se <a href=\"/sv/#kompass\">kompass</a></i>.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -181,7 +181,7 @@
   },
   {
     "name": "A-nivå",
-    "description": "A-nivå är den tekniskt mest krävande svårighetsgraden för en orienteringsbana. Alla orienteringstekniker behöver behärskas. <i>Se <a href=\"/#svrighetsgrad\">svårighetsgrad</a></i>.",
+    "description": "A-nivå är den tekniskt mest krävande svårighetsgraden för en orienteringsbana. Alla orienteringstekniker behöver behärskas. <i>Se <a href=\"/sv/#svrighetsgrad\">svårighetsgrad</a></i>.",
     "tags": [],
     "related": [
       "B-nivå",
@@ -193,7 +193,7 @@
   },
   {
     "name": "B-nivå",
-    "description": "B-nivå är den näst svåraste svårighetsgraden för en orienteringsbana. B-banor kräver kort finorientering in mot kontrollen och god förståelse för höjdkurvor. <i>Se <a href=\"/#svrighetsgrad\">svårighetsgrad</a></i>.",
+    "description": "B-nivå är den näst svåraste svårighetsgraden för en orienteringsbana. B-banor kräver kort finorientering in mot kontrollen och god förståelse för höjdkurvor. <i>Se <a href=\"/sv/#svrighetsgrad\">svårighetsgrad</a></i>.",
     "tags": [],
     "related": [
       "A-nivå",
@@ -205,7 +205,7 @@
   },
   {
     "name": "C-nivå",
-    "description": "C-nivå är den näst enklaste svårighetsgraden för en orienteringsbana. C-banor följer i stort sett <a href=\"/#ledlinje\">ledlinjer</a>, men löparna förväntas ibland lämna ledlinjerna. Vägvalsmöjligheter kan förekomma. <i>Se <a href=\"/#svrighetsgrad\">svårighetsgrad</a></i>.",
+    "description": "C-nivå är den näst enklaste svårighetsgraden för en orienteringsbana. C-banor följer i stort sett <a href=\"/sv/#ledlinje\">ledlinjer</a>, men löparna förväntas ibland lämna ledlinjerna. Vägvalsmöjligheter kan förekomma. <i>Se <a href=\"/sv/#svrighetsgrad\">svårighetsgrad</a></i>.",
     "tags": [],
     "related": [
       "A-nivå",
@@ -217,7 +217,7 @@
   },
   {
     "name": "N-nivå",
-    "description": "N-nivå är den enklaste svårighetsgraden för en orienteringsbana, utformad för nybörjare. N-banor följer sammanhängande <a href=\"/#ledlinje\">ledlinjer</a> som vägar, stigar, bäckar och stängsel, och alla kontroller kan ses från ledlinjen. <i>Se <a href=\"/#svrighetsgrad\">svårighetsgrad</a></i>.",
+    "description": "N-nivå är den enklaste svårighetsgraden för en orienteringsbana, utformad för nybörjare. N-banor följer sammanhängande <a href=\"/sv/#ledlinje\">ledlinjer</a> som vägar, stigar, bäckar och stängsel, och alla kontroller kan ses från ledlinjen. <i>Se <a href=\"/sv/#svrighetsgrad\">svårighetsgrad</a></i>.",
     "tags": [],
     "related": [
       "A-nivå",
@@ -229,7 +229,7 @@
   },
   {
     "name": "svårighetsgrad",
-    "description": "En orienteringsbana indelas i fyra svårighetsgrader: <a href=\"/#a-niv\">A</a>, <a href=\"/#b-niv\">B</a>, <a href=\"/#c-niv\">C</a> och <a href=\"/#n-niv\">N</a>, där A är svårast och N är nybörjarbana. Det skandinaviska graderingssystemet används i Sverige, Norge och Finland.",
+    "description": "En orienteringsbana indelas i fyra svårighetsgrader: <a href=\"/sv/#a-niv\">A</a>, <a href=\"/sv/#b-niv\">B</a>, <a href=\"/sv/#c-niv\">C</a> och <a href=\"/sv/#n-niv\">N</a>, där A är svårast och N är nybörjarbana. Det skandinaviska graderingssystemet används i Sverige, Norge och Finland.",
     "tags": [],
     "related": [
       "A-nivå",
@@ -242,7 +242,7 @@
   },
   {
     "name": "hänga",
-    "description": "Att hänga innebär att följa en annan orienterare och navigera med hjälp av dennas beslut snarare än sin egen kartläsning. Detta betraktas som dålig sportsmannaanda inom orientering. Kurskonstruktörer använder <a href=\"/#gaffling\">gaffling</a> för att motverka detta.",
+    "description": "Att hänga innebär att följa en annan orienterare och navigera med hjälp av dennas beslut snarare än sin egen kartläsning. Detta betraktas som dålig sportsmannaanda inom orientering. Kurskonstruktörer använder <a href=\"/sv/#gaffling\">gaffling</a> för att motverka detta.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -272,7 +272,7 @@
   },
   {
     "name": "O",
-    "description": "Inom orientering är man förtjust i bokstaven O och använder den så ofta som möjligt: o-skor (<a href=\"/#orienteringsskor\">orienteringsskor</a>), o-träning (orienteringsträning), o-kläder, o-sport och o-hälsning. Det är en förkortning för orientering som används flitigt i svensk orienteringskultur.",
+    "description": "Inom orientering är man förtjust i bokstaven O och använder den så ofta som möjligt: o-skor (<a href=\"/sv/#orienteringsskor\">orienteringsskor</a>), o-träning (orienteringsträning), o-kläder, o-sport och o-hälsning. Det är en förkortning för orientering som används flitigt i svensk orienteringskultur.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -361,7 +361,7 @@
   },
   {
     "name": "bryta",
-    "description": "Om du skadar dig eller kör fast så att du inte hittar nästa kontroll är alternativet att bryta. Det innebär att avbryta loppet och ta den snabbaste säkra vägen tillbaka till <a href=\"/#samlingsplats\">samlingsplatsen</a>. Det är viktigt att anmäla sig vid mål eller nedladdningsstation även när du bryter, så att funktionärerna vet att du är i säkerhet och inte behöver starta en sökinsats.",
+    "description": "Om du skadar dig eller kör fast så att du inte hittar nästa kontroll är alternativet att bryta. Det innebär att avbryta loppet och ta den snabbaste säkra vägen tillbaka till <a href=\"/sv/#samlingsplats\">samlingsplatsen</a>. Det är viktigt att anmäla sig vid mål eller nedladdningsstation även när du bryter, så att funktionärerna vet att du är i säkerhet och inte behöver starta en sökinsats.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -398,7 +398,7 @@
   },
   {
     "name": "ekvidistans",
-    "description": "Ekvidistansen är höjdskillnaden mellan två angränsande höjdkurvor (de bruna linjerna på orienteringskartan). En mindre ekvidistans möjliggör mer detaljerad höjdvisning. På de flesta orienteringskartor är ekvidistansen 5 meter. Se <a href=\"/#rknekurva\">räknekurva</a>.",
+    "description": "Ekvidistansen är höjdskillnaden mellan två angränsande höjdkurvor (de bruna linjerna på orienteringskartan). En mindre ekvidistans möjliggör mer detaljerad höjdvisning. På de flesta orienteringskartor är ekvidistansen 5 meter. Se <a href=\"/sv/#rknekurva\">räknekurva</a>.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -406,7 +406,7 @@
   },
   {
     "name": "räknekurva",
-    "description": "Var femte höjdkurva på kartan är lite tjockare — det är en räknekurva (även kallad indexkurva). Räknekurvor gör det enkelt att snabbt räkna ut större höjdskillnader. Med en <a href=\"/#ekvidistans\">ekvidistans</a> på 5 meter representerar varje räknekurva 25 meter i höjd. Tre räknekurvor innebär 75 meters höjdskillnad.",
+    "description": "Var femte höjdkurva på kartan är lite tjockare — det är en räknekurva (även kallad indexkurva). Räknekurvor gör det enkelt att snabbt räkna ut större höjdskillnader. Med en <a href=\"/sv/#ekvidistans\">ekvidistans</a> på 5 meter representerar varje räknekurva 25 meter i höjd. Tre räknekurvor innebär 75 meters höjdskillnad.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -478,7 +478,7 @@
   },
   {
     "name": "cirkeln",
-    "description": "Cirkeln är den ring som markerar kontrollens exakta position på orienteringskartan. Cirkeln är centrerad på det exakta terrängobjektet som ska besökas. <i>Se även <a href=\"/#kontrollbeskrivning\">kontrollbeskrivning</a></i>.",
+    "description": "Cirkeln är den ring som markerar kontrollens exakta position på orienteringskartan. Cirkeln är centrerad på det exakta terrängobjektet som ska besökas. <i>Se även <a href=\"/sv/#kontrollbeskrivning\">kontrollbeskrivning</a></i>.",
     "tags": [],
     "related": [
       "karta",
@@ -502,7 +502,7 @@
   },
   {
     "name": "klippare",
-    "description": "En klippare är det traditionella manuella stämplingsverktyget i orientering, som användes innan elektronisk tidtagning. Den lämnar ett unikt mönster av hål i stämpelkortet när den trycks fast, vilket bevisar att löparen besökte kontrollen. Klippare syns sällan i moderna tävlingar. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "description": "En klippare är det traditionella manuella stämplingsverktyget i orientering, som användes innan elektronisk tidtagning. Den lämnar ett unikt mönster av hål i stämpelkortet när den trycks fast, vilket bevisar att löparen besökte kontrollen. Klippare syns sällan i moderna tävlingar. <i>Se <a href=\"/sv/#tidtagning\">tidtagning</a></i>.",
     "tags": [
       "tidtagning"
     ],
@@ -515,7 +515,7 @@
   },
   {
     "name": "Sportiduino",
-    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> är ett system med öppen källkod för elektronisk tidtagning i orientering och ett prisvärt alternativ till <a href=\"/#sportident\">SPORTIdent</a> och <a href=\"/#emit\">EMIT</a>. Det är baserat på Arduino-plattformen och kräver inga licenser, men ett visst mått av teknisk kompetens för att bygga kontroller och bricklösare. Ett annat alternativ med öppen källkod är <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a>.",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> är ett system med öppen källkod för elektronisk tidtagning i orientering och ett prisvärt alternativ till <a href=\"/sv/#sportident\">SPORTIdent</a> och <a href=\"/sv/#emit\">EMIT</a>. Det är baserat på Arduino-plattformen och kräver inga licenser, men ett visst mått av teknisk kompetens för att bygga kontroller och bricklösare. Ett annat alternativ med öppen källkod är <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a>.",
     "tags": [
       "tidtagning"
     ],
@@ -529,7 +529,7 @@
   },
   {
     "name": "SIAC",
-    "description": "SIAC (SPORTIdent Air+ Card) är SPORTIdents kontaktlösa bricka. Till skillnad från en vanlig SI-bricka behöver man inte trycka ner brickan i stämplingslådan – den registrerar automatiskt när den hålls nära kontrollenheten och piper och blinkar för att bekräfta giltig stämpling. SIAC kräver kontroller utrustade med Air+-enheter. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "description": "SIAC (SPORTIdent Air+ Card) är SPORTIdents kontaktlösa bricka. Till skillnad från en vanlig SI-bricka behöver man inte trycka ner brickan i stämplingslådan – den registrerar automatiskt när den hålls nära kontrollenheten och piper och blinkar för att bekräfta giltig stämpling. SIAC kräver kontroller utrustade med Air+-enheter. <i>Se <a href=\"/sv/#tidtagning\">tidtagning</a></i>.",
     "tags": [
       "tidtagning"
     ],
@@ -546,7 +546,7 @@
   },
   {
     "name": "emiTag",
-    "description": "emiTag är EMITs kontaktlösa bricka – motsvarigheten till <a href=\"/#siac\">SIAC</a> för SPORTIdent. Den registrerar automatiskt när den förs nära kontrollenheten utan att behöva tryckas in. Används på tävlingar med EMIT-systemet. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "description": "emiTag är EMITs kontaktlösa bricka – motsvarigheten till <a href=\"/sv/#siac\">SIAC</a> för SPORTIdent. Den registrerar automatiskt när den förs nära kontrollenheten utan att behöva tryckas in. Används på tävlingar med EMIT-systemet. <i>Se <a href=\"/sv/#tidtagning\">tidtagning</a></i>.",
     "tags": [
       "tidtagning"
     ],
@@ -561,7 +561,7 @@
   },
   {
     "name": "Huichang",
-    "description": "Huichang är ett kinesiskt elektroniskt tidtagningssystem för orientering, tillverkat av Beijing Huichang Sports Technology. Det är det dominerande tidtagningssystemet i kinesisk orientering och används brett i Asien. Systemet fungerar enligt samma princip som <a href=\"/#sportident\">SPORTIdent</a> och <a href=\"/#emit\">EMIT</a>. <i>Se <a href=\"/#tidtagning\">tidtagning</a></i>.",
+    "description": "Huichang är ett kinesiskt elektroniskt tidtagningssystem för orientering, tillverkat av Beijing Huichang Sports Technology. Det är det dominerande tidtagningssystemet i kinesisk orientering och används brett i Asien. Systemet fungerar enligt samma princip som <a href=\"/sv/#sportident\">SPORTIdent</a> och <a href=\"/sv/#emit\">EMIT</a>. <i>Se <a href=\"/sv/#tidtagning\">tidtagning</a></i>.",
     "tags": [
       "tidtagning"
     ],
