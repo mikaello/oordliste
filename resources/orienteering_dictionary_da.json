@@ -281,11 +281,9 @@
     "id": "H"
   },
   {
-    "name": "O (Åben)",
-    "description": "I orientering betyder O Åben, og betegner at klassen er åben for alle uanset alder eller køn. Bruges som en del af klassenavnet.",
-    "tags": [
-      "klasse"
-    ],
+    "name": "O",
+    "description": "I orientering er man glad for bogstavet O og bruger det, så ofte man kan: o-sko (<a href=\"/#orienteringssko\">orienteringssko</a>), o-træning (orienteringstræning), o-tøj, o-sport og o-hilsen. Det er en forkortelse for orientering, der bruges flittigt i orienteringskulturen.",
+    "tags": [],
     "related": [],
     "aliases": [],
     "id": "O"
