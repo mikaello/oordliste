@@ -46,7 +46,7 @@
   },
   {
     "name": "EMIT",
-    "description": "EMIT on norjalaisen EMIT-yrityksen valmistama elektroninen ajanottojärjestelmä suunnistukseen. Se on hallitseva järjestelmä Suomessa ja Norjassa. Kansainvälisesti <a href=\"/#sportident\">SPORTIdent</a> on yleisempi standardi. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "description": "EMIT on norjalaisen EMIT-yrityksen valmistama elektroninen ajanottojärjestelmä suunnistukseen. Se on hallitseva järjestelmä Suomessa ja Norjassa. Kansainvälisesti <a href=\"/fi/#sportident\">SPORTIdent</a> on yleisempi standardi. <i>Katso <a href=\"/fi/#ajanotto\">ajanotto</a></i>.",
     "tags": [
       "ajanotto"
     ],
@@ -60,7 +60,7 @@
   },
   {
     "name": "ajanotto",
-    "description": "Elektroninen ajanotto suunnistuksessa perustuu henkilökohtaiseen brikki-siruun, joka on rekisteröity kullekin kilpailijalle. Kun juoksija saapuu rastille, hän leimaa brikinsä rastin leimasimeen, jolloin käynti rekisteröityy. Maalissa brikki luetaan ja saadaan kokonaisaika sekä välitulokset rastien väliltä. Yleisimmät järjestelmät ovat <a href=\"/#emit\">EMIT</a> ja <a href=\"/#sportident\">SPORTIdent</a>.",
+    "description": "Elektroninen ajanotto suunnistuksessa perustuu henkilökohtaiseen brikki-siruun, joka on rekisteröity kullekin kilpailijalle. Kun juoksija saapuu rastille, hän leimaa brikinsä rastin leimasimeen, jolloin käynti rekisteröityy. Maalissa brikki luetaan ja saadaan kokonaisaika sekä välitulokset rastien väliltä. Yleisimmät järjestelmät ovat <a href=\"/fi/#emit\">EMIT</a> ja <a href=\"/fi/#sportident\">SPORTIdent</a>.",
     "tags": [
       "ajanotto"
     ],
@@ -74,7 +74,7 @@
   },
   {
     "name": "haarukointi",
-    "description": "Haarukoinnilla estetään kilpailijoita <a href=\"/#seuraaminen\">seuraamasta</a> toisiaan radalla. Saman sarjan juoksijat saavat hieman toisistaan poikkeavat radat — useimmat rastit ovat yhteisiä, mutta tietyissä kohdissa eri juoksijat käyvät eri rasteilla. Juoksijoiden on navigoitava huolellisesti leimatakseen oikean rastin; väärän rastin leimaaminen johtaa diskvalifikaatioon.",
+    "description": "Haarukoinnilla estetään kilpailijoita <a href=\"/fi/#seuraaminen\">seuraamasta</a> toisiaan radalla. Saman sarjan juoksijat saavat hieman toisistaan poikkeavat radat — useimmat rastit ovat yhteisiä, mutta tietyissä kohdissa eri juoksijat käyvät eri rasteilla. Juoksijoiden on navigoitava huolellisesti leimatakseen oikean rastin; väärän rastin leimaaminen johtaa diskvalifikaatioon.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -92,7 +92,7 @@
   },
   {
     "name": "SPORTIdent",
-    "description": "<a href=\"https://www.sportident.com/\">SPORTIdent</a> on kansainvälisesti eniten käytetty elektroninen ajanottojärjestelmä suunnistuksessa. Henkilökohtaista brikki-sirua kutsutaan SI-brikki:ksi. SPORTIdent on käytössä MM-kilpailuissa ja hallitseva järjestelmä Ruotsissa sekä suurimmassa osassa Eurooppaa. Suomessa ja Norjassa <a href=\"/#emit\">EMIT</a> on yleisempi. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "description": "<a href=\"https://www.sportident.com/\">SPORTIdent</a> on kansainvälisesti eniten käytetty elektroninen ajanottojärjestelmä suunnistuksessa. Henkilökohtaista brikki-sirua kutsutaan SI-brikki:ksi. SPORTIdent on käytössä MM-kilpailuissa ja hallitseva järjestelmä Ruotsissa sekä suurimmassa osassa Eurooppaa. Suomessa ja Norjassa <a href=\"/fi/#emit\">EMIT</a> on yleisempi. <i>Katso <a href=\"/fi/#ajanotto\">ajanotto</a></i>.",
     "tags": [
       "ajanotto"
     ],
@@ -139,7 +139,7 @@
   },
   {
     "name": "kartta",
-    "description": "Suunnistuskartta esittää maaston pelkistetyssä muodossa ja on tärkein väline rastien välillä navigointiin. Kartassa on runsaasti symboleja: korkeuskäyrät kuvaavat korkeuseroja, mustat pisteet tarkoittavat kiviä, siniset alueet vettä ja niin edelleen. Karttoja painetaan eri <i><a href=\"/#mittakaava\">mittakaavoissa</a></i>, tyypillisesti 1:5000 sprinttisuunnistuksessa ja 1:10000 metsäsuunnistuksessa.",
+    "description": "Suunnistuskartta esittää maaston pelkistetyssä muodossa ja on tärkein väline rastien välillä navigointiin. Kartassa on runsaasti symboleja: korkeuskäyrät kuvaavat korkeuseroja, mustat pisteet tarkoittavat kiviä, siniset alueet vettä ja niin edelleen. Karttoja painetaan eri <i><a href=\"/fi/#mittakaava\">mittakaavoissa</a></i>, tyypillisesti 1:5000 sprinttisuunnistuksessa ja 1:10000 metsäsuunnistuksessa.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -157,7 +157,7 @@
   },
   {
     "name": "kompassi",
-    "description": "Kompassi osoittaa pohjoisen (ja siten etelän, idän ja lännen) suunnan. Suunnistaja käyttää kompassia pitääkseen suunnan seuraavalle <i><a href=\"/#rasti\">rastille</a></i> tai asettaakseen kartan — kääntääkseen sen vastaamaan ympäröivää maastoa.",
+    "description": "Kompassi osoittaa pohjoisen (ja siten etelän, idän ja lännen) suunnan. Suunnistaja käyttää kompassia pitääkseen suunnan seuraavalle <i><a href=\"/fi/#rasti\">rastille</a></i> tai asettaakseen kartan — kääntääkseen sen vastaamaan ympäröivää maastoa.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -165,7 +165,7 @@
   },
   {
     "name": "rasti",
-    "description": "Suunnistusrasti (kutsutaan myös postiksi tai merkiksi) koostuu oranssi-valkoisesta viirustasta ja siihen kiinnitetystä leimasimesta, jolla kilpailijan käynti rastilla rekisteröidään. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "description": "Suunnistusrasti (kutsutaan myös postiksi tai merkiksi) koostuu oranssi-valkoisesta viirustasta ja siihen kiinnitetystä leimasimesta, jolla kilpailijan käynti rastilla rekisteröidään. <i>Katso <a href=\"/fi/#ajanotto\">ajanotto</a></i>.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -176,7 +176,7 @@
   },
   {
     "name": "peukalokompassi",
-    "description": "Peukalokompassi kiinnitetään peukaloon, jolloin kartta ja kompassi voidaan pitää yhtenä kokonaisuutena — suosituin kompassityyppi suunnistajien keskuudessa. Perinteisiä levykompasseja käytetään myös, mutta ne ovat harvinaisempia kilpailuissa. <i>Katso <a href=\"/#kompassi\">kompassi</a></i>.",
+    "description": "Peukalokompassi kiinnitetään peukaloon, jolloin kartta ja kompassi voidaan pitää yhtenä kokonaisuutena — suosituin kompassityyppi suunnistajien keskuudessa. Perinteisiä levykompasseja käytetään myös, mutta ne ovat harvinaisempia kilpailuissa. <i>Katso <a href=\"/fi/#kompassi\">kompassi</a></i>.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -184,7 +184,7 @@
   },
   {
     "name": "A-taso",
-    "description": "A-taso on teknisesti vaativin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä. Kaikkien suunnistustekniikoiden hallitseminen on tarpeen. <i>Katso <a href=\"/#vaikeusaste\">vaikeusaste</a></i>.",
+    "description": "A-taso on teknisesti vaativin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä. Kaikkien suunnistustekniikoiden hallitseminen on tarpeen. <i>Katso <a href=\"/fi/#vaikeusaste\">vaikeusaste</a></i>.",
     "tags": [],
     "related": [
       "B-nivå",
@@ -196,7 +196,7 @@
   },
   {
     "name": "B-taso",
-    "description": "B-taso on toiseksi vaativin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä. B-radat edellyttävät lyhyttä hienosuunnistusta rastille sekä korkeuskäyrien hyvää ymmärtämistä. <i>Katso <a href=\"/#vaikeusaste\">vaikeusaste</a></i>.",
+    "description": "B-taso on toiseksi vaativin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä. B-radat edellyttävät lyhyttä hienosuunnistusta rastille sekä korkeuskäyrien hyvää ymmärtämistä. <i>Katso <a href=\"/fi/#vaikeusaste\">vaikeusaste</a></i>.",
     "tags": [],
     "related": [
       "A-nivå",
@@ -208,7 +208,7 @@
   },
   {
     "name": "C-taso",
-    "description": "C-taso on toiseksi helpoin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä. C-radat seuraavat pääosin <a href=\"/#johtolinja\">johtolinjoja</a>, mutta juoksijoiden odotetaan poikkeavan niiltä tietyissä kohdissa. Reitinvalintamahdollisuuksia voi esiintyä. <i>Katso <a href=\"/#vaikeusaste\">vaikeusaste</a></i>.",
+    "description": "C-taso on toiseksi helpoin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä. C-radat seuraavat pääosin <a href=\"/fi/#johtolinja\">johtolinjoja</a>, mutta juoksijoiden odotetaan poikkeavan niiltä tietyissä kohdissa. Reitinvalintamahdollisuuksia voi esiintyä. <i>Katso <a href=\"/fi/#vaikeusaste\">vaikeusaste</a></i>.",
     "tags": [],
     "related": [
       "A-nivå",
@@ -220,7 +220,7 @@
   },
   {
     "name": "N-taso",
-    "description": "N-taso on helpoin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä, tarkoitettu aloittelijoille. N-radat seuraavat yhtenäisiä <a href=\"/#johtolinja\">johtolinjoja</a>, kuten polkuja, uria, puroja ja aitoja, ja kaikki rastit näkyvät johtolinjoilta. <i>Katso <a href=\"/#vaikeusaste\">vaikeusaste</a></i>.",
+    "description": "N-taso on helpoin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä, tarkoitettu aloittelijoille. N-radat seuraavat yhtenäisiä <a href=\"/fi/#johtolinja\">johtolinjoja</a>, kuten polkuja, uria, puroja ja aitoja, ja kaikki rastit näkyvät johtolinjoilta. <i>Katso <a href=\"/fi/#vaikeusaste\">vaikeusaste</a></i>.",
     "tags": [],
     "related": [
       "A-nivå",
@@ -232,7 +232,7 @@
   },
   {
     "name": "vaikeusaste",
-    "description": "Pohjoismaisessa luokittelujärjestelmässä radat jaetaan neljään vaikeusasteeseen: <a href=\"/#a-taso\">A</a>, <a href=\"/#b-taso\">B</a>, <a href=\"/#c-taso\">C</a> ja <a href=\"/#n-taso\">N</a>, joista A on vaikein ja N on aloittelijoille tarkoitettu. Tätä järjestelmää käytetään Suomessa, Norjassa ja Ruotsissa. Muissa maissa käytetään erilaisia väri- tai numeropohjaisia järjestelmiä.",
+    "description": "Pohjoismaisessa luokittelujärjestelmässä radat jaetaan neljään vaikeusasteeseen: <a href=\"/fi/#a-taso\">A</a>, <a href=\"/fi/#b-taso\">B</a>, <a href=\"/fi/#c-taso\">C</a> ja <a href=\"/fi/#n-taso\">N</a>, joista A on vaikein ja N on aloittelijoille tarkoitettu. Tätä järjestelmää käytetään Suomessa, Norjassa ja Ruotsissa. Muissa maissa käytetään erilaisia väri- tai numeropohjaisia järjestelmiä.",
     "tags": [],
     "related": [
       "A-nivå",
@@ -279,7 +279,7 @@
   },
   {
     "name": "O",
-    "description": "Suunnistajat rakastavat O-kirjainta ja käyttävät sitä aina kun mahdollista: o-kengät (<a href=\"/#suunnistuskengt\">suunnistuskengät</a>), o-harjoitus (suunnistusharjoitus), o-puku, o-laji ja niin edelleen. Se on lyhenne suunnistuksesta ja on laajalti käytössä suunnistuskulttuurissa.",
+    "description": "Suunnistajat rakastavat O-kirjainta ja käyttävät sitä aina kun mahdollista: o-kengät (<a href=\"/fi/#suunnistuskengt\">suunnistuskengät</a>), o-harjoitus (suunnistusharjoitus), o-puku, o-laji ja niin edelleen. Se on lyhenne suunnistuksesta ja on laajalti käytössä suunnistuskulttuurissa.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -313,7 +313,7 @@
   },
   {
     "name": "Kjempesprekken",
-    "description": "Kjempesprekken on OSI Orienteering vuoden kohokohta — pitkä perinteiskilpailu, joka lähtee KSI-majan läheltä Nordmarkassa, Oslossa. 18 km, 12 km ja 6 km radat kiertävät kauniin Nordmarkan maisemissa. Kilpailun jälkeen seuraa seuran illallinen KSI-majalla. Nimi leikittelee norjan sanalla <i>sprekke</i> — hajoaminen (energian loppuminen kesken kilpailun).",
+    "description": "Kjempesprekken on OSI Orienteering vuoden kohokohta — pitkä perinteiskilpailu, joka lähtee KSI-majan läheltä Nordmarkassa, Oslossa. Aluksi oli vain 30 km ja 18 km, mutta myöhemmin lisättiin 12 km ja 6 km, ja 30 km poistui. Nykyään on 18 km, 12 km ja 6 km radat kauniin Nordmarkan maisemissa. Kilpailun jälkeen seuraa seuran illallinen KSI-majalla. Nimi leikittelee norjan sanalla <i>sprekke</i> — hajoaminen (energian loppuminen kesken kilpailun).",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -370,7 +370,7 @@
   },
   {
     "name": "keskeyttäminen",
-    "description": "Jos loukkaat itsesi tai eksyt toivottomasti, voit keskeyttää kilpailun. Löydä nopein turvallinen reitti takaisin <a href=\"/#kilpailukeskus\">kilpailukeskukseen</a>. On välttämätöntä ilmoittautua maaliin tai latausasemalle myös keskeyttäessä, jotta toimitsijat tietävät sinun olevan turvassa eivätkä käynnistä etsintäoperaatiota. Keskeyttäneet kirjataan tuloksiin DNF (Did Not Finish).",
+    "description": "Jos loukkaat itsesi tai eksyt toivottomasti, voit keskeyttää kilpailun. Löydä nopein turvallinen reitti takaisin <a href=\"/fi/#kilpailukeskus\">kilpailukeskukseen</a>. On välttämätöntä ilmoittautua maaliin tai latausasemalle myös keskeyttäessä, jotta toimitsijat tietävät sinun olevan turvassa eivätkä käynnistä etsintäoperaatiota. Keskeyttäneet kirjataan tuloksiin DNF (Did Not Finish).",
     "tags": [],
     "related": [],
     "aliases": [
@@ -391,7 +391,7 @@
   },
   {
     "name": "tarkkuussuunnistus",
-    "description": "Tarkkuussuunnistus (pre-O) on IOF:n virallisesti tunnustama suunnistuksen muoto, joka on suunniteltu sekä liikuntarajoitteisille että muille osallistujille. Radat kulkevat pyörätuolille soveltuvilla poluilla ja teillä. Haaste on karttasuunnistuksen tarkkuudessa eikä juoksunopeudessa — jokaisen rastin kohdalla on useita merkkejä, ja kilpailijan tulee tunnistaa, mikä niistä (jos mikään) vastaa karttaa ja <a href=\"/#rastikuvaus\">rastikuvausta</a>. Joillakin rasteilla on vain yksi merkki, ja tehtävänä on päättää, mikä useista rastikuvauksista on oikea.",
+    "description": "Tarkkuussuunnistus (pre-O) on IOF:n virallisesti tunnustama suunnistuksen muoto, joka on suunniteltu sekä liikuntarajoitteisille että muille osallistujille. Radat kulkevat pyörätuolille soveltuvilla poluilla ja teillä. Haaste on karttasuunnistuksen tarkkuudessa eikä juoksunopeudessa — jokaisen rastin kohdalla on useita merkkejä, ja kilpailijan tulee tunnistaa, mikä niistä (jos mikään) vastaa karttaa ja <a href=\"/fi/#rastikuvaus\">rastikuvausta</a>. Joillakin rasteilla on vain yksi merkki, ja tehtävänä on päättää, mikä useista rastikuvauksista on oikea.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -401,7 +401,7 @@
   },
   {
     "name": "lasten radat",
-    "description": "Lasten radat on suunniteltu kaikkein pienimmille osallistujille. Ne ovat merkittyjä reittejä, joissa on hauskoja ja innostavia rasteja tavanomaisten suunnistusviirustien sijaan, painottaen iloa ja seikkailua tarkan karttasuunnistuksen sijaan. Kaikki maaliin saapuvat saavat yleensä palkinnon.",
+    "description": "Lasten radat on suunniteltu kaikkein pienimmille osallistujille. Ne ovat merkittyjä reittejä, joissa on hauskoja ja innostavia rasteja tavanomaisten suunnistusviirustien sijaan — radat voivat olla myös estehtanatyyppisiä. Pääpaino on iloissa ja seikkailussa tarkan karttasuunnistuksen sijaan. Kaikki maaliin saapuvat saavat yleensä palkinnon.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -411,7 +411,7 @@
   },
   {
     "name": "ekvidistanssi",
-    "description": "Ekvidistanssi on kahden vierekkäisen korkeuskäyrän (kartan ruskeisten viivojen) välinen korkeusero. Pienempi ekvidistanssi mahdollistaa tarkemman korkeusesityksen kartalla. Useimmissa suunnistuskartoissa ekvidistanssi on 5 metriä. Katso <a href=\"/#vahvistuskyr\">vahvistuskäyrä</a>.",
+    "description": "Ekvidistanssi on kahden vierekkäisen korkeuskäyrän (kartan ruskeisten viivojen) välinen korkeusero. Pienempi ekvidistanssi mahdollistaa tarkemman korkeusesityksen kartalla. Useimmissa suunnistuskartoissa ekvidistanssi on 5 metriä. Katso <a href=\"/fi/#vahvistuskyr\">vahvistuskäyrä</a>.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -419,7 +419,7 @@
   },
   {
     "name": "vahvistuskäyrä",
-    "description": "Joka viides korkeuskäyrä on kartalla hieman paksumpi — tämä on vahvistuskäyrä. Vahvistuskäyrät helpottavat suurempien korkeuserojen nopeaa laskemista. 5 metrin <a href=\"/#ekvidistanssi\">ekvidistanssilla</a> jokainen vahvistuskäyrä edustaa 25 metrin korkeutta. Kolme vahvistuskäyrää sinun ja seuraavan rastisi välillä tarkoittaa 75 metrin nousua.",
+    "description": "Joka viides korkeuskäyrä on kartalla hieman paksumpi — tämä on vahvistuskäyrä. Vahvistuskäyrät helpottavat suurempien korkeuserojen nopeaa laskemista. 5 metrin <a href=\"/fi/#ekvidistanssi\">ekvidistanssilla</a> jokainen vahvistuskäyrä edustaa 25 metrin korkeutta. Kolme vahvistuskäyrää sinun ja seuraavan rastisi välillä tarkoittaa 75 metrin nousua.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -458,7 +458,7 @@
   },
   {
     "name": "nollaus",
-    "description": "Nollaus pyyhkii aiemman kilpailun tiedot pois brikistä ennen uutta kilpailua. Tämä on tehtävä erillisellä nollausasemalla ennen lähtöä. Nollauksen unohtaminen voi johtaa virheellisiin ajanottotietoihin ja diskvalifikaatioon.",
+    "description": "Nollaus pyyhkii aiemman kilpailun tiedot pois brikistä ennen uutta kilpailua. Tämä on tehtävä erillisellä nollausasemalla ennen lähtöä. Nollauksen unohtaminen tarkoittaa, ettei kilpailija saa oikeaa aikaa, ja johtaa diskvalifikaatioon.",
     "tags": [
       "ajanotto"
     ],
@@ -491,7 +491,7 @@
   },
   {
     "name": "rastiympyrä",
-    "description": "Rastiympyrä on suunnistuskartalle painettu ympyrä, joka merkitsee rastin tarkan sijainnin. Ympyrä on keskitetty tarkasti löydettävälle maastokohteelle. <i>Katso myös <a href=\"/#rastikuvaus\">rastikuvaus</a></i>.",
+    "description": "Rastiympyrä on suunnistuskartalle painettu ympyrä, joka merkitsee rastin tarkan sijainnin. Ympyrä on keskitetty tarkasti löydettävälle maastokohteelle. <i>Katso myös <a href=\"/fi/#rastikuvaus\">rastikuvaus</a></i>.",
     "tags": [],
     "related": [
       "kart",
@@ -513,7 +513,7 @@
   },
   {
     "name": "leimasin",
-    "description": "Leimasin on suunnistuksen perinteinen manuaalinen leimausväline ennen elektronista ajanottoa. Se tekee leimauskortille ainutlaatuisen reikäkuvion, joka todistaa kilpailijan käyneen rastilla. Leimaimia näkee nykyään harvoin kilpailuissa. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "description": "Leimasin on suunnistuksen perinteinen manuaalinen leimausväline ennen elektronista ajanottoa. Se tekee leimauskortille ainutlaatuisen reikäkuvion, joka todistaa kilpailijan käyneen rastilla. Leimaimia näkee nykyään harvoin kilpailuissa. <i>Katso <a href=\"/fi/#ajanotto\">ajanotto</a></i>.",
     "tags": [
       "ajanotto"
     ],
@@ -526,7 +526,7 @@
   },
   {
     "name": "Sportiduino",
-    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> on avoimen lähdekoodin elektroninen ajanottojärjestelmä suunnistukseen, joka tarjoaa edullisemman vaihtoehdon <a href=\"/#sportident\">SPORTIdentille</a> ja <a href=\"/#emit\">EMITille</a>. Se perustuu Arduino-alustaan; pystytys vaatii merkittävästi aikaa ja vaivaa, koska rastit ja brikkien lukijalaite on rakennettava komponenteista. Toinen avoimen lähdekoodin vaihtoehto on <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a>.",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> on avoimen lähdekoodin elektroninen ajanottojärjestelmä suunnistukseen, joka tarjoaa edullisemman vaihtoehdon <a href=\"/fi/#sportident\">SPORTIdentille</a> ja <a href=\"/fi/#emit\">EMITille</a>. Se perustuu Arduino-alustaan; pystytys vaatii merkittävästi aikaa ja vaivaa, koska rastit ja brikkien lukijalaite on rakennettava komponenteista. Toinen avoimen lähdekoodin vaihtoehto on <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a>.",
     "tags": [
       "ajanotto"
     ],
@@ -540,7 +540,7 @@
   },
   {
     "name": "SIAC",
-    "description": "SIAC (SPORTIdent Air+ Card) on SPORTIdentin kosketukseton brikki. Toisin kuin tavallinen SI-brikki, SIAC:ia ei tarvitse laittaa fyysisesti leimasimeen — se rekisteröityy automaattisesti pidettäessä riittävän lähellä kontrolliyksikköä, ja piippaa ja välkkyy vahvistaakseen leimauksen. SIAC vaatii Air+-yksiköillä varustetut rastit. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "description": "SIAC (SPORTIdent Air+ Card) on SPORTIdentin kosketukseton brikki. Toisin kuin tavallinen SI-brikki, SIAC:ia ei tarvitse laittaa fyysisesti leimasimeen — se rekisteröityy automaattisesti pidettäessä riittävän lähellä kontrolliyksikköä, ja piippaa ja välkkyy vahvistaakseen leimauksen. SIAC vaatii Air+-yksiköillä varustetut rastit. <i>Katso <a href=\"/fi/#ajanotto\">ajanotto</a></i>.",
     "tags": [
       "ajanotto"
     ],
@@ -557,7 +557,7 @@
   },
   {
     "name": "emiTag",
-    "description": "emiTag on EMITin kosketukseton brikki — SPORTIdentin <a href=\"/#siac\">SIAC</a>in vastine. Se rekisteröityy automaattisesti ohitettaessa lähellä rastin leimasinta ilman fyysistä kontaktia. Käytetään EMIT-järjestelmällä toimivissa kilpailuissa. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "description": "emiTag on EMITin kosketukseton brikki — SPORTIdentin <a href=\"/fi/#siac\">SIAC</a>in vastine. Se rekisteröityy automaattisesti ohitettaessa lähellä rastin leimasinta ilman fyysistä kontaktia. Käytetään EMIT-järjestelmällä toimivissa kilpailuissa. <i>Katso <a href=\"/fi/#ajanotto\">ajanotto</a></i>.",
     "tags": [
       "ajanotto"
     ],
@@ -572,7 +572,7 @@
   },
   {
     "name": "Huichang",
-    "description": "Huichang on kiinalainen suunnistuksen elektroninen ajanottojärjestelmä, jonka valmistaa Beijing Huichang Sports Technology. Se on hallitseva ajanottojärjestelmä kiinalaisessa suunnistuksessa ja laajasti käytössä Aasiassa. Se toimii samoilla periaatteilla kuin <a href=\"/#sportident\">SPORTIdent</a> ja <a href=\"/#emit\">EMIT</a>. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "description": "Huichang on kiinalainen suunnistuksen elektroninen ajanottojärjestelmä, jonka valmistaa Beijing Huichang Sports Technology. Se on hallitseva ajanottojärjestelmä kiinalaisessa suunnistuksessa ja laajasti käytössä Aasiassa. Se toimii samoilla periaatteilla kuin <a href=\"/fi/#sportident\">SPORTIdent</a> ja <a href=\"/fi/#emit\">EMIT</a>. <i>Katso <a href=\"/fi/#ajanotto\">ajanotto</a></i>.",
     "tags": [
       "ajanotto"
     ],
