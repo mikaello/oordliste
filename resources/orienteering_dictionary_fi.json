@@ -1,0 +1,588 @@
+[
+  {
+    "name": "PM",
+    "description": "PM (promemoria) on suunnistuskilpailun kilpailuohje — yksityiskohtainen tietopaketti kilpailusta, kuten tarkka lähtöpaikan sijainti, pysäköintiohjeet ja juomapisteiden tiedot. PM laaditaan yleensä vain suuremmille kilpailuille.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "promemoria",
+      "kilpailuohje"
+    ],
+    "id": "PM"
+  },
+  {
+    "name": "kilpailukeskus",
+    "description": "Kilpailukeskus (tunnetaan myös nimellä areena) on suunnistuskilpailun toiminnan keskipiste. Sieltä löytyvät maali, latausasema, toimitsijat, tulostaulu, palkintojenjako sekä usein suihkut ja virvokkeet. Lähtö sijaitsee usein muualla, mutta sinne on opastettu kilpailukeskuksesta.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "areena"
+    ],
+    "id": "samlingsplass"
+  },
+  {
+    "name": "viesti",
+    "description": "Viesti on joukkuemuoto, jossa kukin joukkueenjäsen juoksee yhden tai useamman osuuden ja vaihtaa seuraavalle juoksijalle osuuden päättyessä. Skandinaviassa käytetään myös sanoja <i>kavle</i> ja <i>budkavle</i>.",
+    "tags": [
+      "viesti"
+    ],
+    "related": [],
+    "aliases": [
+      "staffetti",
+      "kavle"
+    ],
+    "id": "kavle"
+  },
+  {
+    "name": "harhailu",
+    "description": "Harhailu tarkoittaa tilannetta, jossa suunnistaja ei löydä rastiaan sujuvasti ja menettää aikaa. Eliittisuunnistajalle pieni harhailu voi tarkoittaa 10–20 sekunnin menetystä, aloittelijalle taas useita minuutteja tai pahimmillaan kymmeniä minuutteja.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "erehdys",
+      "moka"
+    ],
+    "id": "bomme"
+  },
+  {
+    "name": "EMIT",
+    "description": "EMIT on norjalaisen EMIT-yrityksen valmistama elektroninen ajanottojärjestelmä suunnistukseen. Se on hallitseva järjestelmä Suomessa ja Norjassa. Kansainvälisesti <a href=\"/#sportident\">SPORTIdent</a> on yleisempi standardi. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [
+      "SPORTIdent",
+      "SFR",
+      "emiTag"
+    ],
+    "aliases": [],
+    "id": "EMIT"
+  },
+  {
+    "name": "ajanotto",
+    "description": "Elektroninen ajanotto suunnistuksessa perustuu henkilökohtaiseen brikki-siruun, joka on rekisteröity kullekin kilpailijalle. Kun juoksija saapuu rastille, hän leimaa brikinsä rastin leimasimeen, jolloin käynti rekisteröityy. Maalissa brikki luetaan ja saadaan kokonaisaika sekä välitulokset rastien väliltä. Yleisimmät järjestelmät ovat <a href=\"/#emit\">EMIT</a> ja <a href=\"/#sportident\">SPORTIdent</a>.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [
+      "EMIT",
+      "SPORTIdent",
+      "SFR"
+    ],
+    "aliases": [],
+    "id": "tidtaking"
+  },
+  {
+    "name": "haarukointi",
+    "description": "Haarukoinnilla estetään kilpailijoita <a href=\"/#seuraaminen\">seuraamasta</a> toisiaan radalla. Saman sarjan juoksijat saavat hieman toisistaan poikkeavat radat — useimmat rastit ovat yhteisiä, mutta tietyissä kohdissa eri juoksijat käyvät eri rasteilla. Juoksijoiden on navigoitava huolellisesti leimatakseen oikean rastin; väärän rastin leimaaminen johtaa diskvalifikaatioon.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "gafling"
+  },
+  {
+    "name": "rastikuvaus",
+    "description": "Rastikuvaus on kartan mukana tuleva lappunen, joka voidaan myös painaa suoraan kartalle. Siinä käytetään IOF:n standardoituja symboleja ilmaisemaan tarkasti, mille maastokohteelle kukin rasti on sijoitettu — esimerkiksi rasti 3 on suuren kiven länsipuolella.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "rastiselitys"
+    ],
+    "id": "postbeskrivelse"
+  },
+  {
+    "name": "SPORTIdent",
+    "description": "<a href=\"https://www.sportident.com/\">SPORTIdent</a> on kansainvälisesti eniten käytetty elektroninen ajanottojärjestelmä suunnistuksessa. Henkilökohtaista brikki-sirua kutsutaan SI-brikki:ksi. SPORTIdent on käytössä MM-kilpailuissa ja hallitseva järjestelmä Ruotsissa sekä suurimmassa osassa Eurooppaa. Suomessa ja Norjassa <a href=\"/#emit\">EMIT</a> on yleisempi. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [
+      "EMIT",
+      "SFR",
+      "SIAC"
+    ],
+    "aliases": [
+      "SI"
+    ],
+    "id": "SPORTIdent"
+  },
+  {
+    "name": "SFR",
+    "description": "<a href=\"http://sfr-system.com/\">SFR</a> (Start Finish Result) on venäläinen suunnistuksen elektroninen ajanottojärjestelmä, joka toimii samalla periaatteella kuin SPORTIdent ja EMIT.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [
+      "EMIT",
+      "SPORTIdent"
+    ],
+    "aliases": [],
+    "id": "SFR"
+  },
+  {
+    "name": "Rankingløp",
+    "description": "Rankingløp on viikoittain järjestettävä epävirallinen harjoituskilpailusarja, jonka OSI Orientering ja IL GeoForm organisoivat Oslossa. Pisteitä kertyy kauden aikana kokonaissijoitukseen — siitä nimi. Lisätietoja <a href=\"https://ilgeoform.no/rankinglop/\">Rankingløp-sivulla</a>.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Rankingløp"
+  },
+  {
+    "name": "Rastilippu",
+    "description": "<a href=\"https://rastilippu.fi\">Rastilippu</a> on Suomen Suunnistusliiton ylläpitämä kilpailukalenteri ja ilmoittautumisjärjestelmä. Sieltä löytyvät suunnistuskilpailujen terminlista, ilmoittautumiset ja tulokset. Rekisteröi tunnus kilpailuihin verkossa ilmoittautumista varten. Muissa Pohjoismaissa käytetään vastaavaan tarkoitukseen <a href=\"http://eventor.orientering.no\">Eventor</a>-palvelua.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "Irma"
+    ],
+    "id": "Eventor"
+  },
+  {
+    "name": "kartta",
+    "description": "Suunnistuskartta esittää maaston pelkistetyssä muodossa ja on tärkein väline rastien välillä navigointiin. Kartassa on runsaasti symboleja: korkeuskäyrät kuvaavat korkeuseroja, mustat pisteet tarkoittavat kiviä, siniset alueet vettä ja niin edelleen. Karttoja painetaan eri <i><a href=\"/#mittakaava\">mittakaavoissa</a></i>, tyypillisesti 1:5000 sprinttisuunnistuksessa ja 1:10000 metsäsuunnistuksessa.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "suunnistuskartta"
+    ],
+    "id": "kart"
+  },
+  {
+    "name": "mittakaava",
+    "description": "Mittakaava kertoo, kuinka paljon todellinen maasto on pienennetty kartaksi. Mittakaava 1:10000 tarkoittaa, että 1 cm kartalla vastaa 10000 cm (100 metriä) maastossa. Retkeilykartat käyttävät usein mittakaavaa 1:50000 kattaen laajan alueen vähäisellä yksityiskohtaisuudella. Suunnistuskartat ovat tyypillisesti 1:7500 tai 1:10000 metsäradoilla ja 1:5000 tai 1:4000 sprintissä. Pienemmällä mittakaavalla kartalle mahtuu enemmän yksityiskohtia, mikä mahdollistaa tarkemman navigoinnin.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "målestokk"
+  },
+  {
+    "name": "kompassi",
+    "description": "Kompassi osoittaa pohjoisen (ja siten etelän, idän ja lännen) suunnan. Suunnistaja käyttää kompassia pitääkseen suunnan seuraavalle <i><a href=\"/#rasti\">rastille</a></i> tai asettaakseen kartan — kääntääkseen sen vastaamaan ympäröivää maastoa.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "kompass"
+  },
+  {
+    "name": "rasti",
+    "description": "Suunnistusrasti (kutsutaan myös postiksi tai merkiksi) koostuu oranssi-valkoisesta viirustasta ja siihen kiinnitetystä leimasimesta, jolla kilpailijan käynti rastilla rekisteröidään. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "kontrolli",
+      "posti"
+    ],
+    "id": "orienteringspost"
+  },
+  {
+    "name": "peukalokompassi",
+    "description": "Peukalokompassi kiinnitetään peukaloon, jolloin kartta ja kompassi voidaan pitää yhtenä kokonaisuutena — suosituin kompassityyppi suunnistajien keskuudessa. Perinteisiä levykompasseja käytetään myös, mutta ne ovat harvinaisempia kilpailuissa. <i>Katso <a href=\"/#kompassi\">kompassi</a></i>.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "tommelkompass"
+  },
+  {
+    "name": "A-taso",
+    "description": "A-taso on teknisesti vaativin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä. Kaikkien suunnistustekniikoiden hallitseminen on tarpeen. <i>Katso <a href=\"/#vaikeusaste\">vaikeusaste</a></i>.",
+    "tags": [],
+    "related": [
+      "B-nivå",
+      "C-nivå",
+      "N-nivå"
+    ],
+    "aliases": [],
+    "id": "A-nivå"
+  },
+  {
+    "name": "B-taso",
+    "description": "B-taso on toiseksi vaativin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä. B-radat edellyttävät lyhyttä hienosuunnistusta rastille sekä korkeuskäyrien hyvää ymmärtämistä. <i>Katso <a href=\"/#vaikeusaste\">vaikeusaste</a></i>.",
+    "tags": [],
+    "related": [
+      "A-nivå",
+      "C-nivå",
+      "N-nivå"
+    ],
+    "aliases": [],
+    "id": "B-nivå"
+  },
+  {
+    "name": "C-taso",
+    "description": "C-taso on toiseksi helpoin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä. C-radat seuraavat pääosin <a href=\"/#johtolinja\">johtolinjoja</a>, mutta juoksijoiden odotetaan poikkeavan niiltä tietyissä kohdissa. Reitinvalintamahdollisuuksia voi esiintyä. <i>Katso <a href=\"/#vaikeusaste\">vaikeusaste</a></i>.",
+    "tags": [],
+    "related": [
+      "A-nivå",
+      "B-nivå",
+      "N-nivå"
+    ],
+    "aliases": [],
+    "id": "C-nivå"
+  },
+  {
+    "name": "N-taso",
+    "description": "N-taso on helpoin ratavaikeusaste pohjoismaisessa luokittelujärjestelmässä, tarkoitettu aloittelijoille. N-radat seuraavat yhtenäisiä <a href=\"/#johtolinja\">johtolinjoja</a>, kuten polkuja, uria, puroja ja aitoja, ja kaikki rastit näkyvät johtolinjoilta. <i>Katso <a href=\"/#vaikeusaste\">vaikeusaste</a></i>.",
+    "tags": [],
+    "related": [
+      "A-nivå",
+      "B-nivå",
+      "C-nivå"
+    ],
+    "aliases": [],
+    "id": "N-nivå"
+  },
+  {
+    "name": "vaikeusaste",
+    "description": "Pohjoismaisessa luokittelujärjestelmässä radat jaetaan neljään vaikeusasteeseen: <a href=\"/#a-taso\">A</a>, <a href=\"/#b-taso\">B</a>, <a href=\"/#c-taso\">C</a> ja <a href=\"/#n-taso\">N</a>, joista A on vaikein ja N on aloittelijoille tarkoitettu. Tätä järjestelmää käytetään Suomessa, Norjassa ja Ruotsissa. Muissa maissa käytetään erilaisia väri- tai numeropohjaisia järjestelmiä.",
+    "tags": [],
+    "related": [
+      "A-nivå",
+      "B-nivå",
+      "C-nivå",
+      "N-nivå"
+    ],
+    "aliases": [],
+    "id": "vanskelighetsgrad"
+  },
+  {
+    "name": "seuraaminen",
+    "description": "Seuraaminen tarkoittaa toisen suunnistajan perässä kulkemista ja hänen navigointipäätöstensä hyödyntämistä oman karttasuunnistuksen sijaan. Tätä pidetään huonona urheiluhenkenä suunnistuksessa.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "perässä roikkuminen"
+    ],
+    "id": "henge"
+  },
+  {
+    "name": "N (naiset)",
+    "description": "N tarkoittaa naisia suunnistusluokkien nimissä, esimerkiksi N21E (naisten eliittisarja, 21 vuotta täyttäneet ja vanhemmat). Suomessa naisten luokista käytetään N-kirjainta (<i>naiset</i>). Skandinaviassa käytetään D-kirjainta (<i>Dame/Damer</i>).",
+    "tags": [],
+    "related": [
+      "H"
+    ],
+    "aliases": [
+      "D"
+    ],
+    "id": "D"
+  },
+  {
+    "name": "M (miehet)",
+    "description": "M tarkoittaa miehiä suunnistusluokkien nimissä, esimerkiksi M21E (miesten eliittisarja, 21 vuotta täyttäneet ja vanhemmat). Suomessa miesten luokista käytetään M-kirjainta (<i>miehet</i>). Skandinaviassa käytetään H-kirjainta (<i>Herre/Herrer</i>).",
+    "tags": [],
+    "related": [
+      "D"
+    ],
+    "aliases": [
+      "H"
+    ],
+    "id": "H"
+  },
+  {
+    "name": "O",
+    "description": "Suunnistajat rakastavat O-kirjainta ja käyttävät sitä aina kun mahdollista: o-kengät (<a href=\"/#suunnistuskengt\">suunnistuskengät</a>), o-harjoitus (suunnistusharjoitus), o-puku, o-laji ja niin edelleen. Se on lyhenne suunnistuksesta ja on laajalti käytössä suunnistuskulttuurissa.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "O"
+  },
+  {
+    "name": "suunnistuskengät",
+    "description": "Suunnistuskengissä on karkeat nastat ja usein myös piikkirimmellit pohjassa parhainta mahdollista pitoa varten liukkaalla maastolla, märillä juurilla ja jäisessä kelissä.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "o-kengät"
+    ],
+    "id": "orienteringssko"
+  },
+  {
+    "name": "johtolinja",
+    "description": "Johtolinja on helposti kartalta tunnistettava ja maastossa seurattava lineaarinen kohde — esimerkiksi puro, polku, pellon reuna tai aita. Johtolinja ohjaa turvallisesti paikasta toiseen ja voi toimia myös pysäyttävänä rajana: linja, jonka ylität väistämättä jos ylität maalisi.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "ledelinje"
+  },
+  {
+    "name": "georeferointi",
+    "description": "Suunnistuskartan georeferointi tarkoittaa sen sovittamista standardikoordinaatistoon (kuten WGS84). Tämä mahdollistaa GPS-kellon tai puhelimen tallentamien GPS-jälkien tarkan sijoittamisen kartalle kilpailun jälkeistä reittianalyysiä varten. Ilman georeferointia GPS-jälkeä ja karttaa ei voi luotettavasti yhdistää.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "georeferere"
+  },
+  {
+    "name": "Kjempesprekken",
+    "description": "Kjempesprekken on OSI Orienteering vuoden kohokohta — pitkä perinteiskilpailu, joka lähtee KSI-majan läheltä Nordmarkassa, Oslossa. 18 km, 12 km ja 6 km radat kiertävät kauniin Nordmarkan maisemissa. Kilpailun jälkeen seuraa seuran illallinen KSI-majalla. Nimi leikittelee norjan sanalla <i>sprekke</i> — hajoaminen (energian loppuminen kesken kilpailun).",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Kjempesprekken"
+  },
+  {
+    "name": "Tiomila",
+    "description": "Yksi Skandinavian suurimmista ja arvostetuimmista suunnistusviestijuoksuista, joka järjestetään Ruotsissa joka kevät. Naiset kilpailevat päivällä (5 osuutta) ja miehet juoksevat yön läpi (10 osuutta).",
+    "tags": [
+      "viesti"
+    ],
+    "related": [
+      "Jukola",
+      "Night Hawk"
+    ],
+    "aliases": [],
+    "id": "Tiomila"
+  },
+  {
+    "name": "Jukola",
+    "description": "Jukola on yksi maailman suurimmista suunnistusviestijuoksuista, noin 15 000 osallistujalla. Se järjestetään Suomessa joka kesäkuussa. Naiset kilpailevat päivällä Venlojen viestin nimellä (4 osuutta) ja miehet juoksevat yön läpi (7 osuutta). Jukola on suomalaisen suunnistuksen vuoden suurin tapahtuma.",
+    "tags": [
+      "viesti"
+    ],
+    "related": [
+      "Tiomila",
+      "Night Hawk"
+    ],
+    "aliases": [
+      "Venlojen viesti"
+    ],
+    "id": "Jukola"
+  },
+  {
+    "name": "Night Hawk",
+    "description": "Night Hawk oli Norjan vastine Tiomilalle ja Jukolalle — suuri suunnistusviestijuoksu, jonka Tyrving IL järjesti elokuussa. Naisilla oli 6 osuutta ja miehillä 8 osuutta, ja noin puolet viestiä juostiin pimeässä. Viimeinen kilpailu järjestettiin vuonna 2023 ja se on sittemmin lopetettu.",
+    "tags": [
+      "viesti"
+    ],
+    "related": [
+      "Tiomila",
+      "Jukola"
+    ],
+    "aliases": [],
+    "id": "Night Hawk"
+  },
+  {
+    "name": "yösuunnistus",
+    "description": "Suunnistus pimeässä. Monet suunnistajat pitävät yösuunnistusta päiväsuunnistusta kiehtovampana — otsalampulla navigointi vaatii paljon enemmän keskittymistä ja karttakontaktia. Tarkan sijaintitietoisuuden merkitys korostuu, kun näkyvyys rajoittuu lampun valokeilaan. Rastin heijastavan merkin löytäminen pimeässä tuottaa syvää onnistumisen tunnetta.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "nattorientering"
+  },
+  {
+    "name": "keskeyttäminen",
+    "description": "Jos loukkaat itsesi tai eksyt toivottomasti, voit keskeyttää kilpailun. Löydä nopein turvallinen reitti takaisin <a href=\"/#kilpailukeskus\">kilpailukeskukseen</a>. On välttämätöntä ilmoittautua maaliin tai latausasemalle myös keskeyttäessä, jotta toimitsijat tietävät sinun olevan turvassa eivätkä käynnistä etsintäoperaatiota. Keskeyttäneet kirjataan tuloksiin DNF (Did Not Finish).",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "DNF"
+    ],
+    "id": "bryte"
+  },
+  {
+    "name": "kuntosarjat",
+    "description": "Kuntosarjat ovat luokkia, joihin voi ilmoittautua kilpailupäivänä paikan päällä ilman ennakkoilmoittautumista. Niissä ei yleensä ole ikä- tai sukupuolijakoa. Ne sopivat erinomaisesti aloittelijoille, ilmoittautumisajan ylittäneille sekä lapsiperheille, joilla on tarvetta joustavuuteen saapumisajan suhteen.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "avoin luokka",
+      "suoralähtö"
+    ],
+    "id": "direkteklasser"
+  },
+  {
+    "name": "tarkkuussuunnistus",
+    "description": "Tarkkuussuunnistus (pre-O) on IOF:n virallisesti tunnustama suunnistuksen muoto, joka on suunniteltu sekä liikuntarajoitteisille että muille osallistujille. Radat kulkevat pyörätuolille soveltuvilla poluilla ja teillä. Haaste on karttasuunnistuksen tarkkuudessa eikä juoksunopeudessa — jokaisen rastin kohdalla on useita merkkejä, ja kilpailijan tulee tunnistaa, mikä niistä (jos mikään) vastaa karttaa ja <a href=\"/#rastikuvaus\">rastikuvausta</a>. Joillakin rasteilla on vain yksi merkki, ja tehtävänä on päättää, mikä useista rastikuvauksista on oikea.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "pre-O"
+    ],
+    "id": "presisjonsorientering"
+  },
+  {
+    "name": "lasten radat",
+    "description": "Lasten radat on suunniteltu kaikkein pienimmille osallistujille. Ne ovat merkittyjä reittejä, joissa on hauskoja ja innostavia rasteja tavanomaisten suunnistusviirustien sijaan, painottaen iloa ja seikkailua tarkan karttasuunnistuksen sijaan. Kaikki maaliin saapuvat saavat yleensä palkinnon.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "lasten suunnistus"
+    ],
+    "id": "småtroll"
+  },
+  {
+    "name": "ekvidistanssi",
+    "description": "Ekvidistanssi on kahden vierekkäisen korkeuskäyrän (kartan ruskeisten viivojen) välinen korkeusero. Pienempi ekvidistanssi mahdollistaa tarkemman korkeusesityksen kartalla. Useimmissa suunnistuskartoissa ekvidistanssi on 5 metriä. Katso <a href=\"/#vahvistuskyr\">vahvistuskäyrä</a>.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "ekvidistanse"
+  },
+  {
+    "name": "vahvistuskäyrä",
+    "description": "Joka viides korkeuskäyrä on kartalla hieman paksumpi — tämä on vahvistuskäyrä. Vahvistuskäyrät helpottavat suurempien korkeuserojen nopeaa laskemista. 5 metrin <a href=\"/#ekvidistanssi\">ekvidistanssilla</a> jokainen vahvistuskäyrä edustaa 25 metrin korkeutta. Kolme vahvistuskäyrää sinun ja seuraavan rastisi välillä tarkoittaa 75 metrin nousua.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "indeksikäyrä"
+    ],
+    "id": "tellekurve"
+  },
+  {
+    "name": "OSI",
+    "description": "OSI on lyhenne nimestä Oslostudentenes Idrettsklubb (Oslon opiskelijoiden urheiluseura). Suunnistusosasto OSI Orientering järjestää kilpailuja ja harjoituksia Oslon seudulla. Tämä sanasto on OSI Orienteering -osaston luoma.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "Oslostudentenes Idrettsklubb",
+      "Oslostudentenes IK"
+    ],
+    "id": "OSI"
+  },
+  {
+    "name": "kiintorastit",
+    "description": "Kiintorastit ovat suunnistusratoja, joita voi suorittaa omaan tahtiin milloin tahansa kauden aikana. Ostat tai lataat kartan, johon rastit on merkitty; rastit pysyvät maastossa koko kesäkauden. Rasteilla on yleensä tunnuskoodi, jonka voi kirjata ylös.",
+    "tags": [],
+    "related": [],
+    "aliases": [
+      "viirisuunnistus"
+    ],
+    "id": "turorientering"
+  },
+  {
+    "name": "Stolpejakten",
+    "description": "Stolpejakten on ilmainen aktiviteetti, jossa etsitään osallistuviin kuntiin sijoitettuja pylväitä. Jokainen pylväs voidaan kirjata <a href=\"https://www.stolpejakten.no/#/about\">Stolpejakten-sovelluksessa</a> QR-koodilla tai manuaalisesti syötetyllä koodilla. Ladattavia karttoja on saatavilla sovelluksesta. Stolpejakten muistuttaa <a href=\"#kiintorastit\">kiintorasteja</a>, mutta sijoittuu tyypillisesti enemmän kaupunkialueille. Aktiviteetti on erityisen suosittu Norjassa ja Ruotsissa.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Stolpejakten"
+  },
+  {
+    "name": "nollaus",
+    "description": "Nollaus pyyhkii aiemman kilpailun tiedot pois brikistä ennen uutta kilpailua. Tämä on tehtävä erillisellä nollausasemalla ennen lähtöä. Nollauksen unohtaminen voi johtaa virheellisiin ajanottotietoihin ja diskvalifikaatioon.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [],
+    "aliases": [
+      "tyhjennys"
+    ],
+    "id": "nulle"
+  },
+  {
+    "name": "Livelox",
+    "description": "<a href=\"https://www.livelox.com/\">Livelox</a> on alusta suunnistusreittien analysointiin ja jakamiseen. Kilpailun järjestäjät lataavat ratakartan etukäteen; kilpailun jälkeen osallistujat voivat ladata GPS-jälkensä kellosta tai puhelimesta nähdäkseen reittinsä kartalla ja verrata sitä muihin juoksijoihin. Muita vastaavia palveluja ovat <a href=\"http://3drerun.worldofo.com/\">3D Rerun</a> ja <a href=\"http://www.opath.se/\">OPath</a>, mutta Livelox on laajimmin käytetty.",
+    "tags": [],
+    "related": [],
+    "aliases": [],
+    "id": "Livelox"
+  },
+  {
+    "name": "pistesuunnistus",
+    "description": "Pistesuunnistus (score-O) on harjoitusmuoto tai kilpailu, jossa tavoitteena on kerätä mahdollisimman monta rastia tietyssä aikarajassa (esim. 30–60 minuuttia). Toisin kuin tavallisessa suunnistuksessa, juoksija valitsee itse rastien järjestyksen, mikä edellyttää hyvää suunnittelua ja tehokasta reittivalintataktiikkaa.",
+    "tags": [],
+    "related": [
+      "orienteringspost"
+    ],
+    "aliases": [
+      "score-O",
+      "hajontarastit"
+    ],
+    "id": "postplukk"
+  },
+  {
+    "name": "rastiympyrä",
+    "description": "Rastiympyrä on suunnistuskartalle painettu ympyrä, joka merkitsee rastin tarkan sijainnin. Ympyrä on keskitetty tarkasti löydettävälle maastokohteelle. <i>Katso myös <a href=\"/#rastikuvaus\">rastikuvaus</a></i>.",
+    "tags": [],
+    "related": [
+      "kart",
+      "orienteringspost",
+      "postbeskrivelse"
+    ],
+    "aliases": [],
+    "id": "ringen"
+  },
+  {
+    "name": "lähtörasti",
+    "description": "Lähtörasti on radan ensimmäinen rasti. Suuremmissa kilpailuissa se sijaitsee jonkin matkan päässä varsinaisesta lähtöpaikasta, ja reitti sinne on merkitty nauhoin, jotta juoksijat eivät tarvitse navigoida ensimmäistä osuutta. Pienemmissä kilpailuissa lähtö ja lähtörasti ovat yleensä samassa paikassa. Lähtörasti merkitään kolmiolla kartalla.",
+    "tags": [],
+    "related": [
+      "orienteringspost"
+    ],
+    "aliases": [],
+    "id": "startpost"
+  },
+  {
+    "name": "leimasin",
+    "description": "Leimasin on suunnistuksen perinteinen manuaalinen leimausväline ennen elektronista ajanottoa. Se tekee leimauskortille ainutlaatuisen reikäkuvion, joka todistaa kilpailijan käyneen rastilla. Leimaimia näkee nykyään harvoin kilpailuissa. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [
+      "tidtaking",
+      "orienteringspost"
+    ],
+    "aliases": [],
+    "id": "klippetang"
+  },
+  {
+    "name": "Sportiduino",
+    "description": "<a href=\"https://github.com/sportiduino/sportiduino\">Sportiduino</a> on avoimen lähdekoodin elektroninen ajanottojärjestelmä suunnistukseen, joka tarjoaa edullisemman vaihtoehdon <a href=\"/#sportident\">SPORTIdentille</a> ja <a href=\"/#emit\">EMITille</a>. Se perustuu Arduino-alustaan; pystytys vaatii merkittävästi aikaa ja vaivaa, koska rastit ja brikkien lukijalaite on rakennettava komponenteista. Toinen avoimen lähdekoodin vaihtoehto on <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a>.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [
+      "tidtaking",
+      "SPORTIdent",
+      "EMIT"
+    ],
+    "aliases": [],
+    "id": "Sportiduino"
+  },
+  {
+    "name": "SIAC",
+    "description": "SIAC (SPORTIdent Air+ Card) on SPORTIdentin kosketukseton brikki. Toisin kuin tavallinen SI-brikki, SIAC:ia ei tarvitse laittaa fyysisesti leimasimeen — se rekisteröityy automaattisesti pidettäessä riittävän lähellä kontrolliyksikköä, ja piippaa ja välkkyy vahvistaakseen leimauksen. SIAC vaatii Air+-yksiköillä varustetut rastit. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [
+      "SPORTIdent",
+      "emiTag",
+      "tidtaking"
+    ],
+    "aliases": [
+      "SPORTIdent Air+ Card",
+      "SI Air+"
+    ],
+    "id": "SIAC"
+  },
+  {
+    "name": "emiTag",
+    "description": "emiTag on EMITin kosketukseton brikki — SPORTIdentin <a href=\"/#siac\">SIAC</a>in vastine. Se rekisteröityy automaattisesti ohitettaessa lähellä rastin leimasinta ilman fyysistä kontaktia. Käytetään EMIT-järjestelmällä toimivissa kilpailuissa. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [
+      "EMIT",
+      "SIAC",
+      "SPORTIdent",
+      "tidtaking"
+    ],
+    "aliases": [],
+    "id": "emiTag"
+  },
+  {
+    "name": "Huichang",
+    "description": "Huichang on kiinalainen suunnistuksen elektroninen ajanottojärjestelmä, jonka valmistaa Beijing Huichang Sports Technology. Se on hallitseva ajanottojärjestelmä kiinalaisessa suunnistuksessa ja laajasti käytössä Aasiassa. Se toimii samoilla periaatteilla kuin <a href=\"/#sportident\">SPORTIdent</a> ja <a href=\"/#emit\">EMIT</a>. <i>Katso <a href=\"/#ajanotto\">ajanotto</a></i>.",
+    "tags": [
+      "ajanotto"
+    ],
+    "related": [
+      "SPORTIdent",
+      "EMIT",
+      "SFR",
+      "tidtaking"
+    ],
+    "aliases": [],
+    "id": "Huichang"
+  }
+]
