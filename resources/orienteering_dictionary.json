@@ -434,12 +434,14 @@
   },
   {
     "name": "postplukk",
-    "description": "Postplukk er et orienteringsløp med svært mange poster tett på hverandre, slik at løperen plukker post etter post uten å løpe langt mellom hver. Formatet legger vekt på kart- og postlesing fremfor løping.",
+    "description": "Postplukk i orientering er en treningsform eller konkurranse der målet er å samle flest mulig poster på kartet innenfor en gitt tidsramme (f.eks. 30–60 minutter). Til forskjell fra vanlig orientering, velger løperen selv rekkefølgen på postene, noe som krever god planlegging og effektiv veivalgstaktikk.",
     "tags": [],
     "related": [
       "orienteringspost"
     ],
-    "aliases": [],
+    "aliases": [
+      "score-o"
+    ],
     "id": "postplukk"
   },
   {

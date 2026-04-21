@@ -472,7 +472,7 @@
   },
   {
     "name": "score event",
-    "description": "A score event (also called score orienteering or a scatter event) has a large number of controls placed close together. Runners collect controls one by one without travelling far between them. The format emphasises map reading and control identification over running fitness.",
+    "description": "A score event (also called score-O or score orienteering) is a training form or competition where the goal is to collect as many controls as possible within a set time limit (e.g. 30–60 minutes). Unlike regular orienteering, the runner chooses the order of controls themselves, which requires good planning and efficient route choice tactics.",
     "tags": [],
     "related": [
       "control"
