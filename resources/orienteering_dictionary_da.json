@@ -472,12 +472,13 @@
     "id": "Stolpejakten"
   },
   {
-    "name": "diskvalificering",
-    "description": "At blive diskvalificeret (nulstillet) betyder, at man mister alle point optjent ved et arrangement som straf for en regelovertrædelse.",
-    "tags": [],
+    "name": "nulstilling",
+    "description": "Nulstilling (at nulle) sletter tidligere løbsdata fra din tidtagningsbrik inden et nyt løb. Dette skal gøres ved en dedikeret nulstillingsstation inden starten. Hvis man glemmer at nulle sin brik, kan det resultere i forkerte tidtagningsdata og diskvalificering.",
+    "tags": [
+      "tidtagning"
+    ],
     "related": [],
     "aliases": [
-      "DQ",
       "nulstilling"
     ],
     "id": "nulle"
