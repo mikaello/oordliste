@@ -11,7 +11,7 @@
   },
   {
     "name": "samlingsplads",
-    "description": "Samlingsplads (også kaldet arenaen) er det centrale omdrejningspunkt ved et orienteringsløb. Her finder man mål, downloadstation, officials, resultattavler, præmieoverrækkelse og ofte brusebade og forfriskninger. Starten er ofte placeret et andet sted, men skiltet fra samlingsplads.",
+    "description": "Samlingsplads (også kaldet arenaen) er det centrale omdrejningspunkt ved et orienteringsløb. Her finder man mål, downloadstation, funktionærer, resultattavler, præmieoverrækkelse og ofte brusebade og forfriskninger. Starten er ofte placeret et andet sted, men skiltet fra samlingsplads.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -21,7 +21,7 @@
   },
   {
     "name": "stafet",
-    "description": "En stafet er en holdformat, hvor hvert holdmedlem løber en eller flere etaper og afleverer til næste løber ved etapens slut. I skandinavisk orientering bruges også betegnelserne <i>kavle</i> og <i>budkavle</i>.",
+    "description": "En stafet er et holdformat, hvor hvert holdmedlem løber en eller flere etaper og afleverer til næste løber ved etapens slut. I skandinavisk orientering bruges også betegnelserne <i>kavle</i> og <i>budkavle</i>.",
     "tags": [
       "stafett"
     ],
@@ -45,7 +45,7 @@
   },
   {
     "name": "EMIT",
-    "description": "EMIT er et norsk stempling- og tidtagningssystem fremstillet af det norske firma EMIT. Det er det mest udbredte tidtagningssystem i Norge og dominerer også i Finland. Løberen stikker kortet ned i posten, som stempler tidspunktet for besøget. Det samme kort bruges under hele løbet.",
+    "description": "EMIT er et elektronisk tidtagningssystem til orientering fremstillet af det norske firma EMIT. Det er det dominerende system i norsk og finsk orientering. Internationalt er <a href=\"/#sportident\">SPORTIdent</a> mere udbredt. <i>Se <a href=\"/#tidtaking\">tidtagning</a></i>.",
     "tags": [],
     "related": [
       "emiTag",
@@ -71,7 +71,7 @@
   },
   {
     "name": "gafling",
-    "description": "Gafling betyder, at forskellige løbere besøger de samme poster i forskellig rækkefølge. Det gøres for at forhindre, at løbere kan følge hinanden eller drage fordel af andres positioner under løbet.",
+    "description": "Gafling bruges til at forhindre løbere i at <a href=\"/#henge\">hænge</a> efter hinanden. Løbere i samme klasse får baner, der er lidt forskellige — de fleste poster er fælles, men ved visse punkter skal nogle løbere besøge en post et stykke fra den, andre i klassen skal tage. Løberne skal navigere omhyggeligt for at stemple den rigtige post; stempler man den forkerte, bliver man diskvalificeret.",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -104,9 +104,12 @@
   },
   {
     "name": "SFR",
-    "description": "<a href=\"http://sfr-system.com/\">SFR</a> (Start Finish Result) er et russisk elektronisk tidtagningssystem til orientering. Fungerer efter samme princip som SPORTIdent og EMIT.",
+    "description": "<a href=\"http://sfr-system.com/\">SFR</a> (Start Finish Result) er et russisk elektronisk tidtagningssystem til orientering. Det fungerer efter samme princip som SPORTIdent og EMIT.",
     "tags": [],
-    "related": [],
+    "related": [
+      "EMIT",
+      "SPORTIdent"
+    ],
     "aliases": [
       "Start Finish Result"
     ],
@@ -114,11 +117,9 @@
   },
   {
     "name": "rankingløb",
-    "description": "Et rankingløb er et orienteringsløb, hvor løbere kan optjene rankingpoint. Et vist antal rankingpoint er nødvendigt for at deltage i A-niveau-stævner. Denne klassifikation er specifik for norsk orientering.",
+    "description": "Rankingløp er et uformelt træningsløb arrangeret ugentligt af OSI Orientering og IL GeoForm i Oslo. Point samles op gennem sæsonen til en samlet ranking — deraf navnet. Se <a href=\"https://ilgeoform.no/rankinglop/\">Rankingløp-siden</a> for mere information.",
     "tags": [],
-    "related": [
-      "A-nivå"
-    ],
+    "related": [],
     "aliases": [],
     "id": "Rankingløp"
   },
@@ -183,52 +184,49 @@
   },
   {
     "name": "A-niveau",
-    "description": "A-løb er det højeste niveau for orienteringsløb i Norge, med godkendt kort, tidtagning, afmærkning og en kvalificeret banlægger. For at deltage kræves et tilstrækkeligt antal rankingpoint. A/B/C/N-niveauerne er specifik for norsk orientering.",
+    "description": "A-niveau er det sværeste banesvanskelighetsgrad i det skandinaviske klassificeringssystem. Alle orienteringsteknikker kræves. <i>Se <a href=\"/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
     "tags": [
       "løpsnivå"
     ],
     "related": [
       "B-nivå",
       "C-nivå",
-      "N-nivå",
-      "Rankingløp"
+      "N-nivå"
     ],
     "aliases": [],
     "id": "A-nivå"
   },
   {
     "name": "B-niveau",
-    "description": "B-løb er det næsthøjeste niveau for orienteringsløb i Norge, med godkendt kort, tidtagning og banlægger, men uden krav om rankingpoint for deltagelse. Dette niveausystem er specifikt for norsk orientering.",
+    "description": "B-niveau er det næstsværeste banesvanskelighetsgrad i det skandinaviske klassificeringssystem. B-baner kræver kort finorientering ind mod posten og forståelse for højdekurver. <i>Se <a href=\"/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
     "tags": [
       "løpsnivå"
     ],
     "related": [
       "A-nivå",
       "C-nivå",
-      "N-nivå",
-      "Rankingløp"
+      "N-nivå"
     ],
     "aliases": [],
     "id": "B-nivå"
   },
   {
     "name": "C-niveau",
-    "description": "C-løb er det tredje niveau for orienteringsløb i Norge. Godkendt kort eller officielt tidtagningssystem er ikke altid påkrævet. Dette niveausystem er specifikt for norsk orientering.",
+    "description": "C-niveau er det næstlettest banesvanskelighetsgrad i det skandinaviske klassificeringssystem. C-baner følger for det meste <a href=\"/#ledelinje\">ledelinjer</a>, men løberne forventes at forlade ledelinjerne på visse steder. Der kan være veivalgsmuligheder. <i>Se <a href=\"/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
     "tags": [
       "løpsnivå"
     ],
     "related": [
       "A-nivå",
       "B-nivå",
-      "N-nivå",
-      "Rankingløp"
+      "N-nivå"
     ],
     "aliases": [],
     "id": "C-nivå"
   },
   {
     "name": "N-niveau (begynder)",
-    "description": "Et N-løb er et begyndervenligt orienteringsløb med enkle kort og baner, særligt beregnet til nye deltagere. Dette niveausystem er specifikt for norsk orientering.",
+    "description": "N-niveau er det lettest banesvanskelighetsgrad i det skandinaviske klassificeringssystem, beregnet til nybegyndere. N-baner følger sammenhængende <a href=\"/#ledelinje\">ledelinjer</a> som stier, spor, bække og hegn, og alle poster kan ses fra ledelinjerne. <i>Se <a href=\"/#vanskelighetsgrad\">sværhedsgrad</a></i>.",
     "tags": [
       "løpsnivå"
     ],
@@ -244,7 +242,7 @@
   },
   {
     "name": "sværhedsgrad",
-    "description": "Sværhedsgraden for en bane er en vurdering af, hvor udfordrende banen er. De mest almindelige grader er Let, Middel og Svær (forkortet L, M og S).",
+    "description": "I det skandinaviske klassificeringssystem inddeles baner i fire sværhedsgrader: <a href=\"/#a-niv\">A</a>, <a href=\"/#b-niv\">B</a>, <a href=\"/#c-niv\">C</a> og <a href=\"/#n-niv\">N</a>, hvor A er sværest og N er nybegynderbaner. Andre lande bruger andre systemer — i Danmark bruges f.eks. Nem, Middel og Svær (N, M og S).",
     "tags": [],
     "related": [],
     "aliases": [],
@@ -299,12 +297,12 @@
     "id": "orienteringssko"
   },
   {
-    "name": "ledestrek",
-    "description": "En ledestrek er et lineært terrænelement, som en løber kan følge for at navigere mod en post. Eksempler er stier, bække, mure og hegn.",
+    "name": "ledelinje",
+    "description": "En ledelinje er et lineært terrænelement, som en løber kan følge for at navigere mod en post. Eksempler er stier, bække, mure og hegn.",
     "tags": [],
     "related": [],
     "aliases": [
-      "ledelinje"
+      "ledestrek"
     ],
     "id": "ledelinje"
   },
@@ -321,30 +319,34 @@
   {
     "name": "Kjempesprekken",
     "description": "Kjempesprekken er OSI Orienterings store traditionsløb — et langt motionsløb der starter ved KSI-hytten i Nordmarka i Oslo. Banerne er 18 km, 12 km og 6 km gennem smuk Nordmarka-natur. Efter løbet er der bankett på KSI-hytten. Navnet spiller på det norske ord <i>sprekke</i> — at sprække (løbe tør for kræfter).",
-    "tags": [
-      "stafett"
-    ],
+    "tags": [],
     "related": [],
     "aliases": [],
     "id": "Kjempesprekken"
   },
   {
     "name": "Tiomila",
-    "description": "Tiomila er et af Sveriges største orienteringsstafetløb med 10 etaper. Det arrangeres af OK Linné og foregår delvist om natten.",
+    "description": "Et af Skandinaviens største og mest prestigefyldte orienteringsstafetter, afholdt i Sverige hver forår. Damerne konkurrerer om dagen (5 etaper) og herrerne løber om natten (10 etaper).",
     "tags": [
       "stafett"
     ],
-    "related": [],
+    "related": [
+      "Jukola",
+      "Night Hawk"
+    ],
     "aliases": [],
     "id": "Tiomila"
   },
   {
     "name": "Jukola",
-    "description": "Jukola er et stort finsk orienteringsstafetløb med 7 etaper, arrangeret af Fin5. Det er et af verdens største orienteringsarrangementer.",
+    "description": "Jukola er et af verdens største orienteringsstafetter med ca. 15.000 deltagere. Det afholdes i Finland i juni. Damerne løber om dagen (4 etaper) og herrerne løber om natten (7 etaper).",
     "tags": [
       "stafett"
     ],
-    "related": [],
+    "related": [
+      "Tiomila",
+      "Night Hawk"
+    ],
     "aliases": [],
     "id": "Jukola"
   },
@@ -352,10 +354,11 @@
     "name": "Night Hawk",
     "description": "Night Hawk var Norges svar på Tiomila og Jukola — en stor orienteringsstafet afholdt i august af Tyrving IL. Damer løb 6 etaper og herrer 8 etaper, og cirka halvdelen af stafetten foregik om natten. Stafetten blev afholdt for sidste gang i 2023 og er nu nedlagt.",
     "tags": [
-      "nattorientering"
+      "stafett"
     ],
     "related": [
-      "nattorientering"
+      "Tiomila",
+      "Jukola"
     ],
     "aliases": [],
     "id": "Night Hawk"
@@ -370,13 +373,13 @@
       "Night Hawk"
     ],
     "aliases": [
-      "natlø"
+      "natløb"
     ],
     "id": "nattorientering"
   },
   {
     "name": "bryde",
-    "description": "At bryde (opgive løbet) betyder at give op og forlade løbet, inden banen er gennemført. Løbere, der bryder, skal melde det til officials, så de ikke tælles som savnede.",
+    "description": "At bryde (opgive løbet) betyder at give op og forlade løbet, inden banen er gennemført. Løbere, der bryder, skal melde det til funktionærer, så de ikke tælles som savnede.",
     "tags": [],
     "related": [],
     "aliases": [
@@ -398,10 +401,11 @@
   },
   {
     "name": "præcisionsorientering",
-    "description": "Præcisionsorientering er en form for orientering, der kræver meget nøjagtig kortlæsning. Poster er placeret på teknisk udfordrende steder med lille fejlmargin.",
+    "description": "Præcisionsorientering (pre-O) er en IOF-anerkendt gren, der er tilgængelig for både bevægelseshæmmede og raske deltagere. Banerne følger stier og veje, der er tilgængelige for kørestole. Udfordringen er kortlæsningsnøjagtighed snarere end løbehastighed — ved hvert kontrolpunkt er der placeret flere skærme, og deltageren skal afgøre, hvilken (om nogen) der stemmer overens med kortet og <a href=\"/#postbeskrivelse\">postbeskrivelsen</a>.",
     "tags": [],
     "related": [],
     "aliases": [
+      "pre-O",
       "præcisions-O"
     ],
     "id": "presisjonsorientering"
@@ -478,9 +482,7 @@
       "tidtagning"
     ],
     "related": [],
-    "aliases": [
-      "nulstilling"
-    ],
+    "aliases": [],
     "id": "nulle"
   },
   {
@@ -507,7 +509,7 @@
   },
   {
     "name": "cirklen",
-    "description": "Cirklen er den ring på orienteringskortet, der markerer kontrolpunktets nøjagtige position. Cirklen er centreret om det præcise terrænpunkt, der skal opsøges. <i>Se også <a href=\"/#kontrolbeskrivelse\">kontrolbeskrivelse</a></i>.",
+    "description": "Cirklen er den ring på orienteringskortet, der markerer kontrolpunktets nøjagtige position. Cirklen er centreret om det præcise terrænpunkt, der skal opsøges. <i>Se også <a href=\"/#postbeskrivelse\">kontrolbeskrivelse</a></i>.",
     "tags": [],
     "related": [],
     "aliases": [
