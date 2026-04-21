@@ -4,7 +4,9 @@
     "description": "En PM (promemoria) til et orienteringsløb er løbsinstruktionen — detaljeret information om løbet, f.eks. nøjagtig startplacering, parkeringsanvisninger og oplysninger om forplejningsposter. PM udleveres typisk kun ved større stævner.",
     "tags": [],
     "related": [],
-    "aliases": ["promemoria"],
+    "aliases": [
+      "promemoria"
+    ],
     "id": "PM"
   },
   {
@@ -12,15 +14,22 @@
     "description": "Samlingsplads (også kaldet arenaen) er det centrale omdrejningspunkt ved et orienteringsløb. Her finder man mål, downloadstation, officials, resultattavler, præmieoverrækkelse og ofte brusebade og forfriskninger. Starten er ofte placeret et andet sted, men skiltet fra samlingsplads.",
     "tags": [],
     "related": [],
-    "aliases": ["arena"],
+    "aliases": [
+      "arena"
+    ],
     "id": "samlingsplass"
   },
   {
     "name": "stafet",
     "description": "En stafet er en holdformat, hvor hvert holdmedlem løber en eller flere etaper og afleverer til næste løber ved etapens slut. I skandinavisk orientering bruges også betegnelserne <i>kavle</i> og <i>budkavle</i>.",
-    "tags": ["stafett"],
+    "tags": [
+      "stafett"
+    ],
     "related": [],
-    "aliases": ["kavle", "budkavle"],
+    "aliases": [
+      "kavle",
+      "budkavle"
+    ],
     "id": "kavle"
   },
   {
@@ -28,14 +37,22 @@
     "description": "En bomme opstår, når løberen søger efter en post på det forkerte sted, løber til den forkerte post eller slet ikke finder posten. Bomme er en naturlig del af orientering og medfører normalt et tidstab.",
     "tags": [],
     "related": [],
-    "aliases": ["fejl", "bommert"],
+    "aliases": [
+      "fejl",
+      "bommert"
+    ],
     "id": "bomme"
   },
   {
     "name": "EMIT",
     "description": "EMIT er et norsk stempling- og tidtagningssystem fremstillet af det norske firma EMIT. Det er det mest udbredte tidtagningssystem i Norge og dominerer også i Finland. Løberen stikker kortet ned i posten, som stempler tidspunktet for besøget. Det samme kort bruges under hele løbet.",
     "tags": [],
-    "related": ["emiTag", "SPORTIdent", "SIAC", "tidtaking"],
+    "related": [
+      "emiTag",
+      "SPORTIdent",
+      "SIAC",
+      "tidtaking"
+    ],
     "aliases": [],
     "id": "EMIT"
   },
@@ -43,7 +60,12 @@
     "name": "tidtagning",
     "description": "Tidtagning handler om at registrere løbernes tider under et orienteringsløb. De mest almindelige systemer er <a href=\"/#emit\">EMIT</a> og <a href=\"/#sportident\">SPORTIdent</a>.",
     "tags": [],
-    "related": ["EMIT", "SPORTIdent", "SIAC", "emiTag"],
+    "related": [
+      "EMIT",
+      "SPORTIdent",
+      "SIAC",
+      "emiTag"
+    ],
     "aliases": [],
     "id": "tidtaking"
   },
@@ -60,30 +82,43 @@
     "description": "En kontrolbeskrivelse er en standardiseret beskrivelse af, hvad hver post er placeret på eller ved, og udleveres til løberne. De fleste stævner anvender det internationale IOF-symbolsystem, som er det samme verden over.",
     "tags": [],
     "related": [],
-    "aliases": ["postbeskrivelse"],
+    "aliases": [
+      "postbeskrivelse"
+    ],
     "id": "postbeskrivelse"
   },
   {
     "name": "SPORTIdent",
     "description": "SPORTIdent (ofte forkortet SI) er et stempling- og tidtagningssystem fremstillet af det tyske firma SPORTIdent. Det er det mest udbredte tidtagningssystem internationalt. Løberen holder SI-brikken mod posten for at stemple.",
     "tags": [],
-    "related": ["SIAC", "EMIT", "emiTag", "tidtaking"],
-    "aliases": ["SI"],
+    "related": [
+      "SIAC",
+      "EMIT",
+      "emiTag",
+      "tidtaking"
+    ],
+    "aliases": [
+      "SI"
+    ],
     "id": "SPORTIdent"
   },
   {
     "name": "SFR",
-    "description": "SFR (<i>Ski- og Fjellsportforbundet</i>, tidligere <i>Skiforbundet og Friluftsforbundet</i>) er det norske nationale forbund for orientering, skisport og friluftsliv. Norske orienteringsklubber er tilknyttet SFR. I Danmark varetages orienteringssporten af DOF (Dansk Orienterings-Forbund).",
+    "description": "<a href=\"http://sfr-system.com/\">SFR</a> (Start Finish Result) er et russisk elektronisk tidtagningssystem til orientering. Fungerer efter samme princip som SPORTIdent og EMIT.",
     "tags": [],
     "related": [],
-    "aliases": ["Ski- og Fjellsportforbundet"],
+    "aliases": [
+      "Start Finish Result"
+    ],
     "id": "SFR"
   },
   {
     "name": "rankingløb",
     "description": "Et rankingløb er et orienteringsløb, hvor løbere kan optjene rankingpoint. Et vist antal rankingpoint er nødvendigt for at deltage i A-niveau-stævner. Denne klassifikation er specifik for norsk orientering.",
     "tags": [],
-    "related": ["A-nivå"],
+    "related": [
+      "A-nivå"
+    ],
     "aliases": [],
     "id": "Rankingløp"
   },
@@ -99,15 +134,22 @@
     "name": "orienteringskort",
     "description": "Et orienteringskort er et detaljeret kort over et afgrænset terrænområde med mange detaljer. Det anvender et standardiseret IOF-symbolsystem, som er det samme i alle lande.",
     "tags": [],
-    "related": ["målestokk", "ekvidistanse"],
-    "aliases": ["kort"],
+    "related": [
+      "målestokk",
+      "ekvidistanse"
+    ],
+    "aliases": [
+      "kort"
+    ],
     "id": "kart"
   },
   {
     "name": "målestok",
     "description": "Målestokken angiver, hvor meget kortet er formindsket. En målestok på 1:10.000 betyder, at 1 cm på kortet svarer til 10.000 cm (100 meter) i virkeligheden.",
     "tags": [],
-    "related": ["kart"],
+    "related": [
+      "kart"
+    ],
     "aliases": [],
     "id": "målestokk"
   },
@@ -124,7 +166,11 @@
     "description": "En orienteringspost er et hvid-orange mærke (i daglig tale kaldet en \"flagge\") placeret på det nøjagtige punkt, der er markeret på kortet. Løberen skal stemple ved posten for at bekræfte sit besøg.",
     "tags": [],
     "related": [],
-    "aliases": ["kontrol", "post", "flagge"],
+    "aliases": [
+      "kontrol",
+      "post",
+      "flagge"
+    ],
     "id": "orienteringspost"
   },
   {
@@ -138,33 +184,62 @@
   {
     "name": "A-niveau",
     "description": "A-løb er det højeste niveau for orienteringsløb i Norge, med godkendt kort, tidtagning, afmærkning og en kvalificeret banlægger. For at deltage kræves et tilstrækkeligt antal rankingpoint. A/B/C/N-niveauerne er specifik for norsk orientering.",
-    "tags": ["løpsnivå"],
-    "related": ["B-nivå", "C-nivå", "N-nivå", "Rankingløp"],
+    "tags": [
+      "løpsnivå"
+    ],
+    "related": [
+      "B-nivå",
+      "C-nivå",
+      "N-nivå",
+      "Rankingløp"
+    ],
     "aliases": [],
     "id": "A-nivå"
   },
   {
     "name": "B-niveau",
     "description": "B-løb er det næsthøjeste niveau for orienteringsløb i Norge, med godkendt kort, tidtagning og banlægger, men uden krav om rankingpoint for deltagelse. Dette niveausystem er specifikt for norsk orientering.",
-    "tags": ["løpsnivå"],
-    "related": ["A-nivå", "C-nivå", "N-nivå", "Rankingløp"],
+    "tags": [
+      "løpsnivå"
+    ],
+    "related": [
+      "A-nivå",
+      "C-nivå",
+      "N-nivå",
+      "Rankingløp"
+    ],
     "aliases": [],
     "id": "B-nivå"
   },
   {
     "name": "C-niveau",
     "description": "C-løb er det tredje niveau for orienteringsløb i Norge. Godkendt kort eller officielt tidtagningssystem er ikke altid påkrævet. Dette niveausystem er specifikt for norsk orientering.",
-    "tags": ["løpsnivå"],
-    "related": ["A-nivå", "B-nivå", "N-nivå", "Rankingløp"],
+    "tags": [
+      "løpsnivå"
+    ],
+    "related": [
+      "A-nivå",
+      "B-nivå",
+      "N-nivå",
+      "Rankingløp"
+    ],
     "aliases": [],
     "id": "C-nivå"
   },
   {
     "name": "N-niveau (begynder)",
     "description": "Et N-løb er et begyndervenligt orienteringsløb med enkle kort og baner, særligt beregnet til nye deltagere. Dette niveausystem er specifikt for norsk orientering.",
-    "tags": ["løpsnivå"],
-    "related": ["A-nivå", "B-nivå", "C-nivå"],
-    "aliases": ["begynderløb"],
+    "tags": [
+      "løpsnivå"
+    ],
+    "related": [
+      "A-nivå",
+      "B-nivå",
+      "C-nivå"
+    ],
+    "aliases": [
+      "begynderløb"
+    ],
     "id": "N-nivå"
   },
   {
@@ -180,13 +255,17 @@
     "description": "At hænge betyder at løbe efter en anden løber — typisk en, der ser ud til at kende ruten. Det er udbredt i orientering, men bærer risici, hvis den anden løber også er faret vild.",
     "tags": [],
     "related": [],
-    "aliases": ["henge"],
+    "aliases": [
+      "henge"
+    ],
     "id": "henge"
   },
   {
     "name": "D (Dame)",
     "description": "I orienteringssammenhæng betyder D Dame og indgår i klassenavnet, f.eks. D21 (damer 21 år og derover).",
-    "tags": ["klasse"],
+    "tags": [
+      "klasse"
+    ],
     "related": [],
     "aliases": [],
     "id": "D"
@@ -194,7 +273,9 @@
   {
     "name": "H (Herre)",
     "description": "I orienteringssammenhæng betyder H Herre og indgår i klassenavnet, f.eks. H21 (herrer 21 år og derover).",
-    "tags": ["klasse"],
+    "tags": [
+      "klasse"
+    ],
     "related": [],
     "aliases": [],
     "id": "H"
@@ -202,7 +283,9 @@
   {
     "name": "O (Åben)",
     "description": "I orientering betyder O Åben, og betegner at klassen er åben for alle uanset alder eller køn. Bruges som en del af klassenavnet.",
-    "tags": ["klasse"],
+    "tags": [
+      "klasse"
+    ],
     "related": [],
     "aliases": [],
     "id": "O"
@@ -212,7 +295,9 @@
     "description": "Orienteringssko er sko særligt designet til orientering. De har pigge for godt greb i varieret terræn og er typisk lette.",
     "tags": [],
     "related": [],
-    "aliases": ["O-sko"],
+    "aliases": [
+      "O-sko"
+    ],
     "id": "orienteringssko"
   },
   {
@@ -220,21 +305,27 @@
     "description": "En ledestrek er et lineært terrænelement, som en løber kan følge for at navigere mod en post. Eksempler er stier, bække, mure og hegn.",
     "tags": [],
     "related": [],
-    "aliases": ["ledelinje"],
+    "aliases": [
+      "ledelinje"
+    ],
     "id": "ledelinje"
   },
   {
     "name": "georeferere",
     "description": "At georeferere et kort betyder at knytte det til geografiske koordinater, så det kan vises og bruges i digitale kortapplikationer. Dette kræves bl.a. for værktøjer som <a href=\"/#livelox\">Livelox</a>.",
     "tags": [],
-    "related": ["Livelox"],
+    "related": [
+      "Livelox"
+    ],
     "aliases": [],
     "id": "georeferere"
   },
   {
     "name": "Kjempesprekken",
     "description": "Kjempesprekken er et svensk orienteringsstafetløb arrangeret af OK Linné. Navnet betyder på norsk \"den kæmpemæssige revne\".",
-    "tags": ["stafett"],
+    "tags": [
+      "stafett"
+    ],
     "related": [],
     "aliases": [],
     "id": "Kjempesprekken"
@@ -242,7 +333,9 @@
   {
     "name": "Tiomila",
     "description": "Tiomila er et af Sveriges største orienteringsstafetløb med 10 etaper. Det arrangeres af OK Linné og foregår delvist om natten.",
-    "tags": ["stafett"],
+    "tags": [
+      "stafett"
+    ],
     "related": [],
     "aliases": [],
     "id": "Tiomila"
@@ -250,7 +343,9 @@
   {
     "name": "Jukola",
     "description": "Jukola er et stort finsk orienteringsstafetløb med 7 etaper, arrangeret af Fin5. Det er et af verdens største orienteringsarrangementer.",
-    "tags": ["stafett"],
+    "tags": [
+      "stafett"
+    ],
     "related": [],
     "aliases": [],
     "id": "Jukola"
@@ -258,17 +353,27 @@
   {
     "name": "Night Hawk",
     "description": "Night Hawk er et natorenteringsløb, der afholdes om vinteren, arrangeret af de norske klubber Østmarka OK, OSI og NTNUI.",
-    "tags": ["nattorientering"],
-    "related": ["nattorientering"],
+    "tags": [
+      "nattorientering"
+    ],
+    "related": [
+      "nattorientering"
+    ],
     "aliases": [],
     "id": "Night Hawk"
   },
   {
     "name": "natorientering",
     "description": "Natorientering er orientering, der foregår i mørket med en pandelampe. Det kræver omhyggelig navigation, da sigten er begrænset til lampens lysstråle.",
-    "tags": ["nattorientering"],
-    "related": ["Night Hawk"],
-    "aliases": ["natlø"],
+    "tags": [
+      "nattorientering"
+    ],
+    "related": [
+      "Night Hawk"
+    ],
+    "aliases": [
+      "natlø"
+    ],
     "id": "nattorientering"
   },
   {
@@ -276,7 +381,10 @@
     "description": "At bryde (opgive løbet) betyder at give op og forlade løbet, inden banen er gennemført. Løbere, der bryder, skal melde det til officials, så de ikke tælles som savnede.",
     "tags": [],
     "related": [],
-    "aliases": ["DNF", "udgå"],
+    "aliases": [
+      "DNF",
+      "udgå"
+    ],
     "id": "bryte"
   },
   {
@@ -284,7 +392,10 @@
     "description": "Direkte klasser (også kaldet åbne klasser) er klasser, man kan tilmelde sig på løbsdagen uden forhåndstilmelding. Der er normalt ingen alders- eller kønsbegrænsninger. Direkte klasser egner sig til begyndere, dem der har glemt tilmelding og familier med børn, der har brug for fleksibilitet.",
     "tags": [],
     "related": [],
-    "aliases": ["åbne klasser", "dag-tilmelding"],
+    "aliases": [
+      "åbne klasser",
+      "dag-tilmelding"
+    ],
     "id": "direkteklasser"
   },
   {
@@ -292,7 +403,9 @@
     "description": "Præcisionsorientering er en form for orientering, der kræver meget nøjagtig kortlæsning. Poster er placeret på teknisk udfordrende steder med lille fejlmargin.",
     "tags": [],
     "related": [],
-    "aliases": ["præcisions-O"],
+    "aliases": [
+      "præcisions-O"
+    ],
     "id": "presisjonsorientering"
   },
   {
@@ -307,7 +420,10 @@
     "name": "ækvidistance",
     "description": "Ækvidistancen er højdeforskellen mellem to nabohøjdekurver på et kort. En ækvidistance på 5 meter betyder, at der er 5 meters højdeforskel mellem to nabohøjdekurver.",
     "tags": [],
-    "related": ["kart", "tellekurve"],
+    "related": [
+      "kart",
+      "tellekurve"
+    ],
     "aliases": [],
     "id": "ekvidistanse"
   },
@@ -315,31 +431,45 @@
     "name": "springkurve",
     "description": "En springkurve er en mere fremtrædende højdekurve på kortet, der gør det lettere at tælle højdeforskelle. Typisk er hver femte højdekurve tegnet tykkere.",
     "tags": [],
-    "related": ["ekvidistanse", "kart"],
-    "aliases": ["tellekurve"],
+    "related": [
+      "ekvidistanse",
+      "kart"
+    ],
+    "aliases": [
+      "tellekurve"
+    ],
     "id": "tellekurve"
   },
   {
     "name": "OSI",
-    "description": "OSI (<i>Oslomarks Skiklubb og Idrettslag</i>) er en norsk idrætsklub hjemmehørende i Oslo. OSI er den oprindelige skaber af denne ordbog.",
+    "description": "OSI er en forkortelse for Oslostudentenes Idrettsklubb (Oslo-studerendes idrætsklub). Orienteringsafdelingen OSI Orientering arrangerer løb og træning i og omkring Oslo. Denne ordbog er skabt af OSI Orientering.",
     "tags": [],
     "related": [],
-    "aliases": ["Oslomarks Skiklubb og Idrettslag"],
+    "aliases": [
+      "Oslostudentenes Idrettsklubb",
+      "Oslostudentenes IK"
+    ],
     "id": "OSI"
   },
   {
     "name": "turorientering",
     "description": "Turorientering (TRIM-O) er en ikke-konkurrencepræget form for orientering, hvor man finder poster ved hjælp af et kort uden tidtagning eller præmier. Se også <a href=\"/#stolpejakten\">Stolpejakten</a>.",
     "tags": [],
-    "related": ["Stolpejakten"],
-    "aliases": ["TRIM-O"],
+    "related": [
+      "Stolpejakten"
+    ],
+    "aliases": [
+      "TRIM-O"
+    ],
     "id": "turorientering"
   },
   {
     "name": "Stolpejakten",
     "description": "Stolpejakten (norsk: 'stolpejagten') er en aktivitet arrangeret af det norske orienteringsforbund, hvor deltagerne finder permanente orienteringsposter ved hjælp af et kort. Der er ingen tidtagning — deltagerne går i eget tempo. Aktiviteten minder om <a href=\"/#turorientering\">turorientering</a>.",
     "tags": [],
-    "related": ["turorientering"],
+    "related": [
+      "turorientering"
+    ],
     "aliases": [],
     "id": "Stolpejakten"
   },
@@ -348,14 +478,19 @@
     "description": "At blive diskvalificeret (nulstillet) betyder, at man mister alle point optjent ved et arrangement som straf for en regelovertrædelse.",
     "tags": [],
     "related": [],
-    "aliases": ["DQ", "nulstilling"],
+    "aliases": [
+      "DQ",
+      "nulstilling"
+    ],
     "id": "nulle"
   },
   {
     "name": "Livelox",
     "description": "Livelox er en digital platform til at analysere og dele orienteringsruter. Efter et løb kan løbere se egne og andres ruter vist på kortet.",
     "tags": [],
-    "related": ["georeferere"],
+    "related": [
+      "georeferere"
+    ],
     "aliases": [],
     "id": "Livelox"
   },
@@ -368,11 +503,14 @@
     "id": "postplukk"
   },
   {
-    "name": "Ringen",
-    "description": "Ringen er et norsk orienteringsløb arrangeret af OSI, hvor banen danner en cirkelrute.",
+    "name": "cirklen",
+    "description": "Cirklen er den ring på orienteringskortet, der markerer kontrolpunktets nøjagtige position. Cirklen er centreret om det præcise terrænpunkt, der skal opsøges. <i>Se også <a href=\"/#kontrolbeskrivelse\">kontrolbeskrivelse</a></i>.",
     "tags": [],
     "related": [],
-    "aliases": [],
+    "aliases": [
+      "ringen",
+      "postringen"
+    ],
     "id": "ringen"
   },
   {
@@ -380,7 +518,9 @@
     "description": "Starttrekanten er det første punkt, man løber til i et orienteringsløb. På kortet markeres den med en trekant.",
     "tags": [],
     "related": [],
-    "aliases": ["startpunkt"],
+    "aliases": [
+      "startpunkt"
+    ],
     "id": "startpost"
   },
   {
@@ -388,14 +528,22 @@
     "description": "En hulletang er et håndholdt redskab, der laver et karakteristisk hulmønster i stempelkortet som bevis for besøg ved posten. Hulletangen bruges sjældent ved moderne stævner, da den er erstattet af elektroniske tidtagningssystemer.",
     "tags": [],
     "related": [],
-    "aliases": ["klipptang", "stempeltang"],
+    "aliases": [
+      "klipptang",
+      "stempeltang"
+    ],
     "id": "klippetang"
   },
   {
     "name": "Sportiduino",
     "description": "Sportiduino er et open source-stempling- og tidtagningssystem baseret på Arduino-hardware. Det er designet til at give orienteringsklubber et billigt alternativ til kommercielle systemer som SPORTIdent eller EMIT. <a href=\"https://github.com/OribosTS/OribosTS\">OribosTS</a> er et andet open source-alternativ.",
     "tags": [],
-    "related": ["SPORTIdent", "EMIT", "SIAC", "emiTag"],
+    "related": [
+      "SPORTIdent",
+      "EMIT",
+      "SIAC",
+      "emiTag"
+    ],
     "aliases": [],
     "id": "Sportiduino"
   },
@@ -403,7 +551,11 @@
     "name": "SIAC",
     "description": "SIAC (SPORTIdent Air+ Card) er et kontaktfrit SPORTIdent-chip, der stempler uden at stikkes ind i posten — løberen holder blot brikken nær enheden, og den registrerer automatisk. SIAC bipper og/eller blinker for at bekræfte en gyldig stempling. Kræver Air+-kompatible kontrolenheder.",
     "tags": [],
-    "related": ["SPORTIdent", "emiTag", "tidtaking"],
+    "related": [
+      "SPORTIdent",
+      "emiTag",
+      "tidtaking"
+    ],
     "aliases": [],
     "id": "SIAC"
   },
@@ -411,7 +563,11 @@
     "name": "emiTag",
     "description": "emiTag er EMITs kontaktfrie chip, svarende til SPORTIdents SIAC. Løberen holder brikken nær EMIT-posten, og stemplingen registreres automatisk uden fysisk kontakt.",
     "tags": [],
-    "related": ["EMIT", "SIAC", "tidtaking"],
+    "related": [
+      "EMIT",
+      "SIAC",
+      "tidtaking"
+    ],
     "aliases": [],
     "id": "emiTag"
   },
@@ -419,7 +575,11 @@
     "name": "Huichang",
     "description": "Huichang er et kinesisk tidtagningssystem fremstillet af Beijing Huichang Sports Technology. Det er det dominerende tidtagningssystem i Kina og Asien i øvrigt.",
     "tags": [],
-    "related": ["EMIT", "SPORTIdent", "tidtaking"],
+    "related": [
+      "EMIT",
+      "SPORTIdent",
+      "tidtaking"
+    ],
     "aliases": [],
     "id": "Huichang"
   }
