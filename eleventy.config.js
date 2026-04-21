@@ -100,6 +100,7 @@ const dictionaries = {
   no: require("./resources/orienteering_dictionary.json"),
   en: require("./resources/orienteering_dictionary_en.json"),
   sv: require("./resources/orienteering_dictionary_sv.json"),
+  da: require("./resources/orienteering_dictionary_da.json"),
 };
 
 const dictionaryMaps = Object.fromEntries(
