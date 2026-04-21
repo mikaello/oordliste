@@ -534,7 +534,7 @@
   },
   {
     "name": "Sportiduino",
-    "description": "Sportiduino er et open source-stempling- og tidtagningssystem baseret på Arduino-hardware. Det er designet til at give orienteringsklubber et billigt alternativ til kommercielle systemer som SPORTIdent eller EMIT. <a href=\"https://github.com/OribosTS/OribosTS\">OribosTS</a> er et andet open source-alternativ.",
+    "description": "Sportiduino er et open source-stempling- og tidtagningssystem baseret på Arduino-hardware. Det er designet til at give orienteringsklubber et billigt alternativ til kommercielle systemer som SPORTIdent eller EMIT. <a href=\"https://www.bostek.it/OribosTS.aspx\">OribosTS</a> er et andet open source-alternativ.",
     "tags": [],
     "related": [
       "SPORTIdent",
