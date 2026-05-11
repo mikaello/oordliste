@@ -8,7 +8,7 @@
     "validate": "ajv validate -s resources/schema.json -d 'resources/orienteering_dictionary*.json' --all-errors"
   },
   "dependencies": {
-    "@11ty/eleventy": "3.0.0"
+    "@11ty/eleventy": "3.1.5"
   },
   "devDependencies": {
     "ajv": "8.20.0",
